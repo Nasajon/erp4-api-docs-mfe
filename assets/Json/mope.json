@@ -1,0 +1,707 @@
+{
+   "mope_rows": [
+      {
+         "mope_row_number": 1,
+         "mope_row_title": "Marketing e Vendas",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "title": "111 Estratégia e política de marketing",
+                     "subtitle": "Desenvolve uma visão estratégica para atuação no mercado",
+                     "description": "Este processo tem como objetivo o desenvolvimento de uma visão estratégica para atuação no mercado e conjunto de atividades de marketing e políticas a serem levadas pela empresa. Pelo menos as seguintes atividades estão relacionadas:\nRecolher e analisar as informações do mercado\nDefinir estratégia de mercado\nEstabelecer os segmentos de atuação da empresa\nDefinir os produtos por segmento de atuação\nObter o compromisso da empresa com a estratégia de mercado e segmentação",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "121 Desenvolvimento de meios e recursos",
+                     "subtitle": "Gerencia a criação ou alteração dos vários meios usados pelo  mercado.",
+                     "description": "Com base na estratégia de mercado para a empresa, os processos de desenvolvimento de meios e recursos de Marketing , gerencia a criação ou alteração dos vários meios usados pelo  mercado (p.ex novos canais online, novos canais de vendas online) ou recursos relacionados com os clientes (ex. por exemplos portais on-line de “self-service”). As seguintes atividades fazem parte deste processo:\nCriar e gerenciar portais e aplicativos orientados ao desenvolvimento da documentação acerca das áreas de conhecimentos da empresa.\nCriar e gerenciar portais e aplicativos orientados ao desenvolvimento das vendas online.\nCriar e gerenciar portais e aplicativos orientados ao desenvolvimento da área de self-service",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "131 Desenvolvimento de vendas",
+                     "subtitle": "O processo de Desenvolvimento de vendas envolve as seguintes atividades.",
+                     "description": "Apoiar o processo de vendas para os produtos e serviços novos e já existentes, bem como aos já clientes e potenciais.\nDefinir comissões de vendas, metas de faturamento e margens.\nDesenvolver programas de treinamento de vendas, metodologias de captação de prospects, processos e métodos de vendas, assim como os procedimentos para a vendas de novos produtos.\nDesenvolver e criar canais de vendas dos produtos  e serviços, definir quais os produtos que serão comercializados em cada canal assim como as políticas de preços por canal.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "141 suporte de vendas",
+                     "subtitle": "Garante a operção de vendas, entregas e faturamento.",
+                     "description": "Este processo garante que existe capacidade para permitir que os processos de vendas, entregas e faturamento possam operar com eficácia:\nGerenciar materiais de vendas\nDefinir políticas de apoio e suporte à decisão nos processos de vendas\nGerenciar e analisar campanhas de vendas\nGerenciar e analisar atividades e oportunidades de vendas: análise do funil de vendas e dos “prospects”\nMonitorar e relatar os custos dos vários processos de vendas\nDesenvolver os procedimentos administrativos para suporte aos processos de venda e entrega, faturamento e garantia de recebimento.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "151 Vendas",
+                     "subtitle": "Procura, qualifica potenciais clientes",
+                     "description": "Este processo é responsável por procurar potenciais clientes (“prospects”), qualificar esse clientes, e atender às suas expectativas. As atividades principais deste processo são:\nGerenciar Prospects -analisar as necessidades do prospect; Identificar as potenciais soluções; assignar um prospect a um canal de vendas; acompanhar este prospect e reportar os resultados do processo (Venda realizada ou venda Perdida); Estes prospects representam o 'pipeline' de potenciais vendas, cada um dos quais é expressa em termos da probabilidade de fechamento de vendas de sucesso e uma estimativa do total das receitas atingível.\n“Cross/Up” Selling - Através do estudo do cliente (seu histórico de compras, dimensão, estratégia, visão etc.), assegurar que o valor da relação entre o fornecedor de Produtos & Serviços e o cliente é maximizada através da venda adicional de produtos complementares e/ou de uma oferta com maior valor, porém com maiores benefícios para o cliente.\nQualificar Oportunidades - assegurar que a oportunidade está devidamente analisada em relação aos vários aspectos envolvidos: necessidades do clientes estão devidamente identificadas; análise do risco de não atender as expectativas do cliente; valor financeiro envolvido; importância do cliente; importância estratégica para a empresa do negócio.\nCriar propostas de venda - O objetivo desta atividade é elaborar a proposta de venda que responde aos requisitos solicitados pelo cliente. Esta atividade começa após a aprovação da Qualificação da Oportunidade. O desenvolvimento da  proposta de venda pode: a) exigir a selecção de uma oferta de um P&S standard b) uma  oferta não-padrão, ou  c) pode exigir a criação de uma equipa  de projecto para a construção da oferta.\nNegociar Venda/Contrato(Atendimento Comercial)  - o propósito desta atividade é fechar a venda em termos que são claramente entendidos pelo comprador e o vendedor dos Produtos & Serviços. Normalmente nesta atividade são discutidos os termos genéricos do contrato e negociados alguns termos específico adicionais. Dependendo das condições ou das regras da empresa vendedora, o contrato e os termos da negociação podem passar por um workflow de aprovação interno. O acordo final e o fecho do negócio envolve normalmente o processamento de pedidos de venda e, em alguns casos, a elaboração de um título de adiantamento de sinal ou de primeira prestação. Neste caso a liquidação do título conclui o fechamento da venda.\nGerenciar contas de vendas :gerenciar as várias contas (clientes) nos vários canais numa base diária: a) contatar os clientes de forma regular; b) desenvolver contatos e relações profissionais para fazer nascer Leads, Prospects e promover as ofertas da empresa c) gerenciar e atualizar o repositório e o inventário de vendas.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "161 Análise e monitoramento de mercado",
+                     "subtitle": "Monitora, acompanha e annaliza indicadores de performance",
+                     "description": "Processo responsável por:\n Monitoramento, acompanhamento e análise dos indicadores principais de performance do mercado.",
+                     "flex": 2,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "171 Devolução de P&S",
+                     "flex": 1,
+                     "subtitle": "Processo responsável pelas seguintes atividades",
+                     "description": "Buscar reversão da intenção do cliente através de ações promocionais ou de outras promessas que atendam e satisfaçam o cliente.\nCriar pedido de  devolução e cancelamento  dos produtos ou serviços solicitados pelo cliente.",
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "process_itens": [
+                  {
+                     "title": "112 planejamento e estratégia de vendas",
+                     "subtitle": "Desenvolve e estabelece planejamentos e estratégias de vendas",
+                     "description": "Estratégia de Vendas e Planejamento envolve as seguintes atividades:\nDesenvolver relacionamento com parceiros e alianças\nEstabelecer orçamentos globais de vendas\nEstabelecer metas de vendas e indicadores de performance (KPIs)\nEstabelecer indicadores de gestão de clientes e níveis de serviço\nDesenvolver a estratégia de canais: definir normas, estabelecer receitas e plano de cobertura",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "132 Comunicação e promoção de produtos",
+                     "subtitle": "Gerencia a comunicação da empresa com o mercado e com os seus clientes",
+                     "description": "Este processo gerencia a comunicação da empresa com o mercado e com os seus clientes, envolvendo não só as mensagens e o seu conteúdo mas também os meios (“media”) usados. As seguintes atividades fazem parte do processo:\nDesenvolver e criar todos os materiais e mensagens e, além disso,  definir a forma como essas mensagens chegam no cliente e no mercado: por inserção em documentos enviados para os clientes, via telefone com os clientes, anúncios em revistas ou outro qualquer meio.\nDesenvolver e gerenciar a comunicação com a imprensa e todos os envolvidos (jornalistas e pessoal interno).\nDesenvolver promoções e campanhas para venda de produtos, retenção de cliente e aquisição de novos cliente",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "142 Gestão dos canais de vendas",
+                     "subtitle": "Gerencia os canais de vendas",
+                     "description": "Os canais de venda gerenciados por este processo incluem: lojas de varejo próprias, lojas de varejo de terceiros com produtos da empresa, lojas na internet, mercados B2B ou relacionamentos diretos com outros parceiros, distribuidores, gestores de conta, equipes de relacionamento  e os times próprios de venda direta.As atividades deste processo incluem: \nGerenciar incentivos, compensações e prêmios\nAvaliar desempenho e eficácia dos canais\nGerenciar times de vendas",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "152 Atendimento marketing15",
+                     "subtitle": "Emite, distribui e customiza atendimento de marketing",
+                     "description": "Este processo é responsável pela seguintes atividades:\nEmitir e distribuir material de marketing e acompanhar leads resultantes\nCustomizar material necessário para um determinado negócio.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "162 análise e monitoramento de vendas",
+                     "subtitle": "Analiza e monitora os resultados de vendas",
+                     "description": "Processo responsável por:\nDefinir, monitorar,  acompanhar e analisar principais  indicadores de resultados relacionados com as vendas. Alguns exemplos: a) Ticket Médio por setor/faturamento; b) análise do percentual de atingimento de meta por vendedor, grupos de vendedores, canais de venda, etc c) Análise ABC de vendas de P&S por categoria/canal/ etc.",
+                     "flex": 2,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "process_itens": [
+                  {
+                     "title": "113 Previsão de vendas",
+                     "subtitle": "Gera a previsão de vendas e planejamento de promoções e eventos",
+                     "description": "A previsão de vendas envolve a coleta de informações históricas, análise das tendências de vendas e padrões de forma a gerar a previsão de vendas e planejamento de promoções e eventos.As seguintes atividades fazem parte:\nRecolher, preparar e limpar de dados históricos\nEscolher melhores modelos e padrões de simulação por linha ou grupo de produtos\nPlanejar eventos e promoções e ajustes\nGerir e acompanhar as previsões versus a realidade",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "153 Contatos, leads e gestão prospects",
+                     "subtitle": "Desenvolver relações com os contatos e prospects",
+                     "description": "Processo responsável pelas seguintes atividades:\nDesenvolver relações com os contatos e prospects (Inbound Marketing) e atribuir às leads geradas os produtos e serviços mais apropriados da oferta da empresa, assegurando dessa forma que todos os prospects são tratados de forma adequada.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 2,
+         "mope_row_title": "Cliente",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "241 Suporte, infra, atendimento ao cliente",
+                     "subtitle": "Garante que os processos relacionados com os clientes existe e está operando com eficácia.",
+                     "description": "Este processo assegura que a infraestrutura  para atendimento, suporte, faturamento e gerenciamento dos processos relacionados com os clientes existe e está operando com eficácia. As atividades deste processo são:\nManter a infraestrutura para ativação dos produtos e serviços do cliente\nProver ferramentas e atividades de apoio à decisão no relacionamento com os clientes (incluindo as atividades de faturamento)\nGerenciar os materiais necessários para os processos de Venda e Entrega, Suporte e Faturamento (VESF)\nMonitorar e relatar os procedimentos, custos e recursos alocados nos processos VESF\nAnalisar as evoluções no longo prazo dos processos VESF para verificação da necessidade de se proceder a alterações e ajustamentos",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "251 Encomendas e pedidos",
+                     "subtitle": "Emite e processa as encomendas e os pedidos dos clientes.",
+                     "description": "Este processo é responsável por emitir e processar as encomendas e os pedidos dos clientes. As seguintes atividades estão relacionadas:\nVerificar a viabilidade da entrega do produto e/ou serviço que está sendo pedido e o impacto nos processos de ativação e entrega.\nAnalisar o crédito do cliente\nEmitir e Processar Pedido\nRelatar e analisar pedidos  - monitorar e acompanhar o estado de todos os pedidos e reportar as alterações dos estados dos pedidos para a lista de interessados. Esta atividade registra e grava e avalia as alterações dos estados de forma a gerar relatórios e indicadores especializados (alguns clientes pode exigir estes relatórios)\nAcompanhar individualmente cada pedido do cliente:  a)Agendamento, atribuição e coordenação das atividades de ativação do P&S; b) Gerar a(s) Ordem(ns) de Serviço para ativação e entrega do P&S com base nos pedidos de clientes; c) Atribuir o nível de prioridade ao pedido de acordo com as políticas definidas; d) Acompanhar o processo de ativação e entrega; e) Adicionar ou alterar eventuais informações adicionais ao pedido do cliente; f) Atualizar estado do pedido; g) Cancelar todo o processos a jusante em caso de cancelamento do pedido; h)Monitorar o perigo de algo correr mal e ativar as medidas previstas se necessário; i) Indicar que a ativação e entrega está realizada, modificando o status do pedido; j) No caso de alguns produtos ou serviços serem entregues diretamente por um parceiro ou fornecedor, este processo é responsável por criar a requisição ao fornecedor/parceiro\nFechar Pedido - o pedido deve ser fechado quando as atividades de provisão e ativação estão encerradas\nArquivar e atualizar Pedido - a) Atualizar as informações do cliente; b) Garantir que o cliente está treinado e apto a usar o produto e/ou serviço com as funcionalidades e os benefícios esperados.; c) Executar questionário de avaliação com o cliente",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "261 Gestão de problemas",
+                     "subtitle": "Recebe e resolve  as reclamações de problemas reportados pelos clientes",
+                     "description": "Este processo é responsável por receber e resolver tão satisfatoriamente quanto possível as reclamações de problemas reportados pelos clientes em relação a produtos e serviços vendidos pela empresa. As seguintes atividades podem ser realizadas:\nIsolar o problema do cliente - o objetivo nesta atividade é detectar a origem do problema (remota ou presencialmente). Dependendo do tipo de atividade várias ações podem ser feitas. Duas das principais são: a) verificar se o produto e/ou serviços está sendo operado de forma correta; b) rodar os diagnósticos com base nas informações relatadas pelo cliente.\nCorrigir o problema. Ação remota, através do deslocamento de um técnico ou outra opção.\nRelatar os progressos ao cliente e a outros interessados.\nRastrear e gerenciar os problemas - objetivo é verificar se existem reclamações que estão demorando tempo demais a ser resolvidas satisfatoriamente, aumentar o seu nível de prioridade e eventualmente designar outros técnicos com maior experiência\nFechar a reclamação - o objetivo deste processo é verificar se o produto e/ou serviço se encontra operando normalmente",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "262 Gestão de Qos/Sla",
+                     "subtitle": "Gerenciar e avalia a qualidade do serviço dos produtos e serviços que a empresa vende aos seus cliente",
+                     "description": "Este processo é responsável por gerenciar e avaliar a qualidade do serviço dos produtos e serviços que a empresa vende aos seus cliente. O principal objetivo é garantir que os P&S estão operando de acordo com a qualidade e os requisitos definidos contratualmente com cada cliente. Que eventuais reparações devem ser feitas dentro do tempo contratado assim como a reposição de determinado serviço que está parado ou operando com deficiência será reposto também no tempo contratado (SLA). Pelo menos as seguintes atividades podem ser feitas neste processo:\nAvaliar a QoS e a performance do SLA dos clientes - através da análise de dados recebidos de outros processos (p.ex , o processo 2.6.1 - Gestão de problemas) esta atividade deve ser capaz de detectar desvios na QoS e nos SLA´s contratados\nRastrear e gerenciar a resolução dos problemas de qualidade de serviço\nGerenciar Mudanças no Serviço\nGerenciar a capacidade do serviço\nCriar, gerenciar e reportar as métricas de acompanhamento da Qualidade do Serviço e do SLAs dos vários contratos",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "271/281 Faturamento e devoluções de P&S",
+                     "subtitle": "Gerencia todo o processo de emissão de faturas e cobranças",
+                     "description": "Este processo é responsável por gerenciar todo o processo de emissão de faturas e cobranças. Garante que as faturas e notas fiscais são corretamente emitidas e os impostos e descontos calculados corretamente. Este processo é responsável por:\nEmitir e enviar as faturas/notas fiscais ao cliente\nEmitir estornos em caso de devoluções e cancelamentos\nGuardar em forma eletrônica as faturas/notas fiscais\nManter os diferentes perfis tributários relacionados aos clientes\nManter notas fiscais de produtos ou serviços cancelados",
+                     "flex": 2,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "284 Recebimentos e cobranças",
+                     "subtitle": "Gerencia os vários tipos de recebimentos de pagamentos dos clientes",
+                     "description": "Este processo é responsável por gerenciar os vários tipos de recebimentos de pagamentos dos clientes. Fazem parte deste processo as seguintes atividades:\nGerenciar os canais de recebimento\nGerenciar os recebimentos em atraso\nGerenciar alternativas para o recebimento das cobranças",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "252 Gestão de relacionamento com cliente",
+                     "subtitle": "Gerencia todas as interações entre o cliente e a empresa",
+                     "description": "Este processo é responsável por gerenciar todas as interações entre o cliente e a empresa. Estas interações podem ser iniciadas pelo cliente (ex. em resultado de um questionamento ou de uma queixa) ou pela empresa (ex. para envio de boletos ou outras notificações). Todas estas interações devem ser guardadas em “log”  para consulta a qualquer momento. Estas interações pode ser curtas (caso de um questionamento respondido na hora) ou longas (caso de um pedido complexo que envolve uma atuação longa das equipes da retaguarda). Quando estas são longas, o cliente deve ser informado de tempos em tempos do andamento do seu pedido e/ou necessidade.  O registo histórico destas interações devem ser passíveis de ser usadas pelos sistema de BI para analisar os indicadores de satisfação e os perfis dos clientes. Estas interações podem também ser executadas através de vários canais (telefonemas, portal web e outros dispositivos). As seguintes atividades fazem parte deste processo:\nAutenticar usuário - o objetivo desta atividade é identificar o usuário do cliente que interage. Nos canais de auto-atendimento (p.exe Portal de Auto Serviço na Web) pode ser necessário Login  para identificação. Em outros canais pode ser necessário que o usuário responda a questões verificação de identidade\nCriar um registo da Interação (Atendimento) - para guardar o log de toda a interação\nNotificar cliente - quando algum evento de interesse acontece\nAtualizar o Atendimento -  tipicamente quando algum evento acontece nos atendimentos longos. Quando o cliente é, de alguma forma afetado por estes eventos a atividade “Notificar Cliente” (2) deve ser  executada\nRastrear e acompanhar os Atendimentos - Assegurar que os Atendimentos (em todos os canais) estão sendo geridos de acordo com o Nível de Serviço Acordado com o cliente (SLA). Algumas sub atividades: a) Assegurar que cada Atendimento é fechado e arquivado de forma e no tempo adequado; b) Notificar o cliente quando o SLA ou o cronograma não foi cumprido; c) Rastrear as respostas dos clientes quando estas são obrigatórias; d) Criar (e medir regularmente) Indicadores de Performance (KPIs) destes Atendimentos de forma conseguir melhorar regularmente todo o processo; e) Monitoramento dos Atendimentos - monitorar o estado dos Atendimentos em curso, reportar alterações e avaliar as alterações de estado. O objetivo final desta atividade é entregar aos interessados (que pode ser o cliente) relatórios de gestão com medição da eficiência e eficácia dos Atendimentos\nFechar do Atendimento - esta atividade acontece quando ambas as partes acordam que o Atendimento pode ser fechado\nGerenciar as interfaces com o cliente:  Gerenciar os contatos do cliente ( Identificar os contatos e atualizar as informações dos vários contatos do cliente. As seguintes sub atividades estão incluídas: a) Gerenciar os pedidos/solicitações de clientes e potenciais clientes (“inbound” e “outbound”) - Recebe a solicitação e permite que o seu autor possa executá-lo imediatamente, ou identifica e ativa o processo necessário. Gerencia o estado da solicitação de forma a poder dar informações a qualquer momento. Fecha formalmente a solicitação quando todas as atividades relacionadas estiverem encerradas; b) Monitoramento e Reporte de todos os pedidos e solicitações do cliente - cria e gera relatórios para servir de suporte aos processos de melhoria, procedimentos proativos de prevenção de problemas, definição de oportunidades de “up selling”, etc; c) Mediar e orquestrar as interações com o cliente - identifica os formatos das informações a transacionar nas interações. Gerencia a conversão de mensagens recebidas externamente nos formatos corporativos internos necessários, com base no tipo de transação específica e parte externa envolvida",
+                     "flex": 4,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "282 Questionamento de faturas",
+                     "subtitle": "Este processo é responsável por",
+                     "description": "Gerenciar todos os pedidos de correção e questionamentos associados a faturas e notas fiscais\nGarantir que todos os pedidos e questionamentos serão tratados e respondidos adequadamente",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "285 Eventos de faturamento",
+                     "subtitle": "Coleta, trata, distribui e soma os eventos associados ao processo de faturamento",
+                     "description": "Este processo é responsável por:\nColetar, tratar, distribuir e somar os eventos associados ao processo de faturamento nas empresas em que estes existam. Isto acontece quando o faturamento está dependente do valor consumido (em unidades que dependem do tipo de Produto ou Serviço consumido) num determinado período por parte dos clientes",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "253 Gestão dos clientes",
+                     "subtitle": "Gerencia a relação entre o cliente e a empresa",
+                     "description": "O objetivo deste processo é gerir a relação entre o cliente e a empresa. Este processo pode ser desencadeado nos primeiros estágios do ciclo de vida do cliente (p.ex, para ligações em que se percebeu que pode ser um cliente potencial) até o término do relacionamento entre a empresa e o cliente. Este processo garante que cada cliente recebe uma identidade única e que as identidades dos clientes não são duplicadas na empresa; Avaliar o valor do cliente, o risco do cliente (risco de crédito, risco de fraude, risco de influência e risco de Rotatividade ) e valida a satisfação do cliente. Os dados do cliente também são gerenciados neste processo.  As seguintes atividades e subprocessos estão relacionadas:\nGarantir a retenção e fidelidade de clientes - gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: a) Construir a visão do cliente- garante que a empresa e o cliente estão confortáveis na relação e que a relação se baseia em informação atualizada e legalmente válida. Esta atividade  irá atualizar a “ficha”  do cliente com todas as informações pertinentes recolhidas através de contatos. Estas Informações sobre o cliente devem ser disponibilizados a qualquer processo que precise.. O objetivo é que a  informação atualizada do cliente seja usada para refinar continuamente os meios e estilo das interações com o cliente; b) Analisar e gerenciar o risco do cliente:  assegura que a análise de risco é baseada em informações coletadas em todos os processos e a avaliação do risco do cliente é consistente em toda a organização. Tem como propósito rastrear e melhorar as operações, apontar e ganhar os melhores clientes e melhorar o percentual de conversão de clientes. Determina o risco de crédito, o risco de fraude, o risco de influência e o risco de rotatividade. Identifica os procedimentos para minimizar estes riscos e coloca o focus no uso das informações do cliente; c) Personalização do Perfil do Cliente para uso nos programas de retenção e fidelização: c1) Coleta informação personalizada acerca do cliente - ao construir uma relação personalizada com o cliente, desencoraja este de trocar de fornecedor porque sente que terá que criar novamente esta tipo de relação (que demora tempo); c2) Fornece uma fonte de dados para a realização de campanhas de fidelização e retenção de marketing, para reter os clientes existentes, promover a fidelidade do cliente e reconquistar clientes que deixaram de o ser. Ele utiliza software de modelagem preditiva para analisar uma conta de cliente e  retornar métricas (notas) relevantes: valor do cliente, nota de risco de crédito, nota de “up-sell”, nota de “cross-sell”;  c3)  Providencia oportunidades de personalização da oferta de forma a desencorajar o cliente de trocar de fornecedor. d)  Validar a satisfação do cliente -  Esse processo garante que: d1) o cliente está satisfeito com a solução, d2) que a solução foi efetivamente entregue e atende às expectativas e acordos originais ou atualizados, e d3) os processos pós-venda (faturamento, suporte e garantia) são inicializados\nEstabelecer o relacionamento com o cliente - Verificar que o cliente é quem eles afirmam que são, para assegurar que somente uma identidade do cliente existe em toda a empresa e permitir ao cliente identificar-se rápida e facilmente. As sub-seguinte atividades estão relacionadas: a) Verificação do cliente - Normalmente através de exame de uma certificação de identidade emitido por um organismo confiável (como agência governamental ou por outros meios aceitos.) ou da consulta de um web site confiável (Ex: site da Receita Federal) b) Criação e emissão de um identificador único para o cliente; c) Recolhe e cadastra as informações básicas do cliente com base em documentos e informações reconhecidas como fidedignas; d) Recolhe e cadastra as informações pertinentes para a iniciação, desenvolvimento e ativação da proposta de vendas aceite. A recolha desta informação também pode acontecer na altura da elaboração da proposta. e) Limpa e unifica eventuais  informações duplicadas de clientes que existem na organização; f) Unifica 2 ou mais registos que possam existir do mesmo cliente\nRe-estabelecer o relacionamento com o cliente. a) Recupera as informações do cliente de eventuais sistemas de arquivamento; c) Atualiza as informações do cliente; d)Atualiza/Recupera todas os registos das interações prévias com o cliente\nTerminar relacionamento com o cliente - Classificar as razões do término da relação.. Inicializar os processos para desativação das eventuais  soluções que o cliente ainda tenha ativas",
+                     "flex": 4,
+                     "is_blank_space": false,
+                     "process_itens_activities": [
+                        {
+                           "title": "253.1 Garantir a retenção e fidelidade dos clientes",
+                           "url": "https://storage.googleapis.com/api-docs-dev/253/2531/clientes.html"
+                        }
+                     ]
+                  },
+                  {
+                     "title": "283 Cálculo de tarifas e preços",
+                     "subtitle": "Estabelece um valor (preço) a um Produto ou Serviço",
+                     "description": "Este processo é responsável por designar um valor (preço) a um Produto ou Serviço (ou a um conjunto dos dois - um Pacote). As atividades deste processo são:\nPrecificar serviços e produtos usando uma margem de lucro pré-definida ou definida no momento\nPrecificar serviços e produtos em Lote, com base em categorias ou outras características dos produtos e serviços margem de lucro pré-definida ou definida no momento",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "286 Crédito de clientes",
+                     "subtitle": "Gerencia e aplica as políticas de crédito associadas aos clientes",
+                     "description": "Este é o processo que gerencia e aplica as políticas de crédito associadas aos clientes. As seguintes atividades fazem parte deste processo:\nGerir limite de crédito dos clientes\nAplicar políticas de crédito dependendo do tipo de cliente\nAcompanhar carteira de crédito e do risco associado",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "254 Gestão das informações dos clientes",
+                     "subtitle": "Registra e mantêm informações de clientes atualizadas ",
+                     "description": "O objetivo deste processo é registrar e manter informações de clientes atualizadas em todos os sistemas usados pela empresa como:\nGarantir a criação de um único registro por cliente em todos os sistemas\nNotificar todos os interessados, sobre as alterações que ocorram nas informações do cliente\nApoiar e atualizar eventuais sistemas analíticos externos\nArquivar e registrar as informações dos clientes em registros históricos\nCriar uma informação única do cliente a partir do dados existentes em todos os sistemas usados na empresa",
+                     "flex": 4,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 3,
+         "mope_row_title": "Produtos e Serviços",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "title": "311 Planejamento do portifólio de P&S",
+                     "subtitle": "Desenvolve estratégias para a criação de novos produtos e serviços",
+                     "description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação de novos produtos e serviços a serem oferecidos e pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:\nRecolher e analisar as informações dos produtos e serviços que existem no mercado\nEstabelecer a estratégia da oferta de produtos e serviços\nPreparar e realizar os Planos de negócio\nGarantir que os planos de negócio têm viabilidade de serem executados (interna e externamente)",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "321 Gestão da capacidade de entrega",
+                     "subtitle": "Garante a capacidade para que determinado produto ou serviço possa ser entregue",
+                     "description": "Este processo é responsável por garantir a capacidade para que determinado produto ou serviço possa ser entregue com a qualidade e no tempo que a empresa e o plano de negócio necessitam",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "331 desenvolvimento de P&D",
+                     "subtitle": "Garante a criação e o desenvolvimento dos Produtos e/ou Serviços",
+                     "description": "Processo responsável dentro da empresa por garantir a criação e o desenvolvimento dos Produtos e/ou Serviços que a empresa comercializa. Pelo menos as seguintes atividades devem fazer parte deste processo:\nDefinir requisitos funcionais e técnicos de P&S\nCriar planos de desenvolvimento e respectivas metas a alcançar\nGerenciar custos associados\nDesenvolver P&S seguindo as linhas e metas principais associados ao Plano de Negócios",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "341 Gestão, suporte, infra de P&S",
+                     "subtitle": "Garante a existência e o suporte da infraestrutura necessária às operações da empresa",
+                     "description": "Processo que garante a existência e o suporte da infraestrutura necessária às operações da empresa. Pelo menos as seguintes atividades fazem parte:\nProver Produtos e Serviços\nManter inventários necessários aos processos de suporte e ativação de P&S\nAnalisar atividades associadas ao suporte e ativação dos P&S - definição de indicadores e resultados a atingir",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "351 Configuração, ativação de P&S",
+                     "subtitle": "Efetua todas as tarefas e atividades que permitam entregar os Produtos e Serviços que foram comprados",
+                     "description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam entregar os Produtos e Serviços que foram comprados, em funcionamento conforme expectativas do cliente. Pelo menos as seguintes atividades fazem parte deste processo:\nProjetar solução técnica\nAlocar recursos humanos necessários para  as tarefas e emitir as ordens de serviço e pedidos de fornecimento de peças e materiais\nTestar o bom funcionamento dos produtos e serviços ativados\nAtualizar o inventário de produtos e serviços ativos\nRastrear e acompanhar os ativações (projetos em curso)\nGerir os riscos associados",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "361 manutenção de P&S ativados (ativos de serviço)",
+                     "subtitle": "Efetua tarefas e atividades que permitam fazer a manutenção dos Produtos e Serviços já implantados e rodando",
+                     "description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam fazer a manutenção dos Produtos e Serviços já implantados e rodando (pelo proc. 3.5.1), assim como o gerenciamento de todo o parque de instâncias de P&S onde a empresa presta serviços.Pelo menos as seguintes atividades fazem parte:\nManter preventivamente Instâncias de P&S\nGerenciar e Monitorar Instâncias de P&S\nManter versões dos P&S em operação",
+                     "flex": 2,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "332 PCP",
+                     "subtitle": "Gerencia toda a produção da empresa",
+                     "description": "Este é o processo que gerencia toda a produção da empresa.  Pelo menos as seguintes atividades fazem parte:\nPlanejar a longo prazo: a) Projeto do produto; b) Projeto do processo e c) Projeto de quantidade,  demanda e capacidades\nProgramar a curto prazo, antes da produção:  Número de produtos finais; materiais necessários, prazos e datas; sequenciamento das operações\nControlar e monitorar em curto prazo, durante e após a produção. As seguintes sub atividades são importantes: a)  controle de qualidade b) controle de tempo c) controle de quantidade e d) controle de custos",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "352 Gestão dos técnicos em campo",
+                     "subtitle": "Gerencia e controla as atividades dos técnicos em campos",
+                     "description": "O objetivo deste processo é gerenciar e controlar as atividades dos técnicos em campos nos processos de Vendas de Produtos e Serviços e também nos processos associados ao Suporte e Garantia. Pelos menos as seguintes atividades fazem parte deste processo:\nGerenciar agenda das equipes técnicas\nPlanejar e prever necessidades do número de equipes e técnicos\nConfigurar e gerenciar equipes e técnicos\nDefinir indicadores\nRelatar atividades e atingimento de performance",
+                     "flex": 4,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 4,
+         "mope_row_title": "Logística",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "431 Gestão de necessidades, materiais e peças",
+                     "subtitle": "Garante que existem as peças e os materiais necessários para as várias operações da empresa",
+                     "description": "O objetivo deste processo é garantir que existem as peças e os materiais necessários para as várias operações da empresa. Pelo menos as seguintes atividades fazem parte deste processo:\nGerenciar cadastro de peças e materiais garantindo que estes cadastros estão corretamente identificados e não existem duplicações nem faltas para as necessidades dos P&S comercializados ou suportados pela empresa\nGerenciar previsões de necessidades futuras de peças e materiais\nGerenciar quantidades necessárias e suficientes de cada peça/material alinhando com a procura prevista",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "441 gestão, suporte e infra de materiais e peças",
+                     "subtitle": "Processo responsável por",
+                     "description": "Garantir que existe capacidade de gestão e toda a infraestrutura necessária para as atividades de armazenamento e fornecimento de peças e materiais.",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "451 armazenagem, separação, embalagem e expedição",
+                     "subtitle": "Cria e sistematiza o conjunto de atividades que permitam a otimização dos processos de separação, embalagem e expedição de materiais e peças",
+                     "description": "O objetivo deste processo é criar e sistematizar o conjunto de atividades que permitam a otimização dos processos de separação, embalagem e expedição de materiais e peças. Pelo menos as seguintes atividades fazem parte:\nReferenciar e catalogar os locais ondes as peças e materiais estão armazenados\nAdministrar os locais físicos de armazenamento de forma a garantir a sua operação e manutenção em perfeitas condições\nGarantir que existe um processo rápido e eficaz para separação e embalagem das peças e materiais requisitados pelos vários processos “clientes”\nGarantir que o estoque está sempre atualizado corretamente. Através de uma operação eficaz e de inventários regulares\nGarantir que existe um processo rápido e eficaz para a expedição dos materiais requisitados",
+                     "flex": 4,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 5,
+         "mope_row_title": "Fornecedores",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "title": "511 planejamento cadeia de fornecedores",
+                     "subtitle": "Desenvolve de estratégias para a criação da cadeia de fornecedores",
+                     "description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação da cadeia de fornecedores para suportar os novos produtos e serviços a serem oferecidos pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:\nRecolher e analisar as informações dos Fornecedores necessários\nEstabelecer a estratégia e os objetivos associados à cadeia de fornecimento\nPreparar e realizar o planejamento de acordo com os Planos de negócio",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "521 Gestão de capacidade de fornecimento",
+                     "subtitle": "Avalia e gerencia toda a cadeia de fornecimento da empresa",
+                     "description": "Este processo tem como objetivo a avaliação e o gerenciamento de toda a cadeia de fornecimento da empresa. Pelo menos as seguintes atividades fazem parte:\nDeterminar os requisitos dos fornecimentos e dos fornecedores\nIdentificar potenciais fornecedores e parceiros\nNegociar contratos com os fornecedores\nGerenciar as licitações\nGerenciar o processo de decisão das licitações",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "531 Desenvolvimento de cadeia de fornecimento",
+                     "subtitle": "Suporta o desenvolvimento da cadeia de fornecimento e as alterações que se revelarem necessárias",
+                     "description": "O objetivo deste processo é suportar o desenvolvimento da cadeia de fornecimento e suportar as alterações que se revelarem necessárias. Pelo menos as seguintes atividades fazem parte:\nGerenciar compromisso dos fornecedores/parceiros\nGerenciar mudanças necessárias nos contratos de fornecimento\nGerenciar fim do fornecimento com fornecedores/parceiros\nRealizar novos acordos e contratos com fornecedores\nGerenciar fim contratual com fornecedores/parceiros",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "541 Gestão, suporte, infra de fornecedores",
+                     "subtitle": "Processo responsável por",
+                     "description": "O objetivo deste processo é garantir que existem todas as condições para:\nApoiar o gerenciamento de requisições fornecedores\nApoiar o relacionamento com os Fornecedores (gestão de problemas/contratos, inventários, etc.)",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "551 requisição de compras",
+                     "subtitle": "Gerencia as requisições a fornecedores",
+                     "description": "O objetivo deste processo é o gerenciamento das requisições a fornecedores. Pelo menos as seguintes atividades são realizadas:\nCriar a requisição dos produtos e serviços necessários\nSelecionar fornecedores\nDefinir capacidade dos fornecedores para fornecer os produtos e/ou serviços necessários em determinado momento\nRastrear e gerenciar a requisição\nReceber e cadastrar as cotações dos fornecedores\nSelecionar os fornecedores vencedores por produto e/ou serviço",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "561 Reporte de problemas de fornecedores",
+                     "subtitle": "Reporta problemas aos fornecedores e acompanha sua resolução",
+                     "description": "O objetivo deste processo é reportar problemas aos fornecedores e acompanhar a sua resolução. Pelo menos as seguintes atividades fazem parte:\nCriar a incidência no sistema do fornecedor e registrar internamente\nAcompanhar e rastrear a resolução do problema\nFechar o problema\nGerar de forma regular relatórios de acompanhamento dos problemas colocados a fornecedores",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "562 avaliação de fornecedores",
+                     "subtitle": "Cria e gerencia um processo de avaliação da performance dos fornecedores",
+                     "description": "O objetivo deste processo é criar e gerenciar um processo de avaliação da performance dos fornecedores. Pelo menos as seguintes atividades fazem parte:\nCriar pontos de controle internos para avaliar os fornecedores nas diversa interações com ele\nGerenciar as avaliações efetuadas e criar métricas que permitam comparar fornecedores\nMonitorar através de relatórios regulares o aumento ou diminuição da qualidade dos fornecedores",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "571 Dev. compra",
+                     "subtitle": "Gerencia as devoluções a fornecedores",
+                     "description": "O objetivo deste processo é o gerenciamento das devoluções a fornecedores. Pelo menos as seguintes atividades são realizadas:\nCriar a o documento de devolução dos  produtos e serviços a devolver\nRastrear e gerenciar a devolução até à sua completa resolução: a) Financeira por crédito ou devolução do dinheiro ou b) Por troca por outros produtos e serviços",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "process_itens": [
+                  {
+                     "flex": 7,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "572/581 Contratos e pagamentos a fornecedores",
+                     "subtitle": "Gerencia os contratos que existem com fornecedores",
+                     "description": "O objetivo deste processo é gerenciamento dos contratos que existem com fornecedores. Pelo menos as seguintes atividades fazem parte:\nGerenciar contas e contratos dos fornecedores\nReceber e avaliar as faturas dos fornecedores\nNegociar e aprovar as faturas dos fornecedores\nEmitir ordem de pagamento\nGerenciar as notas fiscais de produtos ou serviços cancelados",
+                     "flex": 3,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "process_itens": [
+                  {
+                     "flex": 4,
+                     "is_blank_space": true
+                  },
+                  {
+                     "title": "552 Gestão de relacionamento com fornecedores",
+                     "subtitle": "Gerencia a relação que existe com os fornecedores e parceiros da empresa",
+                     "description": "O objetivo deste processo é gerenciar toda a relação que existe com os fornecedores e parceiros da empresa.Pelo menos as seguintes atividades fazem parte:\nGerenciar pedidos aos fornecedores\nAnalisar e relatar todas as interações\nMediar e orquestrar as relações com os fornecedores\nManter cadastro atualizado dos fornecedores\nRegistrar interações com os fornecedores",
+                     "flex": 6,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 6,
+         "mope_row_title": "Financeiro e administrativo",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "process_itens": [
+                  {
+                     "title": "61 Planejamento estratégico e empresarial",
+                     "subtitle": "Define os objetivos estratégicos e operacionais da empresa",
+                     "description": "Este processo tem o objetivo de definir os objetivos estratégicos e operacionais da empresa. Pelo menos as seguintes atividades fazem parte:\nElaborar de orçamento (anual e/ou pluri-anual) de custos e proveitos da empresa. Por departamento e a área de atividade\nControlar mensalmente rubricas orçamentárias e análise de desvios\nControlar operacionalmente aprovações da necessidade de recursos financeiros\nElaborar recomendações com o objetivo de diminuir eventuais desvios",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "62 Qualidade",
+                     "subtitle": "Controla e mede todos os processos definidos dentro da empresa",
+                     "description": "Este processo tem o objetivo de controlar e medir todos os processos definidos dentro da empresa.  As seguintes atividades compõem este processo:\nGerenciar qualidade dos Produtos e Serviços oferecidos comercialmente\nGerenciar e controlar a qualidade processos de negócio\nMedir a qualidade de produtos, serviços e processos\nManutenção e gerenciamento de dados e rotinas administrativas",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "63 Contabilidade Financeira",
+                     "subtitle": "Gerencia a contabilidade da empresa e todas necessidades gerenciais e legais",
+                     "description": "O objetivo deste processo é gerenciar a contabilidade da empresa e todas necessidades gerenciais e legais associadas:\nGerenciamento  dos  lançamentos contábeis\nAuditoria, conferência e conciliação dos lançamentos contábeis\nApurar o custo da mercadoria ou dos serviços vendidos\nControlar ativo imobilizado, aquisições e depreciações\nGerar relatórios contábeis para entrega ao governo (Sped contábil, DOAR, Dacon, ECF, ECD, etc.)\nAnalisar resultados da empresa\nFechamento e abertura do período contábil\nElaborar sugestões para corrigir eventuais desvios na performance da empresa\nGestão de registros fazendários",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "64 Contabilidade Gerencial",
+                     "subtitle": "Gerencia as atividades financeiras da empresa",
+                     "description": "O objetivo deste processo é gerenciar as atividades financeiras da empresa. Pelos menos as seguintes atividades são gerenciadas no processo financeiro como:\nGerenciar contas a pagar\nGerenciar contas a receber\nRealizar conciliação de contas e controle bancário\nGerenciar fluxo de caixa\nRealizar análises gerenciais dos fluxos financeiros",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "65 Recursos Humanos",
+                     "subtitle": "Gerencia os recursos humanos dentro de uma empresa",
+                     "description": "Este processo tem o objetivo de gerenciar os recursos humanos dentro de uma empresa. Pelo menos as seguintes atividades fazem parte do processo:\nGerenciar a qualidade das atividades associadas ao trabalho de cada colaborador da empresa\nAvaliar o desempenho dos colaboradores\nRealizar recrutamento e seleção de funcionários\nGerenciar comunicação Interna\nGerenciar o desenvolvimento de colaboradores e garantir a sua satisfação",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "66 Departamento de Pessoal",
+                     "subtitle": "Gerencia o departamento de pessoal",
+                     "description": "Este processo tem o objetivo de gerenciar o departamento de pessoal. As seguintes atividades fazem parte do processo:\nGerenciar segurança e preferências relativas às rotinas do departamento pessoal\nGerenciar dados mestre da empresa pagadora de salários e benefícios\nGerenciar dados mestre dos colaboradores\nGerenciar ponto\nGerenciar segurança e saúde do trabalho dos colaboradores\nGerenciar empréstimos aos colaboradores\nGerenciar benefícios dos colaboradores\nGerenciar pagamento aos colaboradores\nGerenciar pagamento e prestação de contas ao governo",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  },
+                  {
+                     "title": "67 Gerência e Planejamento Fiscal",
+                     "subtitle": "Gerencia e administra os impostos, tributos e contribuições",
+                     "description": "O objetivo deste processo é gerenciar e administrar os impostos, tributos e contribuições. Sua apuração, e pagamento ao estado. Pelo menos as seguintes atividades estão contempladas:\nRealizar lançamento de documentos fiscais\nControlar estoque fiscal\nApurar ICMS e IPI\nApurar ISS\nApurar impostos federais\nRealizar planejamento fiscal\nRealizar conferência fiscal\nGerenciar obrigações fiscais\nApurar impostos estaduais",
+                     "flex": 1,
+                     "is_blank_space": false,
+                     "process_itens_activities": []
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

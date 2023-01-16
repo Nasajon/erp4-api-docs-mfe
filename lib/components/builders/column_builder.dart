@@ -14,13 +14,14 @@ class ColumnBuilder extends StatelessWidget {
     required this.itemCount,
     this.mainAxisAlignment = MainAxisAlignment.start,
     this.mainAxisSize = MainAxisSize.max,
-    this.crossAxisAlignment = CrossAxisAlignment.center,
+    this.crossAxisAlignment = CrossAxisAlignment.start,
     this.verticalDirection = VerticalDirection.down,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: crossAxisAlignment,
       children: List.generate(itemCount, (index) => itemBuilder(context, index))
           .toList(),
     );

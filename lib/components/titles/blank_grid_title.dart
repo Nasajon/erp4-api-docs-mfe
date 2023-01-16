@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/constants/colors.dart';
 
-class BlanlGridTitle extends StatelessWidget {
-  const BlanlGridTitle({
+class BlankGridTitle extends StatelessWidget {
+  const BlankGridTitle({
     super.key,
     required this.flex,
   });
@@ -16,13 +15,9 @@ class BlanlGridTitle extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.all(12),
         height: 100,
-        child: Column(
-          children: [
-            Container(
-              margin: EdgeInsets.only(bottom: 8),
-              padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
-            )
-          ],
+        child: Container(
+          margin: const EdgeInsets.only(bottom: 8),
+          padding: const EdgeInsets.fromLTRB(8, 2, 8, 2),
         ),
       ),
     );

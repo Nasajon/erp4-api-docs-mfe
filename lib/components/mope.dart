@@ -66,7 +66,9 @@ class Mope extends StatelessWidget {
                         itemCount: mope!.mopeRows.length - 1,
                         itemBuilder: ((context, index) {
                           final item = mope.mopeRows.elementAt(index);
-                          return MopeRow(mopeRows: item);
+                          return MopeRow(
+                            mopeRows: item,
+                          );
                         }),
                         separatorBuilder: (BuildContext context, int index) =>
                             const MopeDivider(),
@@ -82,7 +84,9 @@ class Mope extends StatelessWidget {
                           style: Theme.of(context).textTheme.headline2,
                         ),
                       ),
-                      MopeRow(mopeRows: lastMopeRow)
+                      MopeRow(
+                        mopeRows: lastMopeRow,
+                      )
                     ],
                   );
                 }

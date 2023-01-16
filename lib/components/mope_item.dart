@@ -30,7 +30,8 @@ class MopeItem extends StatelessWidget {
               child: Center(
                 child: Text(
                   itemName,
-                  style: Theme.of(context).textTheme.bodyText2,
+                  style:
+                      TextStyle(fontSize: 12.0, color: nsj_colors_text_primary),
                 ),
               ),
             ),

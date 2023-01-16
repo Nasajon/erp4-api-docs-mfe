@@ -14,7 +14,6 @@ class SwitchThemeController extends StatelessWidget {
       padding: const EdgeInsets.all(24.0),
       child: Switch(
         activeColor: nsj_colors_primary,
-        dragStartBehavior: DragStartBehavior.start,
         value: themeSwitch.isLightTheme,
         onChanged: (value) {
           themeSwitch.switchTheme();

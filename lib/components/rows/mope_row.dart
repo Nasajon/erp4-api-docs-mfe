@@ -14,6 +14,7 @@ class MopeRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return Row(
       children: [
         SizedBox(
@@ -26,7 +27,9 @@ class MopeRow extends StatelessWidget {
           child: ColumnBuilder(
               itemBuilder: (BuildContext context, int index) {
                 final item = mopeRows!.mopeRowItens.elementAt(index);
-                return MopeRowItem(mopeRowItensList: item);
+                return MopeRowItem(
+                  mopeRowItensList: item,
+                );
               },
               itemCount: mopeRows!.mopeRowItens.length),
         ),

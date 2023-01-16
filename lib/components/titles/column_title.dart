@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:site_documentacao_api/constants/colors.dart';
+import 'package:site_documentacao_api/themes/light_theme.dart';
 
 class ColumnTitle extends StatelessWidget {
   const ColumnTitle(
@@ -26,7 +27,11 @@ class ColumnTitle extends StatelessWidget {
               margin: EdgeInsets.only(bottom: 8),
               padding: EdgeInsets.fromLTRB(8, 2, 8, 2),
               decoration: BoxDecoration(
-                border: Border.all(width: 2, color: nsj_colors_primary),
+                border: Border.all(
+                    width: 2,
+                    color: Theme.of(context) == nsj_light_theme
+                        ? nsj_colors_primary
+                        : nsj_colors_primary_dark),
                 borderRadius: const BorderRadius.all(Radius.circular(5)),
               ),
               child: Text(

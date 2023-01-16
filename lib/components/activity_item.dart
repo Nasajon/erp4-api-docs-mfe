@@ -13,20 +13,38 @@ class ActivityItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
-      child: InkWell(
-        child: Text(
-          activity.title,
-          style: Theme.of(context).textTheme.subtitle1,
+    return InkWell(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: ((context) => ApiDocumentationWebView(
+                    processName: activity.title, url: activity.url))));
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Color.fromARGB(20, 82, 100, 122),
         ),
-        onTap: () {
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: ((context) => ApiDocumentationWebView(
-                      processName: activity.title, url: activity.url))));
-        },
+        padding:
+            const EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8, left: 8.0),
+        width: 600,
+        height: 50,
+        child: Padding(
+          padding:
+              const EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8, left: 8.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                activity.title,
+                style: Theme.of(context).textTheme.bodyText2,
+              ),
+              const Icon(Icons.arrow_forward)
+            ],
+          ),
+        ),
       ),
     );
   }

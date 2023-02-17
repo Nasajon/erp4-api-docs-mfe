@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:site_documentacao_api/components/builders/column_builder.dart';
-import 'package:site_documentacao_api/components/rows/mope_row_item.dart';
-import 'package:site_documentacao_api/components/titles/row_title.dart';
+import 'package:site_documentacao_api/components/mope/sections/rows/mope_row_item.dart';
+import 'package:site_documentacao_api/components/mope/sections/titles/row_title.dart';
 import 'package:site_documentacao_api/models/mope_model.dart';
 
 class MopeRow extends StatelessWidget {
@@ -14,7 +14,6 @@ class MopeRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
     return Row(
       children: [
         SizedBox(

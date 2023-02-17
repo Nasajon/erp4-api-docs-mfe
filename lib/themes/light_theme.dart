@@ -10,11 +10,19 @@ ThemeData nsj_light_theme = ThemeData(
             fontWeight: FontWeight.bold,
             color: nsj_colors_primary),
         headline2: TextStyle(
-            fontSize: 32.0,
+            fontSize: 40.0,
             fontWeight: FontWeight.bold,
             color: nsj_colors_primary),
         headline3: TextStyle(
+            fontSize: 32.0,
+            fontWeight: FontWeight.bold,
+            color: nsj_colors_primary),
+        headline4: TextStyle(
             fontSize: 24.0,
+            fontWeight: FontWeight.bold,
+            color: nsj_colors_primary),
+        headline5: TextStyle(
+            fontSize: 20.0,
             fontWeight: FontWeight.bold,
             color: nsj_colors_primary),
         subtitle1: TextStyle(
@@ -25,9 +33,9 @@ ThemeData nsj_light_theme = ThemeData(
             fontSize: 12.0,
             color: nsj_colors_primary,
             fontWeight: FontWeight.bold),
-        bodyText1: TextStyle(fontSize: 16.0, color: nsj_colors_text_primary),
+        bodyText1: TextStyle(fontSize: 18.0, color: nsj_colors_text_primary),
         bodyText2: TextStyle(
-            fontSize: 16.0,
+            fontSize: 18.0,
             color: nsj_colors_text_primary,
             fontWeight: FontWeight.bold),
       ),

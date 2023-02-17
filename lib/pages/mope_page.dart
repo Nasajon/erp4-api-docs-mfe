@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/components/header/nasajon_header.dart';
-import 'package:site_documentacao_api/components/mope.dart';
-import 'package:site_documentacao_api/components/nasajon_footer.dart';
+import 'package:site_documentacao_api/components/builders/column_builder.dart';
+import 'package:site_documentacao_api/components/web_sections/nasajon_header.dart';
+import 'package:site_documentacao_api/components/mope/mope.dart';
+import 'package:site_documentacao_api/components/web_sections/nasajon_footer.dart';
+import 'package:site_documentacao_api/constants/texts.dart';
 
 class MopePage extends StatelessWidget {
   const MopePage({
@@ -10,6 +12,22 @@ class MopePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List erpTextStyles = [
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText2,
+      Theme.of(context).textTheme.subtitle1
+    ];
+    final List mopeTextStyles = [
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.bodyText2,
+      Theme.of(context).textTheme.bodyText1,
+      Theme.of(context).textTheme.subtitle1
+    ];
     return Scaffold(
       appBar: const Header(),
       body: ListView(
@@ -39,41 +57,28 @@ class MopePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(bottom: 32),
+                            padding: const EdgeInsets.only(bottom: 20.0),
                             child: Text(
                               '1. O sistema integrado de gestão empresarial ERP Nasajon',
-                              style: Theme.of(context).textTheme.headline2,
+                              style: Theme.of(context).textTheme.headline3,
                             ),
                           ),
-                          SizedBox(
-                            height: 250,
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  'A sigla ERP (do inglês "Enterprise Resource Planning"), pode ser traduzida como "Sistema Integrado de Gestão Empresarial", e designa sistemas, de variadas envergaduras, que visam centralizar os dados e processos das diversas frentes de atuação de uma empresa cliente.',
-                                  style: Theme.of(context).textTheme.bodyText1,
-                                ),
-                                Text(
-                                  'Na prática, os ERPs se dividem entre sistemas especialistas (focados numa única área de processos empresariais), e sistemas de aplicação ampla (virtualmente capazes de suportar todas as áreas comuns aos mais diversos tipos de organizações).',
-                                  style: Theme.of(context).textTheme.bodyText1,
-                                ),
-                                Text(
-                                  'O ERP Nasajon se enquadra no contexto dos sistemas de aplicação ampla, mas, diferentemente de seus concorrentes, não é focado apenas na simples concentração dos dados, mas principalmente na automação dos processos empresariais.',
-                                  style: Theme.of(context).textTheme.bodyText1,
-                                ),
-                                Text(
-                                  'Neste documento serão apresentadas as mais diversas APIs de integração com o ERP Nasajon 4.0.',
-                                  style: Theme.of(context).textTheme.bodyText2,
-                                ),
-                                Text(
-                                  'Obs.: Além da documentação dos processos cobertos pelo ERP Nasajon, e suas respectivas APIs (introduzidas a seguir), sugere-se consultar a página de Disposições Gerais das APIs do ERP Nasajon (para tomar ciência dos padrões que regem as APIs como um todo).',
-                                  style: Theme.of(context).textTheme.subtitle1,
-                                ),
-                              ],
-                            ),
-                          ),
+                          ColumnBuilder(
+                              itemBuilder: (BuildContext context, int index) {
+                                final String text =
+                                    erpDescription.elementAt(index);
+                                final textStyle = index < erpTextStyles.length
+                                    ? erpTextStyles[index]
+                                    : erpTextStyles.last;
+                                return Padding(
+                                  padding: const EdgeInsets.only(bottom: 16),
+                                  child: Text(
+                                    text,
+                                    style: textStyle,
+                                  ),
+                                );
+                              },
+                              itemCount: erpDescription.length)
                         ],
                       ),
                     ],
@@ -83,49 +88,27 @@ class MopePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 32.0),
+                      padding: const EdgeInsets.only(bottom: 20.0),
                       child: Text(
                         '2. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
-                        style: Theme.of(context).textTheme.headline2,
+                        style: Theme.of(context).textTheme.headline3,
                       ),
                     ),
-                    SizedBox(
-                      height: 450,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            'A MOPE, é uma iniciativa da Nasajon, criada com o fim de simplificar a descrição dos processos contidos no escopo de seu ERP.Em se tratando de um ERP de aplicação ampla, a simples listagem de todos os processos (módulos, rotas, etc) suportados pelo ERP Nasajon, resultaria num esforço demasiado tedioso para o leitor.',
-                            style: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          Text(
-                            'Pensando nisso, a Nasajon desenvolveu um formato proprietário de indexação dos processos suportados por seus produtos, denominado "MOPE".',
-                            style: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          Text(
-                            'A MOPE, por sua vez, herda seus conceitos do internacionalmente reconhecido framework eTom, o qual é amplamente difundido na área de Telecomunicações. A MOPE porém pode ser descrita como uma adaptação conceitual do eTom, destinada à representação matricial dos processos suportados e planejados, para o ERP Nasajon.',
-                            style: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          Text(
-                            'Como já dito, se uma empresa genérica apresenta áreas de processo comuns como: contas a pagar, contabilidade, contas a receber, gestão de recursos humanos, etc. A MOPE simplemente mapeia esses processos em áreas, e os indexa numa matriz, onde:',
-                            style: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          Text(
-                            '•  Linhas: Representam as grandes áreas dos processos de uma empresa.\n\n•  Colunas: Representam as grandes áreas de operação de uma empresa.\n\n•  Células: Representam os processos propriamente ditos.',
-                            style: Theme.of(context).textTheme.bodyText2,
-                          ),
-                          Text(
-                            'Assim, navegando pela MOPE é possível alcançar qualquer área empresarial suportada pelo ERP e, de igual modo, a própria indexação das APIs do ERP Nasajon. Portanto, clique no processo desejado abaixo para acessar sua página de detalhes e vizualizar suas APIs.',
-                            style: Theme.of(context).textTheme.bodyText1,
-                          ),
-                          Text(
-                            'Obs.: Caso o item esteja em tom de cinza suas apis ainda não estão disponíveis em sua página de detalhes',
-                            style: Theme.of(context).textTheme.subtitle1,
-                          ),
-                        ],
-                      ),
-                    ),
+                    ColumnBuilder(
+                        itemBuilder: (BuildContext context, int index) {
+                          final String text = mopeDescription.elementAt(index);
+                          final textStyle = index < mopeDescription.length
+                              ? mopeTextStyles[index]
+                              : mopeTextStyles.last;
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: 16),
+                            child: Text(
+                              text,
+                              style: textStyle,
+                            ),
+                          );
+                        },
+                        itemCount: mopeDescription.length)
                   ],
                 ),
               ],

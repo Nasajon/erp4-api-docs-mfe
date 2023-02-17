@@ -1,28 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/components/activity_item.dart';
+import 'package:site_documentacao_api/components/activity_details_dialog.dart';
 import 'package:site_documentacao_api/components/builders/column_builder.dart';
+
 import 'package:site_documentacao_api/constants/colors.dart';
 import 'package:site_documentacao_api/models/mope_model.dart';
+import 'package:site_documentacao_api/pages/api_documentation_webview.dart';
 
 class MopeProcessPage extends StatelessWidget {
-  MopeProcessPage({
+  const MopeProcessPage({
     super.key,
     required this.processItem,
   });
 
-  final ProcessItens processItem;
-  final Map<int, String> subitemIndexToLetterMap = {
-    1: "a",
-    2: "b",
-    3: "c",
-    4: "d",
-    5: "e",
-    6: "f",
-    7: "g",
-    8: "h",
-    9: "i",
-    10: "j",
-  };
+  final Process processItem;
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +39,6 @@ class MopeProcessPage extends StatelessWidget {
         ),
         // leadingWidth: 25,
         backgroundColor: nsj_colors_primary,
-        foregroundColor: nsj_colors_text_dark,
 
         toolbarHeight: 40,
       ),
@@ -66,171 +55,151 @@ class MopeProcessPage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 40.0),
                   child: Text(
-                    processItem.title,
+                    processItem.processTitle,
                     style: Theme.of(context).textTheme.headline2,
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(bottom: 16.0),
-                  child: Text('1. Objetivo do processo',
-                      style: Theme.of(context).textTheme.headline3),
+                  padding: const EdgeInsets.only(bottom: 12.0),
+                  child: Text(
+                    'Objetivo',
+                    style: Theme.of(context).textTheme.headline3,
+                  ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(bottom: 32.0),
+                  padding: const EdgeInsets.only(bottom: 40.0),
                   child: Text(
-                    processItem.descriptionFirstParagraph,
+                    processItem.processDescription,
                     style: Theme.of(context).textTheme.bodyText1,
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(bottom: 16.0),
+                  padding: const EdgeInsets.only(bottom: 12.0),
                   child: Text(
-                    '2. Especificação do processo',
+                    'Atividades',
                     style: Theme.of(context).textTheme.headline3,
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 40.0),
+                  child: Text(
+                    'A seguir serão listadas as atividades referentes à este processo. Clique no título da atividade ou em um de seus recursos para acessar sua documentação',
+                    style: Theme.of(context).textTheme.bodyText1,
+                  ),
+                ),
                 ColumnBuilder(
+                    showDivider: true,
+                    dividerPadding:
+                        const EdgeInsets.only(top: 32.0, bottom: 32.0),
                     crossAxisAlignment: CrossAxisAlignment.start,
                     itemBuilder: (BuildContext context, int index) {
                       final item =
-                          processItem.descriptionItens.elementAt(index);
+                          processItem.processActivities.elementAt(index);
 
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            '2.${index + 1}. ${item.itemDescription}\n',
-                            style: Theme.of(context).textTheme.subtitle1,
-                          ),
                           Padding(
-                            padding: const EdgeInsets.only(left: 32.0),
-                            child: ColumnBuilder(
-                                itemBuilder: (BuildContext context, int index) {
-                                  final subitem =
-                                      item.itemSubitens.elementAt(index);
-                                  final subitemLetterIndex =
-                                      setSubitensIndexToLetter(
-                                          (index + 1), subitemIndexToLetterMap);
-
-                                  return Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            "$subitemLetterIndex) ",
-                                            style: Theme.of(context)
-                                                .textTheme
-                                                .subtitle1,
-                                          ),
-                                          SizedBox(
-                                            width: 1200,
-                                            child: Text(
-                                              "${subitem.subitemDescription}\n",
-                                              style: Theme.of(context)
-                                                  .textTheme
-                                                  .bodyText1,
-                                            ),
-                                          ),
-                                        ],
+                            padding: const EdgeInsets.only(bottom: 8.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Flexible(
+                                      child: InkWell(
+                                        onTap: () => goDocumentationPage(
+                                            context,
+                                            item.activityTitle,
+                                            item.activityDocumentationUrl),
+                                        child: Text(
+                                          item.activityTitle,
+                                          softWrap: true,
+                                          maxLines: 3,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline4,
+                                        ),
                                       ),
-                                      Padding(
-                                        padding:
-                                            const EdgeInsets.only(left: 20.0),
-                                        child: ColumnBuilder(
-                                            itemBuilder: (BuildContext context,
-                                                int index) {
-                                              final subitemItem = subitem
-                                                  .subitemItens
-                                                  .elementAt(index);
-
-                                              return Row(
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.start,
-                                                children: [
-                                                  Text(
-                                                    "$subitemLetterIndex${index + 1}) ",
-                                                    style: Theme.of(context)
-                                                        .textTheme
-                                                        .subtitle1,
-                                                  ),
-                                                  SizedBox(
-                                                    width: 1100,
-                                                    child: Text(
-                                                      "$subitemItem\n",
-                                                      style: Theme.of(context)
-                                                          .textTheme
-                                                          .bodyText1,
-                                                    ),
-                                                  ),
-                                                ],
-                                              );
-                                            },
-                                            itemCount:
-                                                subitem.subitemItens.length),
-                                      )
-                                    ],
-                                  );
-                                },
-                                itemCount: item.itemSubitens.length),
-                          )
+                                    ),
+                                    setInfoButton(item, context)
+                                  ],
+                                ),
+                                setResourcesSection(item, context)
+                              ],
+                            ),
+                          ),
                         ],
                       );
                     },
-                    itemCount: processItem.descriptionItens.length),
+                    itemCount: processItem.processActivities.length),
               ],
             ),
-          ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(bottom: 8.0),
-                child: Text(
-                  '3. Atividades',
-                  style: Theme.of(context).textTheme.headline3,
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 32.0),
-                child: Text(
-                  'Selecione abaixo a atividade desejada para acessar sua documentação:',
-                  style: Theme.of(context).textTheme.bodyText1,
-                ),
-              ),
-              ColumnBuilder(
-                itemCount: processItem.processItensActivities.length,
-                itemBuilder: (BuildContext context, int index) {
-                  final item =
-                      processItem.processItensActivities.elementAt(index);
-                  final titles = item.title;
-                  final urls = item.url;
-                  final activity =
-                      processItem.processItensActivities.elementAt(index);
-                  return ActivityItem(
-                    title: titles,
-                    url: urls,
-                    activity: activity,
-                  );
-                },
-              )
-            ],
           ),
         ],
       ),
     );
   }
 
-  String setSubitensIndexToLetter(int index, Map map) {
-    String indexLetter = '';
-    for (final item in map.entries) {
-      if (index == item.key) {
-        return indexLetter = item.value;
-      }
+  void goDocumentationPage(context, String proccessName, String processUrl) {
+    if (processUrl.isNotEmpty) {
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+              builder: ((context) => ApiDocumentationWebView(
+                  processName: proccessName, url: processUrl))));
     }
-    return indexLetter;
+  }
+
+  Widget setInfoButton(Activity activity, context) {
+    if (activity.activityDescription.isEmpty) {
+      return const SizedBox();
+    }
+    return IconButton(
+        tooltip: "Detalhes da atividade",
+        color: nsj_colors_primary,
+        splashRadius: 15,
+        onPressed: () => showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return ActivituDetailsDialog(
+                activity: activity,
+              );
+            }),
+        icon: const Icon(
+          Icons.info_outlined,
+          size: 16,
+        ));
+  }
+
+  Widget setResourcesSection(Activity activity, context) {
+    if (activity.activityResources.isEmpty) {
+      return const SizedBox();
+    }
+    return Column(
+      children: [
+        Text(
+          'Recursos',
+          style: Theme.of(context).textTheme.headline5,
+        ),
+        ColumnBuilder(
+            itemBuilder: ((context, index) {
+              final resource = activity.activityResources.elementAt(index);
+              return InkWell(
+                onTap: () {
+                  goDocumentationPage(context, resource.resourceTitle,
+                      resource.resourceDocumentationUrl);
+                },
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 4.0),
+                  child: Text(
+                    '• ${resource.resourceTitle}',
+                  ),
+                ),
+              );
+            }),
+            itemCount: activity.activityResources.length)
+      ],
+    );
   }
 }

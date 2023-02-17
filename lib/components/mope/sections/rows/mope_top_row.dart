@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/components/titles/column_title.dart';
+import 'package:site_documentacao_api/components/mope/sections/titles/column_title.dart';
 
 class MopeTopRow extends StatelessWidget {
   const MopeTopRow({super.key});

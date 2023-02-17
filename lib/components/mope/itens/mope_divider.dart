@@ -17,15 +17,9 @@ class MopeDivider extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(12.0),
       child: Container(
-        color: color ?? setColor(context),
+        color: color ?? nsj_colors_primary_separator,
         height: height ?? 1,
       ),
     );
-  }
-
-  setColor(context) {
-    return Theme.of(context) == nsj_light_theme
-        ? nsj_colors_primary_separator
-        : nsj_colors_primary_dark;
   }
 }

@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:site_documentacao_api/components/mope_divider.dart';
-import 'package:site_documentacao_api/components/mope_grid_columns.dart';
-import 'package:site_documentacao_api/components/rows/mope_row.dart';
-import 'package:site_documentacao_api/components/rows/mope_top_row.dart';
+import 'package:site_documentacao_api/components/mope/itens/mope_divider.dart';
+import 'package:site_documentacao_api/components/mope/itens/mope_grid_columns.dart';
+import 'package:site_documentacao_api/components/mope/sections/rows/mope_row.dart';
+import 'package:site_documentacao_api/components/mope/sections/rows/mope_top_row.dart';
 import 'package:site_documentacao_api/models/mope_model.dart';
 
 class Mope extends StatelessWidget {
@@ -101,7 +101,8 @@ class Mope extends StatelessWidget {
   }
 
   Future<MopeModel> setMope() async {
-    final String json = await rootBundle.loadString('Json/mope.json');
+    final String json =
+        await rootBundle.loadString('Json/mope_constructor.json');
     final MopeModel mope = MopeModel.fromJson(jsonDecode(json));
     return mope;
   }

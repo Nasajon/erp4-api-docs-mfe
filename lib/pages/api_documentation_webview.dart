@@ -26,17 +26,17 @@ class ApiDocumentationWebViewState extends State<ApiDocumentationWebView> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Container(
-          color: Color.fromARGB(50, 0, 0, 0),
-          margin: EdgeInsets.only(left: 260),
-          padding: EdgeInsets.only(left: 8),
+          color: const Color.fromARGB(50, 0, 0, 0),
+          margin: const EdgeInsets.only(left: 260),
+          padding: const EdgeInsets.only(left: 8),
           width: 300,
           child: Row(
             children: [
               IconButton(
-                icon: Icon(Icons.arrow_back),
+                icon: const Icon(Icons.arrow_back),
                 onPressed: () => Navigator.pop(context),
               ),
-              Text(
+              const Text(
                 'Voltar à página anterior',
                 style: TextStyle(color: nsj_colors_text_dark, fontSize: 14),
               ),

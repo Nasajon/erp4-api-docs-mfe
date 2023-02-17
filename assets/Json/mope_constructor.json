@@ -1,0 +1,2256 @@
+{
+   "mope_rows": [
+      {
+         "mope_row_number": 1,
+         "mope_row_title": "Marketing e Vendas",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "process_title": "111 Estratégia e política de marketing",
+                     "process_description": "Este processo tem como objetivo o desenvolvimento de uma visão estratégica para atuação no mercado e conjunto de atividades de marketing e políticas a serem levadas pela empresa. Pelo menos as seguintes atividades estão relacionadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "111.1 Recolher e analisar as informações do mercado",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "111.2 Definir estratégia de mercado",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "111.3 Estabelecer os segmentos de atuação da empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "111.4 Definir os produtos por segmento de atuação",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "111.5 Obter o compromisso da empresa com a estratégia de mercado e segmentação",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "121 Desenvolvimento de meios e recursos",
+                     "process_description": "Com base na estratégia de mercado para a empresa, os processos de desenvolvimento de meios e recursos de Marketing , gerencia a criação ou alteração dos vários meios usados pelo  mercado (p.ex novos canais online, novos canais de vendas online) ou recursos relacionados com os clientes (ex. por exemplos portais onine de “selfervice”). As seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "121.1 Criar e gerenciar portais e aplicativos orientados ao desenvolvimento da documentação acerca das áreas de conhecimentos da empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "121.2 Criar e gerenciar portais e aplicativos orientados ao desenvolvimento das vendas online",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "121.3 Criar e gerenciar portais e aplicativos orientados ao desenvolvimento da área de selfervice",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "131 Desenvolvimento de vendas",
+                     "process_description": "O processo de Desenvolvimento de vendas envolve as seguintes atividades:",
+                     "process_activities": [
+                        {
+                           "activity_title": "131.1 Apoiar o processo de vendas para os produtos e serviços novos e já existentes, bem como aos já clientes e potenciais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "131.2 Definir comissões de vendas, metas de faturamento e margens",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "131.3 Desenvolver programas de treinamento de vendas, metodologias de captação de prospects, processos e métodos de vendas, assim como os procedimentos para a vendas de novos produtos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "131.4 Desenvolver e criar canais de vendas dos produtos  e serviços, definir quais os produtos que serão comercializados em cada canal assim como as políticas de preços por canal",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "141 suporte de vendas",
+                     "process_description": "Este processo garante que existe capacidade para permitir que os processos de vendas, entregas e faturamento possam operar com eficácia:",
+                     "process_activities": [
+                        {
+                           "activity_title": "141.1 Gerenciar materiais de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "141.2 Definir políticas de apoio e suporte à decisão nos processos de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "141.3 Gerenciar e analisar campanhas de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "141.4 Gerenciar e analisar atividades e oportunidades de vendas: análise do funil de vendas e dos “prospects”",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "141.5 Monitorar e relatar os custos dos vários processos de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "141.6 Desenvolver os procedimentos administrativos para suporte aos processos de venda e entrega, faturamento e garantia de recebimento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "151 Vendas",
+                     "process_description": "Este processo é responsável por procurar potenciais clientes (“prospects”), qualificar esse clientes, e atender às suas expectativas. As atividades principais deste processo são:",
+                     "process_activities": [
+                        {
+                           "activity_title": "151.1 Gerenciar Prospects",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Analisar as necessidades do prospect; Identificar as potenciais soluções; assignar um prospect a um canal de vendas; acompanhar este prospect e reportar os resultados do processo (Venda realizada ou venda Perdida); Estes prospects representam o 'pipeline' de potenciais vendas, cada um dos quais é expressa em termos da probabilidade de fechamento de vendas de sucesso e uma estimativa do total das receitas atingível."
+                        },
+                        {
+                           "activity_title": "151.2 “Cross/Up” Selling",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Através do estudo do cliente (seu histórico de compras, dimensão, estratégia, visão etc.), assegurar que o valor da relação entre o fornecedor de Produtos & Serviços e o cliente é maximizada através da venda adicional de produtos complementares e/ou de uma oferta com maior valor, porém com maiores benefícios para o cliente"
+                        },
+                        {
+                           "activity_title": "151.3 Qualificar Oportunidades",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Assegurar que a oportunidade está devidamente analisada em relação aos vários aspectos envolvidos: necessidades do clientes estão devidamente identificadas; análise do risco de não atender as expectativas do cliente; valor financeiro envolvido; importância do cliente; importância estratégica para a empresa do negócio"
+                        },
+                        {
+                           "activity_title": "151.4 Criar propostas de venda",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O objetivo desta atividade é elaborar a proposta de venda que responde aos requisitos solicitados pelo cliente. Esta atividade começa após a aprovação da Qualificação da Oportunidade. O desenvolvimento da  proposta de venda pode:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Exigir a seleção de uma oferta de um P&S standard"
+                              },
+                              {
+                                 "subitem_description": "Exigir uma oferta nãoadrão"
+                              },
+                              {
+                                 "subitem_description": "Exigir a criação de uma equipe de projecto para a construção da oferta."
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "151.5 Negociar Venda/Contrato(Atendimento Comercial)",
+                           "activity_resources": [],
+                           "activity_description": "O propósito desta atividade é fechar a venda em termos que são claramente entendidos pelo comprador e o vendedor dos Produtos & Serviços. Normalmente nesta atividade são discutidos os termos genéricos do contrato e negociados alguns termos específico adicionais. Dependendo das condições ou das regras da empresa vendedora, o contrato e os termos da negociação podem passar por um workflow de aprovação interno. O acordo final e o fecho do negócio envolve normalmente o processamento de pedidos de venda e, em alguns casos, a elaboração de um título de adiantamento de sinal ou de primeira prestação. Neste caso a liquidação do título conclui o fechamento da venda",
+                           "activity_documentation_url": ""
+                        },
+                        {
+                           "activity_title": "151.6 Gerenciar contas de vendas",
+                           "activity_resources": [],
+                           "activity_description": "Gerenciar as várias contas (clientes) nos vários canais numa base diária",
+                           "activity_documentation_url": "",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Contatar os clientes de forma regular"
+                              },
+                              {
+                                 "subitem_description": "Desenvolver contatos e relações profissionais para fazer nascer Leads, Prospects e promover as ofertas da empresa"
+                              },
+                              {
+                                 "subitem_description": "Gerenciar e atualizar o repositório e o inventário de vendas"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "161 Análise e monitoramento de mercado",
+                     "process_description": "Processo responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "161.1 Monitoramento, acompanhamento e análise dos indicadores principais de performance do mercado",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 2,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "171 Devolução de P&S",
+                     "process_description": "Processo responsável pelas seguintes atividades:",
+                     "process_activities": [
+                        {
+                           "activity_title": "171.1 Buscar reversão da intenção do cliente através de ações promocionais ou de outras promessas que atendam e satisfaçam o cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "171.2 Criar pedido de  devolução e cancelamento  dos produtos ou serviços solicitados pelo cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "processes": [
+                  {
+                     "process_title": "112 planejamento e estratégia de vendas",
+                     "process_description": "Estratégia de Vendas e Planejamento envolve as seguintes atividades:",
+                     "process_activities": [
+                        {
+                           "activity_title": "112.1 Desenvolver relacionamento com parceiros e alianças",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "112.2 Estabelecer orçamentos globais de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "112.3 Estabelecer metas de vendas e indicadores de performance (KPIs) ",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "112.4 Estabelecer indicadores de gestão de clientes e níveis de serviço",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "112.5 Desenvolver a estratégia de canais: definir normas, estabelecer receitas e plano de cobertura",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "132 Comunicação e promoção de produtos",
+                     "process_description": "Este processo gerencia a comunicação da empresa com o mercado e com os seus clientes, envolvendo não só as mensagens e o seu conteúdo mas também os meios (“media”) usados. As seguintes atividades fazem parte do processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "132.1 Desenvolver e criar todos os materiais e mensagens e, além disso,  definir a forma como essas mensagens chegam no cliente e no mercado: por inserção em documentos enviados para os clientes, via telefone com os clientes, anúncios em revistas ou outro qualquer meio",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "132.2 Desenvolver e gerenciar a comunicação com a imprensa e todos os envolvidos (jornalistas e pessoal interno)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "132.3 Desenvolver promoções e campanhas para venda de produtos, retenção de cliente e aquisição de novos cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "142 Gestão dos canais de vendas",
+                     "process_description": "Os canais de venda gerenciados por este processo incluem: lojas de varejo próprias, lojas de varejo de terceiros com produtos da empresa, lojas na internet, mercados B2B ou relacionamentos diretos com outros parceiros, distribuidores, gestores de conta, equipes de relacionamento  e os times próprios de venda direta. As atividades deste processo incluem:",
+                     "process_activities": [
+                        {
+                           "activity_title": "142.1 Gerenciar incentivos, compensações e prêmios",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "142.2 Avaliar desempenho e eficácia dos canais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "142.3 Gerenciar times de vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "152 Atendimento marketing15",
+                     "process_description": "Este processo é responsável pela seguintes atividades:",
+                     "process_activities": [
+                        {
+                           "activity_title": "152.1' Emitir e distribuir material de marketing e acompanhar leads resultantes",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "152.2' Customizar material necessário para um determinado negócio",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "162 análise e monitoramento de vendas",
+                     "process_description": "Processo responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "162.1 Definir, monitorar, acompanhar e analisar principais indicadores de resultados relacionados com as vendas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Alguns exemplos:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Ticket Médio por setor/faturamento"
+                              },
+                              {
+                                 "subitem_description": "Análise do percentual de atingimento de meta por vendedor, grupos de vendedores, canais de venda, etc "
+                              },
+                              {
+                                 "subitem_description": "Análise ABC de vendas de P&S por categoria/canal/ etc"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 2,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "processes": [
+                  {
+                     "process_title": "113 Previsão de vendas",
+                     "process_description": "A previsão de vendas envolve a coleta de informações históricas, análise das tendências de vendas e padrões de forma a gerar a previsão de vendas e planejamento de promoções e eventos. As seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "113.1 Recolher, preparar e limpar de dados históricos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "113.2 Escolher melhores modelos e padrões de simulação por linha ou grupo de produtos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "113.3 Planejar eventos e promoções e ajustes",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "113.4 Gerir e acompanhar as previsões versus a realidade",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "153 Contatos, leads e gestão prospects",
+                     "process_description": "Processo responsável pela seguinte atividade:",
+                     "process_activities": [
+                        {
+                           "activity_title": "153.1 Desenvolver relações com os contatos e prospects (Inbound Marketing) e atribuir às leads geradas os produtos e serviços mais apropriados da oferta da empresa, assegurando dessa forma que todos os prospects são tratados de forma adequada",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 2,
+         "mope_row_title": "Cliente",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "241 Suporte, infra, atendimento ao cliente",
+                     "process_description": "Este processo assegura que a infraestrutura  para atendimento, suporte, faturamento e gerenciamento dos processos relacionados com os clientes existe e está operando com eficácia. As atividades deste processo são:",
+                     "process_activities": [
+                        {
+                           "activity_title": "241.1 Manter a infraestrutura para ativação dos produtos e serviços do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "241.2 Prover ferramentas e atividades de apoio à decisão no relacionamento com os clientes (incluindo as atividades de faturamento)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "241.3 Gerenciar os materiais necessários para os processos de Venda e Entrega, Suporte e Faturamento (VESF)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "241.4 Monitorar e relatar os procedimentos, custos e recursos alocados nos processos VESF",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "241. Analisar as evoluções no longo prazo dos processos VESF para verificação da necessidade de se proceder a alterações e ajustamentos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "251 Encomendas e pedidos",
+                     "process_description": "Este processo é responsável por emitir e processar as encomendas e os pedidos dos clientes. As seguintes atividades estão relacionadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "251.1 Verificar a viabilidade da entrega do produto e/ou serviço que está sendo pedido e o impacto nos processos de ativação e entrega",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "251.2 Analisar o crédito do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "251.3 Emitir e Processar Pedido",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "251.4 Relatar e analisar pedidos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Monitorar e acompanhar o estado de todos os pedidos e reportar as alterações dos estados dos pedidos para a lista de interessados. Esta atividade registra e grava e avalia as alterações dos estados de forma a gerar relatórios e indicadores especializados (alguns clientes pode exigir estes relatórios)"
+                        },
+                        {
+                           "activity_title": "251.5 Acompanhar individualmente cada pedido do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Agendamento, atribuição e coordenação das atividades de ativação do P&S"
+                              },
+                              {
+                                 "subitem_description": "Gerar a(s) Ordem(ns) de Serviço para ativação e entrega do P&S com base nos pedidos de clientes"
+                              },
+                              {
+                                 "subitem_description": "Atribuir o nível de prioridade ao pedido de acordo com as políticas definidas"
+                              },
+                              {
+                                 "subitem_description": "Acompanhar o processo de ativação e entrega"
+                              },
+                              {
+                                 "subitem_description": "Adicionar ou alterar eventuais informações adicionais ao pedido do cliente"
+                              },
+                              {
+                                 "subitem_description": "Atualizar estado do pedido"
+                              },
+                              {
+                                 "subitem_description": "Cancelar todo o processos a jusante em caso de cancelamento do pedido"
+                              },
+                              {
+                                 "subitem_description": "Monitorar o perigo de algo correr mal e ativar as medidas previstas se necessário"
+                              },
+                              {
+                                 "subitem_description": "Indicar que a ativação e entrega está realizada, modificando o status do pedido"
+                              },
+                              {
+                                 "subitem_description": "No caso de alguns produtos ou serviços serem entregues diretamente por um parceiro ou fornecedor, este processo é responsável por criar a requisição ao fornecedor/parceiro"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "251.6 Fechar Pedido",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O pedido deve ser fechado quando as atividades de provisão e ativação estão encerradas"
+                        },
+                        {
+                           "activity_title": "251.7 Arquivar e atualizar Pedido",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Atualizar as informações do cliente"
+                              },
+                              {
+                                 "subitem_description": "Garantir que o cliente está treinado e apto a usar o produto e/ou serviço com as funcionalidades e os benefícios esperados"
+                              },
+                              {
+                                 "subitem_description": "Executar questionário de avaliação com o cliente"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "261 Gestão de problemas",
+                     "process_description": "Este processo é responsável por receber e resolver tão satisfatoriamente quanto possível as reclamações de problemas reportados pelos clientes em relação a produtos e serviços vendidos pela empresa. As seguintes atividades podem ser realizadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "261.1 Isolar o problema do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O objetivo nesta atividade é detectar a origem do problema (remota ou presencialmente). Dependendo do tipo de atividade várias ações podem ser feitas. Duas das principais são:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Verificar se o produto e/ou serviços está sendo operado de forma correta"
+                              },
+                              {
+                                 "subitem_description": "Rodar os diagnósticos com base nas informações relatadas pelo cliente"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "261.2 Corrigir o problema. Ação remota, através do deslocamento de um técnico ou outra opção",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "261.3 Relatar os progressos ao cliente e a outros interessados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "261.4 Rastrear e gerenciar os problemas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O objetivo desta atividade é verificar se existem reclamações que estão demorando tempo demais a ser resolvidas satisfatoriamente, aumentar o seu nível de prioridade e eventualmente designar outros técnicos com maior experiência"
+                        },
+                        {
+                           "activity_title": "261.5 Fechar a reclamação ",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O objetivo deste processo é verificar se o produto e/ou serviço se encontra operando normalmente"
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "262 Gestão de Qos/Sla",
+                     "process_description": "Este processo é responsável por gerenciar e avaliar a qualidade do serviço dos produtos e serviços que a empresa vende aos seus cliente. O principal objetivo é garantir que os P&S estão operando de acordo com a qualidade e os requisitos definidos contratualmente com cada cliente. Que eventuais reparações devem ser feitas dentro do tempo contratado assim como a reposição de determinado serviço que está parado ou operando com deficiência será reposto também no tempo contratado (SLA). Pelo menos as seguintes atividades podem ser feitas neste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "262.1 Avaliar a QoS e a performance do SLA dos clientes",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Através da análise de dados recebidos de outros processos (p.ex , o processo 2.6.1 Gestão de problemas) esta atividade deve ser capaz de detectar desvios na QoS e nos SLA´s contratados"
+                        },
+                        {
+                           "activity_title": "262.2 Rastrear e gerenciar a resolução dos problemas de qualidade de serviço",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "262.3 Gerenciar Mudanças no Serviço",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "262.4 Gerenciar a capacidade do serviço",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "262.5 Criar, gerenciar e reportar as métricas de acompanhamento da Qualidade do Serviço e do SLAs dos vários contratos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "271/281 Faturamento e devoluções de P&S",
+                     "process_description": "Este processo é responsável por gerenciar todo o processo de emissão de faturas e cobranças. Garante que as faturas e notas fiscais são corretamente emitidas e os impostos e descontos calculados corretamente. Este processo é responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "271/281.1 Emitir e enviar as faturas/notas fiscais ao cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "271/281.2 Emitir estornos em caso de devoluções e cancelamentos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "271/281.3 Guardar em forma eletrônica as faturas/notas fiscais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "271/281.4 Manter os diferentes perfis tributários relacionados aos clientes",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "271/281.5 Manter notas fiscais de produtos ou serviços cancelados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 2,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "284 Recebimentos e cobranças",
+                     "process_description": "Este processo é responsável por gerenciar os vários tipos de recebimentos de pagamentos dos clientes. Fazem parte deste processo as seguintes atividades:",
+                     "process_activities": [
+                        {
+                           "activity_title": "284.1 Gerenciar os canais de recebimento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "284.2 Gerenciar os recebimentos em atraso",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "284.3 Gerenciar alternativas para o recebimento das cobranças",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "252 Gestão de relacionamento com cliente",
+                     "process_description": "Este processo é responsável por gerenciar todas as interações entre o cliente e a empresa. Estas interações podem ser iniciadas pelo cliente (ex. em resultado de um questionamento ou de uma queixa) ou pela empresa (ex. para envio de boletos ou outras notificações). Todas estas interações devem ser guardadas em “log”  para consulta a qualquer momento. Estas interações pode ser curtas (caso de um questionamento respondido na hora) ou longas (caso de um pedido complexo que envolve uma atuação longa das equipes da retaguarda). Quando estas são longas, o cliente deve ser informado de tempos em tempos do andamento do seu pedido e/ou necessidade.  O registo histórico destas interações devem ser passíveis de ser usadas pelos sistema de BI para analisar os indicadores de satisfação e os perfis dos clientes. Estas interações podem também ser executadas através de vários canais (telefonemas, portal web e outros dispositivos). As seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "252.1 Autenticar usuário ",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "O objetvo desta atividade é identificar o usuário do cliente que interage. Nos canais de autotendimento (p.exe Portal de Auto Serviço na Web) pode ser necessário Login  para identificação. Em outros canais pode ser necessário que o usuário responda a questões verificação de identidade"
+                        },
+                        {
+                           "activity_title": "252.2 Criar um registo da Interação (Atendimento) para guardar o log de toda a interação",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "252.3 Notificar cliente quando algum evento de interesse acontece",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "252.4 Atualizar o Atendimento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Tipicamente quando algum evento acontece nos atendimentos longos. Quando o cliente é, de alguma forma afetado por estes eventos a atividade “Notificar Cliente” (2) deve ser  executada"
+                        },
+                        {
+                           "activity_title": "252.5 Rastrear e acompanhar os Atendimentos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Assegurar que os Atendimentos (em todos os canais) estão sendo geridos de acordo com o Nível de Serviço Acordado com o cliente (SLA). Algumas sub atividades:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Assegurar que cada Atendimento é fechado e arquivado de forma e no tempo adequado"
+                              },
+                              {
+                                 "subitem_description": "Notificar o cliente quando o SLA ou o cronograma não foi cumprido"
+                              },
+                              {
+                                 "subitem_description": "Rastrear as respostas dos clientes quando estas são obrigatórias"
+                              },
+                              {
+                                 "subitem_description": "Criar (e medir regularmente) Indicadores de Performance (KPIs) destes Atendimentos de forma conseguir melhorar regularmente todo o processo"
+                              },
+                              {
+                                 "subitem_description": "Monitoramento dos Atendimentos monitorar o estado dos Atendimentos em curso, reportar alterações e avaliar as alterações de estado. O objetivo final desta atividade é entregar aos interessados (que pode ser o cliente) relatórios de gestão com medição da eficiência e eficácia dos Atendimentos"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "252.6 Fechar do Atendimento ",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Esta atividade acontece quando ambas as partes acordam que o Atendimento pode ser fechado"
+                        },
+                        {
+                           "activity_title": "252.7 Gerenciar as interfaces com o cliente, gerenciar os contatos do cliente, identificar os contatos e atualizar as informações dos vários contatos do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "As seguintes sub atividades estão incluídas:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Gerenciar os pedidos/solicitações de clientes e potenciais clientes (“inbound” e “outbound”) Recebe a solicitação e permite que o seu autor possa executáo imediatamente, ou identifica e ativa o processo necessário. Gerencia o estado da solicitação de forma a poder dar informações a qualquer momento. Fecha formalmente a solicitação quando todas as atividades relacionadas estiverem encerradas"
+                              },
+                              {
+                                 "subitem_description": "Monitoramento e Reporte de todos os pedidos e solicitações do cliente cria e gera relatórios para servir de suporte aos processos de melhoria, procedimentos proativos de prevenção de problemas, definição de oportunidades de “up selling”, etc"
+                              },
+                              {
+                                 "subitem_description": "Mediar e orquestrar as interações com o cliente identifica os formatos das informações a transacionar nas interações. Gerencia a conversão de mensagens recebidas externamente nos formatos corporativos internos necessários, com base no tipo de transação específica e parte externa envolvida"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 4,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "282 Questionamento de faturas",
+                     "process_description": "Este processo é responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "282.1 Gerenciar todos os pedidos de correção e questionamentos associados a faturas e notas fiscais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "282.2 Garantir que todos os pedidos e questionamentos serão tratados e respondidos adequadamente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "285 Eventos de faturamento",
+                     "process_description": "Este processo é responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "285.1 Coletar, tratar, distribuir e somar os eventos associados ao processo de faturamento nas empresas em que estes existam",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Isto acontece quando o faturamento está dependente do valor consumido (em unidades que dependem do tipo de Produto ou Serviço consumido) num determinado período por parte dos clientes"
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "253 Gestão dos clientes",
+                     "process_description": "O objetivo deste processo é gerir a relação entre o cliente e a empresa. Este processo pode ser desencadeado nos primeiros estágios do ciclo de vida do cliente (p.ex, para ligações em que se percebeu que pode ser um cliente potencial) até o término do relacionamento entre a empresa e o cliente. Este processo garante que cada cliente recebe uma identidade única e que as identidades dos clientes não são duplicadas na empresa; Avaliar o valor do cliente, o risco do cliente (risco de crédito, risco de fraude, risco de influência e risco de Rotatividade ) e valida a satisfação do cliente. Os dados do cliente também são gerenciados neste processo.  As seguintes atividades e subprocessos estão relacionadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "253.1 Garantir a retenção e fidelidade de clientes",
+                           "activity_documentation_url": "https://storage.googleapis.com/api-docs-dev/253/2531/clientes.html",
+                           "activity_resources": [
+                              {
+                                 "resource_title": "Clientes",
+                                 "resource_documentation_url": "https://storage.googleapis.com/api-docs-dev/253/2531/clientes.html"
+                              }
+                           ],
+                           "activity_description": "Gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: ",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Construir a visão do cliente garante que a empresa e o cliente estão confortáveis na relação e que a relação se baseia em informação atualizada e legalmente válida. Esta atividade irá atualizar a ficha do cliente com todas as informações pertinentes recolhidas através de contatos. Estas Informações sobre o cliente devem ser disponibilizados a qualquer processo que precise. O objetivo é que a informação atualizada do cliente seja usada para refinar continuamente os meios e estilo das interações com o cliente"
+                              },
+                              {
+                                 "subitem_description": "Analisar e gerenciar o risco do cliente: assegura que a análise de risco é baseada em informações coletadas em todos os processos e a avaliação do risco do cliente é consistente em toda a organização. Tem como propósito rastrear e melhorar as operações, apontar e ganhar os melhores clientes e melhorar o percentual de conversão de clientes. Determina o risco de crédito, o risco de fraude, o risco de influência e o risco de rotatividade. Identifica os procedimentos para minimizar estes riscos e coloca o foco no uso das informações do cliente"
+                              },
+                              {
+                                 "subitem_description": "Personalização do Perfil do Cliente para uso nos programas de retenção e fidelização:",
+                                 "subitem_itens": [
+                                    "Coleta informação personalizada acerca do cliente ao construir uma relação personalizada com o cliente, desencoraja este de trocar de fornecedor porque sente que terá que criar novamente esta tipo de relação (que demora tempo)",
+                                    "Fornece uma fonte de dados para a realização de campanhas de fidelização e retenção de marketing, para reter os clientes existentes, promover a fidelidade do cliente e reconquistar clientes  que deixaram de o ser. Ele utiliza software de modelagem preditiva para analisar uma conta de cliente  e retornar métricas (notas) relevantes: valor do cliente, nota de risco de crédito, nota de “upell”, nota  de “crossell”",
+                                    "Providencia oportunidades de personalização da oferta de forma a desencorajar o cliente de trocar de fornecedor"
+                                 ]
+                              },
+                              {
+                                 "subitem_description": "Validar a satisfação do cliente Esse processo garante que:",
+                                 "subitem_itens": [
+                                    "O cliente está satisfeito com a solução",
+                                    "Que a solução foi efetivamente entregue e atende às expectativas e acordos originais ou atualizados",
+                                    "Os processos pósenda (faturamento, suporte e garantia) são inicializados"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "253.2 Estabelecer o relacionamento com o cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Verifica se o cliente é quem eles afirmam que são, para assegurar que somente uma identidade do cliente existe em toda a empresa e permitir ao cliente identificare rápida e facilmente. As subeguinte atividades estão relacionadas:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Verificação do cliente Normalmente através de exame de uma certificação de identidade emitido por um organismo confiável (como agência governamental ou por outros meios aceitos.) ou da consulta de um web site confiável (Ex: site da Receita Federal)"
+                              },
+                              {
+                                 "subitem_description": "Criação e emissão de um identificador único para o cliente"
+                              },
+                              {
+                                 "subitem_description": "Recolhe e cadastra as informações básicas do cliente com base em documentos e informações reconhecidas como fidedignas"
+                              },
+                              {
+                                 "subitem_description": "Recolhe e cadastra as informações pertinentes para a iniciação, desenvolvimento e ativação da proposta de vendas aceite. A recolha desta informação também pode acontecer na altura da elaboração da proposta"
+                              },
+                              {
+                                 "subitem_description": "Limpa e unifica eventuais  informações duplicadas de clientes que existem na organização"
+                              },
+                              {
+                                 "subitem_description": "Unifica 2 ou mais registos que possam existir do mesmo cliente"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "253.3 Restabelecer o relacionamento com o cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_subitens": [
+                              {
+                                 "subitem_description": "Recupera as informações do cliente de eventuais sistemas de arquivamento"
+                              },
+                              {
+                                 "subitem_description": "Atualiza as informações do cliente"
+                              },
+                              {
+                                 "subitem_description": "Atualiza/Recupera todas os registos das interações prévias com o cliente"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "253.4 Terminar relacionamento com o cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "Classificar as razões do término da relação, inicializar os processos para desativação das eventuais soluções que o cliente ainda tenha ativas"
+                        }
+                     ],
+                     "flex": 4,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "283 Cálculo de tarifas e preços",
+                     "process_description": "Este processo é responsável por designar um valor (preço) a um Produto ou Serviço (ou a um conjunto dos dois um Pacote). As atividades deste processo são:",
+                     "process_activities": [
+                        {
+                           "activity_title": "283.1 Precificar serviços e produtos usando uma margem de lucro préefinida ou definida no momento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "283.2 Precificar serviços e produtos em Lote, com base em categorias ou outras características dos produtos e serviços margem de lucro préefinida ou definida no momento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "286 Crédito de clientes",
+                     "process_description": "Este é o processo que gerencia e aplica as políticas de crédito associadas aos clientes. As seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "286.1 Gerir limite de crédito dos clientes",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "286.2 Aplicar políticas de crédito dependendo do tipo de cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "286.3 Acompanhar carteira de crédito e do risco associado",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  }
+               ]
+            },
+            {
+               "name": "row_item_4",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "254 Gestão das informações dos clientes",
+                     "process_description": "O objetivo deste processo é registrar e manter informações de clientes atualizadas em todos os sistemas usados pela empresa:",
+                     "process_activities": [
+                        {
+                           "activity_title": "254.1 Garantir a criação de um único registro por cliente em todos os sistemas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "254.2 Notificar todos os interessados, sobre as alterações que ocorram nas informações do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "254.3 Notificar todos os interessados, sobre as alterações que ocorram nas informações do cliente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "254.4 Arquivar e registrar as informações dos clientes em registros históricos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "254.5 Criar uma informação única do cliente a partir do dados existentes em todos os sistemas usados na empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 4,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 3,
+         "mope_row_title": "Produtos e Serviços",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "process_title": "311 Planejamento do portifólio de P&S",
+                     "process_description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação de novos produtos e serviços a serem oferecidos e pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "311.1 Recolher e analisar as informações dos produtos e serviços que existem no mercado",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "311.2 Estabelecer a estratégia da oferta de produtos e serviços",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "311.3 Preparar e realizar os Planos de negócio",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "311.4 Garantir que os planos de negócio têm viabilidade de serem executados (interna e externamente)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "321 Gestão da capacidade de entrega",
+                     "process_description": "Processo responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_title": "321.1 Garantir a capacidade para que determinado produto ou serviço possa ser entregue com a qualidade e no tempo que a empresa e o plano de negócio necessitam",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "331 desenvolvimento de P&D",
+                     "process_description": "Processo responsável dentro da empresa por garantir a criação e o desenvolvimento dos Produtos e/ou Serviços que a empresa comercializa. Pelo menos as seguintes atividades devem fazer parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "331.1 Definir requisitos funcionais e técnicos de P&S",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "331.2 Criar planos de desenvolvimento e respectivas metas a alcançar",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "331.3 Gerenciar custos associados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "331.4 Desenvolver P&S seguindo as linhas e metas principais associados ao Plano de Negócios",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "341 Gestão, suporte, infra de P&S",
+                     "process_description": "Processo que garante a existência e o suporte da infraestrutura necessária às operações da empresa. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "341.1 Prover Produtos e Serviços",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "341.2 Manter inventários necessários aos processos de suporte e ativação de P&S",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "341.3 Analisar atividades associadas ao suporte e ativação dos P&S definição de indicadores e resultados a atingir",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "351 Configuração, ativação de P&S",
+                     "process_description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam entregar os Produtos e Serviços que foram comprados, em funcionamento conforme expectativas do cliente. Pelo menos as seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "351.1 Projetar solução técnica",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "351.2 Alocar recursos humanos necessários para  as tarefas e emitir as ordens de serviço e pedidos de fornecimento de peças e materiais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "351.3 Testar o bom funcionamento dos produtos e serviços ativados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "351.4 Atualizar o inventário de produtos e serviços ativos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "351.5 Rastrear e acompanhar os ativações (projetos em curso)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "351.6 Gerir os riscos associados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "361 manutenção de P&S ativados (ativos de serviço)",
+                     "process_description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam fazer a manutenção dos Produtos e Serviços já implantados e rodando (pelo proc. 3.5.1), assim como o gerenciamento de todo o parque de instâncias de P&S onde a empresa presta serviços. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "361.1 Manter preventivamente instâncias de P&S",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "361.2 Gerenciar e Monitorar Instâncias de P&S",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "361.3 Manter versões dos P&S em operação",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 2,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "332 PCP",
+                     "process_description": "Este é o processo que gerencia toda a produção da empresa. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "332.1 Planejar a longo prazo:",
+                           "activity_documenntation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Projeto do produto"
+                              },
+                              {
+                                 "subitem_description": "Projeto do processo"
+                              },
+                              {
+                                 "subitem_description": "Projeto de quantidade,  demanda e capacidades"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "332.2 Programar a curto prazo, antes da produção:",
+                           "activity_documenntation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Número de produtos finais"
+                              },
+                              {
+                                 "subitem_description": "Materiais necessários, prazos e datas"
+                              },
+                              {
+                                 "subitem_description": " sequenciamento das operações"
+                              }
+                           ]
+                        },
+                        {
+                           "activity_title": "332.3 Controlar e monitorar em curto prazo, durante e após a produção",
+                           "activity_documenntation_url": "",
+                           "activity_resources": [],
+                           "activity_description": "As seguintes sub atividades são importantes:",
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Controle de qualidade"
+                              },
+                              {
+                                 "subitem_description": "Controle de tempo"
+                              },
+                              {
+                                 "subitem_description": "Controle de quantidade"
+                              },
+                              {
+                                 "subitem_description": "Controle de custos"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "352 Gestão dos técnicos em campo",
+                     "process_description": "O objetivo deste processo é gerenciar e controlar as atividades dos técnicos em campos nos processos de Vendas de Produtos e Serviços e também nos processos associados ao Suporte e Garantia. Pelos menos as seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "352.1 Gerenciar agenda das equipes técnicas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "352.2 Planejar e prever necessidades do número de equipes e técnicos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "352.3 Configurar e gerenciar equipes e técnicos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "352.4 Definir indicadores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "352.5 Relatar atividades e atingimento de performance",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 4,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 4,
+         "mope_row_title": "Logística",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "flex": 1,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "431 Gestão de necessidades, materiais e peças",
+                     "process_description": "O objetivo deste processo é garantir que existem as peças e os materiais necessários para as várias operações da empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "431.1 Gerenciar cadastro de peças e materiais garantindo que estes cadastros estão corretamente identificados e não existem duplicações nem faltas para as necessidades dos P&S comercializados ou suportados pela empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "431.2 Gerenciar previsões de necessidades futuras de peças e materiais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "431.3 Gerenciar quantidades necessárias e suficientes de cada peça/material alinhando com a procura prevista",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "441 gestão, suporte e infra de materiais e peças",
+                     "process_description": "O objetivo deste processo é:",
+                     "process_activities": [
+                        {
+                           "activity_title": "441.1 Garantir que existe capacidade de gestão e toda a infraestrutura necessária para as atividades de armazenamento e fornecimento de peças e materiais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "451 armazenagem, separação, embalagem e expedição",
+                     "process_description": "O objetivo deste processo é criar e sistematizar o conjunto de atividades que permitam a otimização dos processos de separação, embalagem e expedição de materiais e peças. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "451.1 Referenciar e catalogar os locais ondes as peças e materiais estão armazenados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "451.2 Administrar os locais físicos de armazenamento de forma a garantir a sua operação e manutenção em perfeitas condições",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "451.3 Garantir que existe um processo rápido e eficaz para separação e embalagem das peças e materiais requisitados pelos vários processos “clientes”.",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "451.4 Garantir que o estoque está sempre atualizado corretamente. Através de uma operação eficaz e de inventários regulares",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "451.5 Garantir que existe um processo rápido e eficaz para a expedição dos materiais requisitados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 4,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 5,
+         "mope_row_title": "Fornecedores",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "process_title": "511 planejamento cadeia de fornecedores",
+                     "process_description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação da cadeia de fornecedores para suportar os novos produtos e serviços a serem oferecidos pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "511.1 Recolher e analisar as informações dos Fornecedores necessários",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "511.2 Estabelecer a estratégia e os objetivos associados à cadeia de fornecimento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "511.3 Preparar e realizar o planejamento de acordo com os Planos de negócio",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "521 Gestão de capacidade de fornecimento",
+                     "process_description": "Este processo tem como objetivo a avaliação e o gerenciamento de toda a cadeia de fornecimento da empresa. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "521.1 Determinar os requisitos dos fornecimentos e dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "521.2 Identificar potenciais fornecedores e parceiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "521.3 Negociar contratos com os fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "521.4 Gerenciar as licitações",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "521.5 Gerenciar o processo de decisão das licitações",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "531 Desenvolvimento de cadeia de fornecimento",
+                     "process_description": "O objetivo deste processo é suportar o desenvolvimento da cadeia de fornecimento e suportar as alterações que se revelarem necessárias. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "531.1 Gerenciar compromisso dos fornecedores/parceiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "531.2 Gerenciar mudanças necessárias nos contratos de fornecimento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "531.3 Gerenciar fim do fornecimento com fornecedores/parceiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "531.4 Realizar novos acordos e contratos com fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "531.5 Gerenciar fim contratual com fornecedores/parceiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "541 Gestão, suporte, infra de fornecedores",
+                     "process_description": "O objetivo deste processo é garantir que existem todas as condições para:",
+                     "process_activities": [
+                        {
+                           "activity_title": "541.1 Apoiar o gerenciamento de requisições fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.2 Apoiar o relacionamento com os Fornecedores (gestão de problemas/contratos, inventários, etc.)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "551 requisição de compras",
+                     "process_description": "O objetivo deste processo é o gerenciamento das requisições a fornecedores. Pelo menos as seguintes atividades são realizadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "541.1 Criar a requisição dos produtos e serviços necessários",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.2 Selecionar fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.3 Definir capacidade dos fornecedores para fornecer os produtos e/ou serviços necessários em determinado momento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.4 Rastrear e gerenciar a requisição",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.5 Receber e cadastrar as cotações dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "541.6 Selecionar os fornecedores vencedores por produto e/ou serviço",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "561 Reporte de problemas de fornecedores",
+                     "process_description": "O objetivo deste processo é reportar problemas aos fornecedores e acompanhar a sua resolução. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "561.1 Criar a incidência no sistema do fornecedor e registrar internamente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "561.2 Acompanhar e rastrear a resolução do problema",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "561.3 Fechar o problema",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "561.4 Gerar de forma regular relatórios de acompanhamento dos problemas colocados a fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "562 avaliação de fornecedores",
+                     "process_description": "O objetivo deste processo é criar e gerenciar um processo de avaliação da performance dos fornecedores. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "562.1 Criar pontos de controle internos para avaliar os fornecedores nas diversa interações com ele",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "562.2 Gerenciar as avaliações efetuadas e criar métricas que permitam comparar fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "562.3 Monitorar através de relatórios regulares o aumento ou diminuição da qualidade dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "571 Devolução e cancelamento de compras",
+                     "process_description": "O objetivo deste processo é o gerenciamento das devoluções a fornecedores. Pelo menos as seguintes atividades são realizadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "571.1 Criar a o documento de devolução dos  produtos e serviços a devolver",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "571.2 Rastrear e gerenciar a devolução até à sua completa resolução",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null,
+                           "activity_description_subitens": [
+                              {
+                                 "subitem_description": "Financeira por crédito ou devolução do dinheiro"
+                              },
+                              {
+                                 "subitem_description": "Por troca por outros produtos e serviços"
+                              }
+                           ]
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "flex": 2,
+                     "is_blank_space": true
+                  }
+               ]
+            },
+            {
+               "name": "row_item_2",
+               "processes": [
+                  {
+                     "flex": 7,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "572/581 Contratos e pagamentos a fornecedores",
+                     "process_description": "O objetivo deste processo é gerenciamento dos contratos que existem com fornecedores. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "572/581.1 Gerenciar contas e contratos dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "572/581.2 Receber e avaliar as faturas dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "572/581.3 Negociar e aprovar as faturas dos fornecedores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "572/581.4 Emitir ordem de pagamento",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "572/581.5 Gerenciar as notas fiscais de produtos ou serviços cancelados",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 3,
+                     "is_blank_space": false
+                  }
+               ]
+            },
+            {
+               "name": "row_item_3",
+               "processes": [
+                  {
+                     "flex": 4,
+                     "is_blank_space": true
+                  },
+                  {
+                     "process_title": "552 Gestão de relacionamento com fornecedores",
+                     "process_description": "O objetivo deste processo é gerenciar toda a relação que existe com os fornecedores e parceiros da empresa. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "552.1 Gerenciar pedidos aos fornecedores",
+                           "activity_resources": [],
+                           "activity_documentation_url": "",
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "552.2 Analisar e relatar todas as interações",
+                           "activity_resources": [],
+                           "activity_documentation_url": "",
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "552.3 Mediar e orquestrar as relações com os fornecedores",
+                           "activity_resources": [],
+                           "activity_documentation_url": "",
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "552.4 Manter cadastro atualizado dos fornecedores",
+                           "activity_resources": [],
+                           "activity_documentation_url": "",
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "552.5 Registrar interações com os fornecedores",
+                           "activity_resources": [],
+                           "activity_documentation_url": "",
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 6,
+                     "is_blank_space": false
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "mope_row_number": 6,
+         "mope_row_title": "Financeiro e administrativo",
+         "mope_row_itens": [
+            {
+               "name": "row_item_1",
+               "processes": [
+                  {
+                     "process_title": "61 Planejamento estratégico e empresarial",
+                     "process_description": "Este processo tem o objetivo de definir os objetivos estratégicos e operacionais da empresa. Pelo menos as seguintes atividades fazem parte:",
+                     "process_activities": [
+                        {
+                           "activity_title": "61.1 Elaborar de orçamento (anual e/ou plurinual) de custos e proveitos da empresa. Por departamento e a área de atividade",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "61.2 Controlar mensalmente rubricas orçamentárias e análise de desvios",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "61.3 Controlar operacionalmente aprovações da necessidade de recursos financeiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "61.4 Elaborar recomendações com o objetivo de diminuir eventuais desvios",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "62 Qualidade",
+                     "process_description": "Este processo tem o objetivo de controlar e medir todos os processos definidos dentro da empresa.  As seguintes atividades compõem este processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "62.1 Gerenciar qualidade dos Produtos e Serviços oferecidos comercialmente",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "62.2 Gerenciar e controlar a qualidade processos de negócio",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "62.3 Medir a qualidade de produtos, serviços e processos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "62.4 Manutenção e gerenciamento de dados e rotinas administrativas",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "63 Contabilidade Financeira",
+                     "process_description": "O objetivo deste processo é gerenciar a contabilidade da empresa e todas necessidades gerenciais e legais associadas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "63.1 Gerenciamento  dos  lançamentos contábeis",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.2 Auditoria, conferência e conciliação dos lançamentos contábeis",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.3 Apurar o custo da mercadoria ou dos serviços vendidos",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.4 Controlar ativo imobilizado, aquisições e depreciações",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.5 Gerar relatórios contábeis para entrega ao governo (Sped contábil, DOAR, Dacon, ECF, ECD, etc.)",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.6 Analisar resultados da empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.7 Fechamento e abertura do período contábil",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.8 Elaborar sugestões para corrigir eventuais desvios na performance da empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "63.9 Gestão de registros fazendários",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "64 Contabilidade Gerencial",
+                     "process_description": "O objetivo deste processo é gerenciar as atividades financeiras da empresa. Pelos menos as seguintes atividades são gerenciadas no processo financeiro:",
+                     "process_activities": [
+                        {
+                           "activity_title": "64.1 Gerenciar contas a pagar",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "64.2 Gerenciar contas a receber",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "64.3 Realizar conciliação de contas e controle bancário",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "64.4 Gerenciar fluxo de caixa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "64.5 Realizar análises gerenciais dos fluxos financeiros",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "65 Recursos Humanos",
+                     "process_description": "Este processo tem o objetivo de gerenciar os recursos humanos dentro de uma empresa. Pelo menos as seguintes atividades fazem parte do processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "65.1 Gerenciar a qualidade das atividades associadas ao trabalho de cada colaborador da empresa",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "65.2 Avaliar o desempenho dos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "65.3 Realizar recrutamento e seleção de funcionários",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "65.4 Gerenciar comunicação Interna",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "65.5 Gerenciar o desenvolvimento de colaboradores e garantir a sua satisfação",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "66 Departamento de Pessoal",
+                     "process_description": "Este processo tem o objetivo de gerenciar o departamento de pessoal. As seguintes atividades fazem parte do processo:",
+                     "process_activities": [
+                        {
+                           "activity_title": "66.1 Gerenciar segurança e preferências relativas às rotinas do departamento pessoal",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.2 Gerenciar dados mestre da empresa pagadora de salários e benefícios",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.3 Gerenciar dados mestre dos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.4 Gerenciar ponto",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.5 Gerenciar segurança e saúde do trabalho dos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.6 Gerenciar empréstimos aos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.7 Gerenciar benefícios dos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.8 Gerenciar pagamento aos colaboradores",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "66.9 Gerenciar pagamento e prestação de contas ao governo",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_title": "67 Gerência e Planejamento Fiscal",
+                     "process_description": "O objetivo deste processo é gerenciar e administrar os impostos, tributos e contribuições. Sua apuração, e pagamento ao estado. Pelo menos as seguintes atividades estão contempladas:",
+                     "process_activities": [
+                        {
+                           "activity_title": "67.1 Realizar lançamento de documentos fiscais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.2 Controlar estoque fiscal",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.3 Apurar ICMS e IPI",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.4 Apurar ISS",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.5 Apurar impostos federais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.6 Realizar planejamento fiscal",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.7 Realizar conferência fiscal",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.8 Gerenciar obrigações fiscais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_title": "67.9 Apurar impostos estaduais",
+                           "activity_documentation_url": "",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

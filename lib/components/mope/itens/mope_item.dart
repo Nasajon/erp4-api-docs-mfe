@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:site_documentacao_api/constants/colors.dart';
+import 'package:site_documentacao_api/models/mope_model.dart';
 
 class MopeItem extends StatelessWidget {
   const MopeItem(
@@ -7,12 +8,12 @@ class MopeItem extends StatelessWidget {
       required this.flex,
       required this.itemName,
       required this.onPressed,
-      required this.color});
+      required this.processItens});
 
   final int flex;
   final String itemName;
-  final Color color;
   final VoidCallback onPressed;
+  final Process processItens;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +22,7 @@ class MopeItem extends StatelessWidget {
       child: InkWell(
         onTap: onPressed,
         child: Card(
-          color: color,
+          color: setColor(returnDescriptionItem()),
           margin: const EdgeInsets.all(12),
           child: SizedBox(
             height: 80,
@@ -39,5 +40,23 @@ class MopeItem extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  setColor(int item) {
+    if (item == 0) {
+      return const Color.fromARGB(255, 245, 245, 245);
+    }
+    return Colors.white;
+  }
+
+  returnDescriptionItem() {
+    {
+      for (final descriptionItem in processItens.processActivities) {
+        if (descriptionItem.activityDocumentationUrl.isEmpty) {
+          return 0;
+        }
+        return 1;
+      }
+    }
   }
 }

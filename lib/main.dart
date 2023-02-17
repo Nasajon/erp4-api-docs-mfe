@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:site_documentacao_api/pages/mope_page.dart';
+import 'package:site_documentacao_api/themes/light_theme.dart';
 
 import 'package:site_documentacao_api/themes/theme_controller.dart';
 import 'package:webview_flutter/webview_flutter.dart';
@@ -14,18 +15,12 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 
-  final themeSwitch = ThemeController.instance;
-
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-        animation: themeSwitch,
-        builder: (context, child) {
-          return MaterialApp(
-            theme: themeSwitch.themeMode,
-            title: 'Documentação Apis',
-            home: MopePage(),
-          );
-        });
+    return MaterialApp(
+      theme: nsj_light_theme,
+      title: 'Documentação Apis',
+      home: const MopePage(),
+    );
   }
 }

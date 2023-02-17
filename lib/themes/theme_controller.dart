@@ -1,16 +1,18 @@
-import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/themes/dark_theme.dart';
-import 'package:site_documentacao_api/themes/light_theme.dart';
+//Feature futura
 
-class ThemeController extends ChangeNotifier {
-  static ThemeController instance = ThemeController();
-  ThemeData? _themeMode = nsj_light_theme;
-  ThemeData? get themeMode => _themeMode;
+// import 'package:flutter/material.dart';
+// import 'package:site_documentacao_api/themes/dark_theme.dart';
+// import 'package:site_documentacao_api/themes/light_theme.dart';
 
-  bool get isLightTheme => _themeMode == nsj_dark_theme;
+// class ThemeController extends ChangeNotifier {
+//   static ThemeController instance = ThemeController();
+//   ThemeData? _themeMode = nsj_light_theme;
+//   ThemeData? get themeMode => _themeMode;
 
-  switchTheme() {
-    _themeMode = themeMode == nsj_dark_theme ? nsj_light_theme : nsj_dark_theme;
-    notifyListeners();
-  }
-}
+//   bool get isLightTheme => _themeMode == nsj_dark_theme;
+
+//   switchTheme() {
+//     _themeMode = themeMode == nsj_dark_theme ? nsj_light_theme : nsj_dark_theme;
+//     notifyListeners();
+//   }
+// }

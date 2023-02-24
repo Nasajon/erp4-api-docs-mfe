@@ -13,6 +13,7 @@ class MopeProcessPage extends StatelessWidget {
   });
 
   final Process processItem;
+  final String baseUrl = 'https://storage.googleapis.com/api-docs-dev';
 
   @override
   Widget build(BuildContext context) {
@@ -54,9 +55,17 @@ class MopeProcessPage extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.only(bottom: 40.0),
-                  child: Text(
-                    processItem.processTitle,
-                    style: Theme.of(context).textTheme.headline2,
+                  child: Row(
+                    children: [
+                      Text(
+                        '${processItem.processCode} ',
+                        style: Theme.of(context).textTheme.headline2,
+                      ),
+                      Text(
+                        processItem.processTitle,
+                        style: Theme.of(context).textTheme.headline2,
+                      ),
+                    ],
                   ),
                 ),
                 Padding(
@@ -83,7 +92,7 @@ class MopeProcessPage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 40.0),
                   child: Text(
-                    'A seguir serão listadas as atividades referentes à este processo. Clique no título da atividade ou em um de seus recursos para acessar sua documentação',
+                    'A seguir serão listadas as atividades referentes à este processo. Clique em um de seus recursos para acessar sua documentação',
                     style: Theme.of(context).textTheme.bodyText1,
                   ),
                 ),
@@ -107,19 +116,13 @@ class MopeProcessPage extends StatelessWidget {
                                 Row(
                                   children: [
                                     Flexible(
-                                      child: InkWell(
-                                        onTap: () => goDocumentationPage(
-                                            context,
-                                            item.activityTitle,
-                                            item.activityDocumentationUrl),
-                                        child: Text(
-                                          item.activityTitle,
-                                          softWrap: true,
-                                          maxLines: 3,
-                                          style: Theme.of(context)
-                                              .textTheme
-                                              .headline4,
-                                        ),
+                                      child: Text(
+                                        '${processItem.processCode}.${item.activityCode} ${item.activityTitle}',
+                                        softWrap: true,
+                                        maxLines: 3,
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .headline4,
                                       ),
                                     ),
                                     setInfoButton(item, context)
@@ -141,14 +144,15 @@ class MopeProcessPage extends StatelessWidget {
     );
   }
 
-  void goDocumentationPage(context, String proccessName, String processUrl) {
-    if (processUrl.isNotEmpty) {
-      Navigator.push(
-          context,
-          MaterialPageRoute(
-              builder: ((context) => ApiDocumentationWebView(
-                  processName: proccessName, url: processUrl))));
-    }
+  void goDocumentationPage(context, Resource resource, Activity activity) {
+    final String resourceUrl = resource.resourceDocumentationUrl.isEmpty
+        ? '$baseUrl/${processItem.processCode}/${processItem.processCode}${activity.activityCode}/${resource.fileName}.html'
+        : resource.resourceDocumentationUrl;
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: ((context) => ApiDocumentationWebView(
+                title: resource.resourceTitle, url: resourceUrl))));
   }
 
   Widget setInfoButton(Activity activity, context) {
@@ -187,8 +191,7 @@ class MopeProcessPage extends StatelessWidget {
               final resource = activity.activityResources.elementAt(index);
               return InkWell(
                 onTap: () {
-                  goDocumentationPage(context, resource.resourceTitle,
-                      resource.resourceDocumentationUrl);
+                  goDocumentationPage(context, resource, activity);
                 },
                 child: Padding(
                   padding: const EdgeInsets.only(top: 4.0),

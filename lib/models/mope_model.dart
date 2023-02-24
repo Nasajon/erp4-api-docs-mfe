@@ -47,6 +47,7 @@ class MopeRowItens {
 
 class Process {
   Process({
+    required this.processCode,
     required this.processTitle,
     required this.processDescription,
     required this.processActivities,
@@ -54,6 +55,7 @@ class Process {
     required this.isBlankSpace,
     // required this.processItensActivities,
   });
+  late final String processCode;
   late final String processTitle;
   late final String processDescription;
   late final List<Activity> processActivities;
@@ -62,6 +64,7 @@ class Process {
   // late final List<ProcessItensActivities> processItensActivities;
 
   Process.fromJson(Map<String, dynamic> json) {
+    processCode = json["process_code"] ?? '';
     processTitle = json['process_title'] ?? '';
     processDescription = json['process_description'] ?? '';
     processActivities = List.from(json['process_activities'] ?? [])
@@ -78,21 +81,23 @@ class Process {
 
 class Activity {
   Activity({
+    required this.activityCode,
     required this.activityTitle,
-    required this.activityDocumentationUrl,
     required this.activityDescription,
     required this.activityDescriptionSubitens,
   });
+  late final String activityCode;
+  late final String activityTitle;
   late final String activityDescription;
   late final List<ActivityDescriptionSubitens> activityDescriptionSubitens;
-  late final String activityDocumentationUrl;
-  late final String activityTitle;
+
   late final List<Resource> activityResources;
 
   Activity.fromJson(Map<String, dynamic> json) {
+    activityCode = json['activity_code'] ?? '';
     activityTitle = json['activity_title'] ?? '';
     activityDescription = json['activity_description'] ?? '';
-    activityDocumentationUrl = json['activity_documentation_url'] ?? '';
+
     activityDescriptionSubitens =
         List.from(json['activity_description_subitens'] ?? [])
             .map((e) => ActivityDescriptionSubitens.fromJson(e))
@@ -107,14 +112,16 @@ class Resource {
   Resource({
     required this.resourceTitle,
     required this.resourceDocumentationUrl,
+    required this.fileName,
   });
 
   late final String resourceDocumentationUrl;
   late final String resourceTitle;
+  late final String fileName;
 
   Resource.fromJson(Map<String, dynamic> json) {
     resourceTitle = json['resource_title'] ?? '';
-
+    fileName = json['file_name'] ?? '';
     resourceDocumentationUrl = json['resource_documentation_url'] ?? '';
   }
 }

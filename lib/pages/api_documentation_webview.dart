@@ -1,15 +1,15 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:site_documentacao_api/constants/colors.dart';
+
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ApiDocumentationWebView extends StatefulWidget {
   const ApiDocumentationWebView(
-      {Key? key, required this.processName, required this.url})
+      {Key? key, required this.title, required this.url})
       : super(key: key);
 
-  final String processName;
+  final String title;
   final String url;
 
   @override
@@ -62,7 +62,7 @@ class ApiDocumentationWebViewState extends State<ApiDocumentationWebView> {
             Padding(
               padding: const EdgeInsets.only(bottom: 64.0),
               child: Text(
-                widget.processName,
+                widget.title,
                 style: Theme.of(context).textTheme.headline2,
               ),
             ),

@@ -102,7 +102,7 @@ class Mope extends StatelessWidget {
 
   Future<MopeModel> setMope() async {
     final String json =
-        await rootBundle.loadString('Json/mope_constructor.json');
+        await rootBundle.loadString('assets/Json/mope_constructor.json');
     final MopeModel mope = MopeModel.fromJson(jsonDecode(json));
     return mope;
   }

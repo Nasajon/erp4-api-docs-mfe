@@ -23,16 +23,33 @@ class MopeItem extends StatelessWidget {
         onTap: onPressed,
         child: Card(
           color: setColor(returnDescriptionItem()),
-          margin: const EdgeInsets.all(12),
+          margin: const EdgeInsets.all(8),
           child: SizedBox(
             height: 80,
             child: Padding(
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.all(6),
               child: Center(
-                child: Text(
-                  itemName,
-                  style:
-                      TextStyle(fontSize: 12.0, color: nsj_colors_text_primary),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      processItens.processCode,
+                      style: TextStyle(
+                          fontSize: 12.0,
+                          color: nsj_colors_primary,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    Flexible(
+                      child: Text(
+                        itemName,
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 12.0,
+                          color: nsj_colors_text_primary,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -52,7 +69,7 @@ class MopeItem extends StatelessWidget {
   returnDescriptionItem() {
     {
       for (final descriptionItem in processItens.processActivities) {
-        if (descriptionItem.activityDocumentationUrl.isEmpty) {
+        if (descriptionItem.activityResources.isEmpty) {
           return 0;
         }
         return 1;

@@ -41,7 +41,7 @@ Para contribuir com esta aplicação é necessário que a documentação de dete
 
 - <strong>``Primeiro passo``</strong>: Localizar o arquivo ``Json`` de contrução da MOPE nesta aplicação : Na raiz deste projeto podemos localizar um diretório chamado ``Json`` contido em ``assets`` e dentro dele um aquivo chamado ``mope_constructor.json``. Este arquivo é responsável pela construção da mope e de suas páginas de detalhes. Path completo abaixo:
 
-> assets/json/mope_constructor.json`
+> assets/json/mope_constructor.json
 
 - <strong>``Segundo passo``</strong>: Dentro do arquivo ``mope_constructor.json`` localizar o nome da atividade desejada. Recomenda-se o uso do ``CTRL+F`` para facilitar a procura.
 

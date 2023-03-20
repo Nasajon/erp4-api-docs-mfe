@@ -146,7 +146,7 @@ class MopeProcessPage extends StatelessWidget {
 
   void goDocumentationPage(context, Resource resource, Activity activity) {
     final String resourceUrl = resource.resourceDocumentationUrl.isEmpty
-        ? '$baseUrl/${processItem.processCode}/${processItem.processCode}${activity.activityCode}/${resource.fileName}.html'
+        ? '$baseUrl/build_docs/${processItem.processCode}/${processItem.processCode}${activity.activityCode}/${resource.fileName}.html'
         : resource.resourceDocumentationUrl;
     Navigator.push(
         context,

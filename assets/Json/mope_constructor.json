@@ -964,6 +964,11 @@
                                  "file_name": "clientes",
                                  "resource_title": "Cliente",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "empresas",
+                                 "resource_title": "Empresa",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": "Gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: ",

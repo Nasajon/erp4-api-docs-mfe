@@ -2110,13 +2110,25 @@
                         {
                            "activity_code": "1",
                            "activity_title": "Gerenciar contas a pagar",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "documento-entrada",
+                                 "resource_title": "Documento de Entrada",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar contas a receber",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "documento-saida",
+                                 "resource_title": "Documento de Saída",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

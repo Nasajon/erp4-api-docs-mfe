@@ -2,21 +2,21 @@ name: Flutter Build + s3
 
 on:
   push:
-    branches: [ "production" ]
+    branches: ["production"]
 
 jobs:
   deploy:
-    name: Flutter build 
+    name: Flutter build
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v3  
+      - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1
         with:
-          channel: 'stable'
-      - run: | 
+          channel: "stable"
+      - run: |
           echo "Iniciando build flutter"
-          flutter build web
+          flutter build web --web-renderer html
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1

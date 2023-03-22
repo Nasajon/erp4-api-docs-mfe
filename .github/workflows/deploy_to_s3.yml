@@ -16,7 +16,7 @@ jobs:
           channel: "stable"
       - run: |
           echo "Iniciando build flutter"
-          flutter build web --web-renderer html
+          flutter build web
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1

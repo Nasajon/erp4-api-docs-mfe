@@ -1,4 +1,4 @@
-# 📝 Site de documenntação de apis ``erp4-api-docs``
+# 📝 Site de documentação de apis ``erp4-api-docs``
 
 Este projeto tem como objetivo a centralização das documentações das mais variadas ``APIs`` que a Nasajon ofereçe e virá a oferecer como produto. Nele foi desenvolvido um índice interativo através da MOPE onde, ao clicar em um determinado processo o usuário é direcionado à sua pagina de detalhes, onde estarão listadas suas atividades e recursos assim como suas respesctivas documentações. Neste documento, será exposta uma breve introdução sobre as telas da aplicação e uma descrição de como contribuir com as documentações de ``APIs``.
 

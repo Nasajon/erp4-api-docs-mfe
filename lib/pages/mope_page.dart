@@ -1,9 +1,9 @@
+import 'package:core_module/core_module.dart';
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/components/builders/column_builder.dart';
-import 'package:site_documentacao_api/components/web_sections/nasajon_header.dart';
-import 'package:site_documentacao_api/components/mope/mope.dart';
-import 'package:site_documentacao_api/components/web_sections/nasajon_footer.dart';
-import 'package:site_documentacao_api/constants/texts.dart';
+
+import '../widgets/mope/mope.dart';
+import '../widgets/web_sections/footer_widget.dart';
+import '../widgets/web_sections/header_widget.dart';
 
 class MopePage extends StatelessWidget {
   const MopePage({
@@ -13,20 +13,20 @@ class MopePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List erpTextStyles = [
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText2,
-      Theme.of(context).textTheme.subtitle1
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyMedium,
+      Theme.of(context).textTheme.titleMedium
     ];
     final List mopeTextStyles = [
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText2,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.subtitle1
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.bodyMedium,
+      Theme.of(context).textTheme.bodyLarge,
+      Theme.of(context).textTheme.titleMedium
     ];
     return Scaffold(
       appBar: const Header(),
@@ -35,10 +35,11 @@ class MopePage extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.only(
-              right: 256,
-              left: 256,
+              right: 32,
+              left: 32,
             ),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
                   padding: const EdgeInsets.only(bottom: 64.0),
@@ -50,7 +51,7 @@ class MopePage extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 56.0, bottom: 96.0),
                         child: Text(
                           'Documentação de Apis',
-                          style: Theme.of(context).textTheme.headline1,
+                          style: Theme.of(context).textTheme.displayLarge,
                         ),
                       ),
                       Column(
@@ -60,7 +61,7 @@ class MopePage extends StatelessWidget {
                             padding: const EdgeInsets.only(bottom: 20.0),
                             child: Text(
                               '1. O sistema integrado de gestão empresarial ERP Nasajon',
-                              style: Theme.of(context).textTheme.headline3,
+                              style: Theme.of(context).textTheme.displaySmall,
                             ),
                           ),
                           ColumnBuilder(
@@ -91,7 +92,7 @@ class MopePage extends StatelessWidget {
                       padding: const EdgeInsets.only(bottom: 20.0),
                       child: Text(
                         '2. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
-                        style: Theme.of(context).textTheme.headline3,
+                        style: Theme.of(context).textTheme.displaySmall,
                       ),
                     ),
                     ColumnBuilder(
@@ -115,7 +116,7 @@ class MopePage extends StatelessWidget {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.fromLTRB(128, 64, 128, 64),
+            padding: EdgeInsets.fromLTRB(32, 64, 32, 64),
             child: Mope(),
           ),
           const Footer(),

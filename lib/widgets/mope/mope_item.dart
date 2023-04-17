@@ -1,0 +1,74 @@
+import 'package:core_module/core_module.dart';
+import 'package:flutter/material.dart';
+
+class MopeItem extends StatelessWidget {
+  const MopeItem({
+    super.key,
+    required this.flex,
+    required this.itemName,
+    required this.onPressed,
+    required this.process,
+  });
+
+  final int flex;
+  final String itemName;
+  final VoidCallback onPressed;
+  final Process process;
+
+  @override
+  Widget build(BuildContext context) {
+    final Brightness brightness = Theme.of(context).brightness;
+
+    return Expanded(
+      flex: flex,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(10),
+        onTap: onPressed,
+        child: Card(
+          color: setColor(brightness),
+          margin: const EdgeInsets.symmetric(horizontal: 6, vertical: 16),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 2.0,
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(process.code,
+                    style: Theme.of(context).textTheme.titleSmall),
+                Text(itemName,
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.bodySmall),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Color setColor(brightness) {
+    return brightness == Brightness.light
+        ? setColorLightMode()
+        : setColorDarkMode();
+  }
+
+  Color setColorLightMode() {
+    return activityHasResource()
+        ? Colors.white
+        : const Color.fromARGB(255, 245, 245, 245);
+  }
+
+  Color setColorDarkMode() {
+    return activityHasResource()
+        ? Color.fromARGB(255, 82, 82, 75)
+        : const Color.fromARGB(255, 54, 54, 50);
+  }
+
+  bool activityHasResource() {
+    for (final Activity activity in process.activities) {
+      return activity.activityResources.isEmpty ? false : true;
+    }
+    return false;
+  }
+}

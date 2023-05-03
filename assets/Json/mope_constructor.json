@@ -2125,7 +2125,13 @@
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar e controlar a qualidade processos de negócio",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pendencias",
+                                 "resource_title": "Decisões Pendentes",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

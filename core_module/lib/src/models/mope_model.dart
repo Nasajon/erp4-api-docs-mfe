@@ -64,6 +64,8 @@ class MopeRowItens {
 class Process {
   Process({
     required this.code,
+    required this.mopeColumn,
+    required this.segmentType,
     required this.title,
     required this.description,
     required this.activities,
@@ -72,6 +74,10 @@ class Process {
     // required this.processItensActivities,
   });
   late final String code;
+
+  late final String mopeColumn;
+  late final String segmentType;
+
   late final String title;
   late final String description;
   late final List<Activity> activities;
@@ -81,6 +87,9 @@ class Process {
 
   Process.fromJson(Map<String, dynamic> json) {
     code = json["process_code"] ?? '';
+
+    mopeColumn = json["process_mope_column"] ?? '';
+    segmentType = json["process_segment_type"] ?? '';
     title = json['process_title'] ?? '';
     description = json['process_description'] ?? '';
     activities = List.from(json['process_activities'] ?? [])
@@ -92,6 +101,8 @@ class Process {
   Map<String, dynamic> toJson() => {
         'process_code': code,
         'process_title': title,
+        'process_mope_column': mopeColumn,
+        'process_segment_type': segmentType,
         'process_description': description,
         'process_activities': activities.map((e) => e.toJson()).toList(),
         'flex': flex,

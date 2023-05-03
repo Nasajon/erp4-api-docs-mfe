@@ -12,23 +12,29 @@ class ReturnAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     final Brightness brightness = Theme.of(context).brightness;
+    final screenWith = MediaQuery.of(context).size.width;
     return AppBar(
       automaticallyImplyLeading: false,
 
       title: Container(
         color: const Color.fromARGB(50, 0, 0, 0),
-        margin: const EdgeInsets.only(left: 110),
-        padding: const EdgeInsets.only(left: 8),
-        width: 300,
+        margin: screenWith > 650
+            ? const EdgeInsets.only(left: 8.0)
+            : const EdgeInsets.only(left: 2.0),
+        padding: const EdgeInsets.only(left: 8.0),
+        width: 300.0,
         child: Row(
           children: [
             IconButton(
-              icon: const Icon(Icons.arrow_back),
+              icon: const Icon(
+                Icons.arrow_back,
+                color: Colors.white,
+              ),
               onPressed: backTo,
             ),
             const Text(
               'Voltar à página anterior',
-              style: TextStyle(color: Colors.white, fontSize: 14),
+              style: TextStyle(color: Colors.white, fontSize: 14.0),
             ),
           ],
         ),
@@ -45,5 +51,5 @@ class ReturnAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(40);
+  Size get preferredSize => const Size.fromHeight(40.0);
 }

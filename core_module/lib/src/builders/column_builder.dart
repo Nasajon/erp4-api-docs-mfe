@@ -1,4 +1,3 @@
-import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 
 class ColumnBuilder extends StatelessWidget {
@@ -15,7 +14,7 @@ class ColumnBuilder extends StatelessWidget {
     Key? key,
     required this.itemBuilder,
     this.mainAxisAlignment = MainAxisAlignment.start,
-    this.mainAxisSize = MainAxisSize.max,
+    this.mainAxisSize = MainAxisSize.min,
     this.crossAxisAlignment = CrossAxisAlignment.start,
     this.verticalDirection = VerticalDirection.down,
     required this.itemCount,
@@ -28,7 +27,9 @@ class ColumnBuilder extends StatelessWidget {
     final Brightness brightness = Theme.of(context).brightness;
     return Column(
       mainAxisSize: mainAxisSize,
+      mainAxisAlignment: mainAxisAlignment,
       crossAxisAlignment: crossAxisAlignment,
+      verticalDirection: verticalDirection,
       children: List.generate(itemCount, (index) {
         final item = itemBuilder(context, index);
         if (showDivider && index < itemCount - 1) {

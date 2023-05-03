@@ -1,7 +1,7 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_firs
 import 'package:core_module/core_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_global_dependencies/flutter_global_dependencies.dart';
+
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ActivityPage extends StatelessWidget {
@@ -16,37 +16,25 @@ class ActivityPage extends StatelessWidget {
 
   final String baseUrl =
       'https://storage.googleapis.com/api-docs-dev/build_docs/';
-
   @override
   Widget build(BuildContext context) {
     final Resource resource = setResource(MopeService.getMope(), resourceName);
     return Scaffold(
       appBar: ReturnAppBar(
-          backTo: () =>
-              Modular.to.pushNamed('/processes/${getProcessCodeFromUrl()}')),
+        backTo: () =>
+            Modular.to.pushNamed('/processes/${getProcessCodeFromUrl()}'),
+      ),
       body: Padding(
         padding: const EdgeInsets.only(
-          top: 64,
-          right: 128,
-          left: 128,
+          top: 32.0,
+          right: 32.0,
+          left: 32.0,
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(bottom: 64.0),
-              child: Text(
-                resource.resourceTitle,
-                style: Theme.of(context).textTheme.displayMedium,
-              ),
-            ),
-            Expanded(
-              child: WebView(
-                initialUrl:
-                    '$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',
-              ),
-            ),
-          ],
+        child: Expanded(
+          child: WebView(
+            initialUrl:
+                '$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',
+          ),
         ),
       ),
     );

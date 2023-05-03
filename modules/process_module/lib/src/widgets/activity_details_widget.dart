@@ -1,4 +1,5 @@
 import 'package:core_module/core_module.dart';
+import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 
 class ActivityDetailsDialog extends StatelessWidget {
@@ -21,73 +22,71 @@ class ActivityDetailsDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-        scrollable: true,
-        title: Text(
-          activity.activityDescription,
-          style: Theme.of(context).textTheme.headlineMedium,
-        ),
-        content: ColumnBuilder(
-          mainAxisSize: MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          itemBuilder: (context, index) {
-            final subitem =
-                activity.activityDescriptionSubitens.elementAt(index);
-            final subitemLetterIndex =
-                setSubitensIndexToLetter((index + 1), subitemIndexToLetterMap);
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 12.0),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('$subitemLetterIndex) '),
-                  SizedBox(
-                      width: 800,
-                      child: Column(
+      scrollable: true,
+      title: Text(
+        activity.activityDescription,
+        style: NsjText.titleExtraSmall(context),
+      ),
+      content: ColumnBuilder(
+        itemCount: activity.activityDescriptionSubitens.length,
+        itemBuilder: (context, index) {
+          final subitem = activity.activityDescriptionSubitens.elementAt(index);
+          final subitemLetterIndex =
+              setSubitensIndexToLetter((index + 1), subitemIndexToLetterMap);
+          return Column(
+            children: [
+              Padding(
+                padding: NsjPadding.bottomSmall(context),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '$subitemLetterIndex) ',
+                      style: NsjText.bodyLarge(context)!
+                          .copyWith(color: AnaColors.darkBlue),
+                    ),
+                    Flexible(
+                      child: Text(
+                        subitem.subitemDescription,
+                        style: NsjText.bodyLarge(context),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: NsjPadding.leftSmall(context),
+                child: ColumnBuilder(
+                  itemCount: subitem.subitemItens.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    final subitemItem = subitem.subitemItens.elementAt(index);
+                    return Padding(
+                      padding: NsjPadding.bottomSmall(context),
+                      child: Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 12.0),
-                            child: Text(subitem.subitemDescription,
-                                style: Theme.of(context).textTheme.bodyLarge),
+                          Text(
+                            "$subitemLetterIndex.${index + 1}) ",
+                            style: NsjText.bodyLarge(context)!
+                                .copyWith(color: AnaColors.darkBlue),
                           ),
-                          ColumnBuilder(
-                            itemBuilder: (BuildContext context, int index) {
-                              final subitemItem =
-                                  subitem.subitemItens.elementAt(index);
-                              return Row(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "$subitemLetterIndex.${index + 1}) ",
-                                    style:
-                                        Theme.of(context).textTheme.titleMedium,
-                                  ),
-                                  SizedBox(
-                                    width: 600,
-                                    child: Padding(
-                                      padding:
-                                          const EdgeInsets.only(bottom: 12.0),
-                                      child: Text(
-                                        subitemItem,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .bodyLarge,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              );
-                            },
-                            itemCount: subitem.subitemItens.length,
-                          )
+                          Flexible(
+                            child: Text(
+                              subitemItem,
+                              style: NsjText.bodyLarge(context),
+                            ),
+                          ),
                         ],
-                      )),
-                ],
+                      ),
+                    );
+                  },
+                ),
               ),
-            );
-          },
-          itemCount: activity.activityDescriptionSubitens.length,
-        ));
+            ],
+          );
+        },
+      ),
+    );
   }
 
   String setSubitensIndexToLetter(int index, Map map) {

@@ -1,7 +1,7 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:core_module/core_module.dart';
 import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
+
 import 'package:process_module/src/widgets/activity_details_widget.dart';
 
 class InfoWidget extends StatelessWidget {
@@ -19,20 +19,22 @@ class InfoWidget extends StatelessWidget {
       return const SizedBox();
     }
     return IconButton(
-        tooltip: "Detalhes da atividade",
-        color: setColor(brightness),
-        splashRadius: 15,
-        onPressed: () => showDialog(
-            context: context,
-            builder: (BuildContext context) {
-              return ActivityDetailsDialog(
-                activity: activity,
-              );
-            }),
-        icon: const Icon(
-          Icons.info_outlined,
-          size: 16,
-        ));
+      tooltip: "Detalhes da atividade",
+      color: setColor(brightness),
+      splashRadius: 5.0,
+      onPressed: () => showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return ActivityDetailsDialog(
+            activity: activity,
+          );
+        },
+      ),
+      icon: const Icon(
+        Icons.info_outlined,
+        size: 16.0,
+      ),
+    );
   }
 
   Color setColor(brightness) {

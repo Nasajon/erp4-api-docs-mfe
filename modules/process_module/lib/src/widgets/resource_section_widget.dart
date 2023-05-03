@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:core_module/core_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_global_dependencies/flutter_global_dependencies.dart';
@@ -24,25 +23,29 @@ class ResourcesSection extends StatelessWidget {
       children: [
         Text(
           'Recursos',
-          style: Theme.of(context).textTheme.headlineSmall,
+          style: NsjText.titleExtraSmall(context),
         ),
-        ColumnBuilder(
-          itemBuilder: ((context, index) {
-            final resource = activity.activityResources.elementAt(index);
-            return InkWell(
-              borderRadius: BorderRadius.circular(5),
-              onTap: () => Modular.to.pushNamed(
-                  '/processes/${process.code}/activities/${process.code}.${activity.activityCode}/resources/${resource.fileName}'),
-              child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 4.0, vertical: 4.0),
-                child: Text(
-                  '• ${resource.resourceTitle}',
+        Padding(
+          padding: NsjPadding.horizontalExtraSmall(context),
+          child: ColumnBuilder(
+            itemCount: activity.activityResources.length,
+            itemBuilder: ((context, index) {
+              final resource = activity.activityResources.elementAt(index);
+              return InkWell(
+                borderRadius: BorderRadius.circular(5),
+                onTap: () => Modular.to.pushNamed(
+                    '/processes/${process.code}/activities/${process.code}.${activity.activityCode}/resources/${resource.fileName}'),
+                child: Padding(
+                  padding: NsjPadding.extraSmall(context),
+                  child: Text(
+                    '•  ${resource.resourceTitle}',
+                    style: NsjText.bodyLarge(context)!
+                        .copyWith(fontWeight: FontWeight.bold),
+                  ),
                 ),
-              ),
-            );
-          }),
-          itemCount: activity.activityResources.length,
+              );
+            }),
+          ),
         )
       ],
     );

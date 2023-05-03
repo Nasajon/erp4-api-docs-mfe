@@ -12,64 +12,79 @@ class ProcessPageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      padding:
-          const EdgeInsets.only(top: 72, right: 128, left: 128, bottom: 128),
-      shrinkWrap: true,
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(bottom: 32.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(bottom: 40.0),
-                child: Row(
-                  children: [
-                    Text(
-                      '${process.code} ',
-                      style: Theme.of(context).textTheme.displayMedium,
-                    ),
-                    Text(
+    return Padding(
+      padding: NsjPadding.horizontalMedium(context),
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: NsjPadding.verticalLarge(context),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '${process.code} ',
+                    style: NsjText.titleLarge(context),
+                  ),
+                  Flexible(
+                    child: Text(
                       process.title,
-                      style: Theme.of(context).textTheme.displayMedium,
+                      style: NsjText.titleLarge(context),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12.0),
-                child: Text(
-                  'Objetivo',
-                  style: Theme.of(context).textTheme.displaySmall,
-                ),
+            ),
+            Padding(
+              padding: NsjPadding.bottomMedium(context),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: NsjPadding.verticalSmall(context),
+                    child: Text(
+                      'Objetivo',
+                      style: NsjText.titleMedium(context),
+                    ),
+                  ),
+                  Padding(
+                    padding: NsjPadding.verticalSmall(context),
+                    child: Text(process.description,
+                        style: NsjText.bodyLarge(context)),
+                  ),
+                ],
               ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 40.0),
-                child: Text(
-                  process.description,
-                  style: Theme.of(context).textTheme.bodyLarge,
-                ),
+            ),
+            Padding(
+              padding: NsjPadding.bottomMedium(context),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: NsjPadding.verticalSmall(context),
+                    child: Text(
+                      'Atividades',
+                      style: NsjText.titleMedium(context),
+                    ),
+                  ),
+                  Padding(
+                    padding: NsjPadding.verticalSmall(context),
+                    child: Text(
+                      'A seguir serão listadas as atividades referentes à este processo. Clique em um de seus recursos para acessar sua documentação',
+                      style: NsjText.bodyLarge(context),
+                    ),
+                  ),
+                ],
               ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12.0),
-                child: Text(
-                  'Atividades',
-                  style: Theme.of(context).textTheme.displaySmall,
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 40.0),
-                child: Text(
-                  'A seguir serão listadas as atividades referentes à este processo. Clique em um de seus recursos para acessar sua documentação',
-                  style: Theme.of(context).textTheme.bodyLarge,
-                ),
-              ),
-              ActivitySection(process: process)
-            ],
-          ),
+            ),
+            Padding(
+              padding: NsjPadding.verticalSmall(context),
+              child: ActivitySection(process: process),
+            )
+          ],
         ),
-      ],
+      ),
     );
   }
 }

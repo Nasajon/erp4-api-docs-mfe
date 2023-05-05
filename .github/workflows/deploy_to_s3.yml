@@ -13,7 +13,7 @@ jobs:
       - name: Configure user credentials
         run: |
           git config --global credential.helper store
-          echo https://${arquitetura-dev@nasajon.com.br}:${FVvmL94JWAgbtfR8}@github.com >> /root/.git-credentials
+          echo https://arquitetura-dev@nasajon.com.br:FVvmL94JWAgbtfR8@github.com >> /root/.git-credentials
     
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1

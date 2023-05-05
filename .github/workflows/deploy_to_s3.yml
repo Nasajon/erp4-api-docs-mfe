@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Configure user credentials
-      - run: |
+        run: |
           sh 'git config --global credential.helper store'
           sh "echo https://${arquitetura-dev@nasajon.com.br}:${FVvmL94JWAgbtfR8}@github.com >> /root/.git-credentials"
     

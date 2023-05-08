@@ -42,6 +42,13 @@ class NsjText {
         : Theme.of(context).textTheme.headlineLarge;
   }
 
+  static TextStyle? bodySmall(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+    return screenWidth > 650
+        ? Theme.of(context).textTheme.bodySmall
+        : Theme.of(context).textTheme.bodySmall;
+  }
+
   static TextStyle? bodyMedium(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return screenWidth > 650

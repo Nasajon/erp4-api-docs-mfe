@@ -54,62 +54,69 @@ class MopePage extends StatelessWidget {
 
     return Scaffold(
       appBar: const Header(),
-      body: ListView(
-        children: [
-          Padding(
-            padding: NsjPadding.horizontalMedium(context),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: NsjPadding.verticalLarge(context),
-                  child: Text('Documentação de Apis',
-                      style: NsjText.titleExtraLarge(context)),
-                ),
-                TextSection(
-                    title:
-                        '1. O sistema integrado de gestão empresarial ERP Nasajon',
-                    texts: erpDescription,
-                    textStyles: erpTextStyles),
-                TextSection(
-                  title: '2. Disposições Gerais',
-                  texts: generalDisposalsDescription,
-                  textStyles: generalDisposalsStyles,
-                  hasLink: true,
-                  wordsLink: 'desta sessão',
-                  onLinkPressed: () =>
-                      Modular.to.pushNamed('/general-disposals'),
-                ),
-                TextSection(
-                  title: '3. Autenticação',
-                  texts: autenticationDescription,
-                  textStyles: autenticationStyles,
-                  hasLink: true,
-                  wordsLink: 'Nesta sessão',
-                  onLinkPressed: () => Modular.to.pushNamed('/authentication'),
-                ),
-                TextSection(
-                    title:
-                        '4. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
-                    texts: mopeDescription,
-                    textStyles: mopeTextStyles),
-                Padding(
-                  padding: NsjPadding.verticalMedium(context),
-                  child: LayoutBuilder(
-                    builder: (context, constraints) {
-                      if (constraints.maxWidth < 1300) {
-                        return TreeListMope(controller: controller);
-                      }
-                      return const MatrixMope();
-                    },
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(
+              padding: NsjPadding.horizontalSmall(context),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: 1800.0),
+                child: Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: NsjPadding.verticalLarge(context),
+                        child: Text('Documentação de Apis',
+                            style: NsjText.titleExtraLarge(context)),
+                      ),
+                      TextSection(
+                          title:
+                              '1. O sistema integrado de gestão empresarial ERP Nasajon',
+                          texts: erpDescription,
+                          textStyles: erpTextStyles),
+                      TextSection(
+                        title: '2. Disposições Gerais',
+                        texts: generalDisposalsDescription,
+                        textStyles: generalDisposalsStyles,
+                        hasLink: true,
+                        wordsLink: 'desta sessão',
+                        onLinkPressed: () =>
+                            Modular.to.pushNamed('/general-disposals'),
+                      ),
+                      TextSection(
+                        title: '3. Autenticação',
+                        texts: autenticationDescription,
+                        textStyles: autenticationStyles,
+                        hasLink: true,
+                        wordsLink: 'Nesta sessão',
+                        onLinkPressed: () =>
+                            Modular.to.pushNamed('/authentication'),
+                      ),
+                      TextSection(
+                          title:
+                              '4. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
+                          texts: mopeDescription,
+                          textStyles: mopeTextStyles),
+                      Padding(
+                        padding: NsjPadding.verticalMedium(context),
+                        child: LayoutBuilder(
+                          builder: (context, constraints) {
+                            if (constraints.maxWidth <= 1370) {
+                              return TreeListMope(controller: controller);
+                            }
+                            return const MatrixMope();
+                          },
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-              ],
+              ),
             ),
-          ),
-          const Footer(),
-        ],
+            const Footer()
+          ],
+        ),
       ),
     );
   }

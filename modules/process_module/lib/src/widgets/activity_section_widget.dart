@@ -26,6 +26,7 @@ class ActivitySection extends StatelessWidget {
             Padding(
               padding: NsjPadding.bottomSmall(context),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Flexible(
                     child: Text(

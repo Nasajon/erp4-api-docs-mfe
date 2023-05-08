@@ -24,9 +24,10 @@ class Footer extends StatelessWidget {
                   Flexible(
                     child: Text(
                       '© 1982 – 2022 Nasajon | Av. Oscar Niemeyer, 2000 / 4º andar – Edifício Aqwa Corporate – Rio de Janeiro – RJ – CEP 20220-297',
-                      style: NsjText.bodyLarge(context)!.copyWith(
-                          color: AnaColors.darkBlue,
-                          fontWeight: FontWeight.bold),
+                      style: NsjText.bodyMedium(context)!.copyWith(
+                        color: AnaColors.darkBlue,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],
@@ -41,9 +42,10 @@ class Footer extends StatelessWidget {
                   Flexible(
                     child: Text(
                       '© 1982 – 2022 Nasajon | Av. Oscar Niemeyer, 2000 / 4º andar – Edifício Aqwa Corporate – Rio de Janeiro – RJ – CEP 20220-297',
-                      style: NsjText.bodyLarge(context)!.copyWith(
-                          color: AnaColors.darkBlue,
-                          fontWeight: FontWeight.bold),
+                      style: NsjText.bodyMedium(context)!.copyWith(
+                        color: AnaColors.darkBlue,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],

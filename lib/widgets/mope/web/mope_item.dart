@@ -1,4 +1,5 @@
 import 'package:core_module/core_module.dart';
+import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 
 class MopeItem extends StatelessWidget {
@@ -35,10 +36,12 @@ class MopeItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(process.code,
-                    style: Theme.of(context).textTheme.titleSmall),
+                    style: NsjText.bodySmall(context)!.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: AnaColors.darkBlue)),
                 Text(itemName,
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.bodySmall),
+                    style: NsjText.bodySmall(context)),
               ],
             ),
           ),

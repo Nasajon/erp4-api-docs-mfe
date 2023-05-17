@@ -13,7 +13,7 @@ jobs:
       - name: Configure user credentials
         run: |
           git config --global credential.helper store
-          echo https://thiagomarcondes@nasajon.com.br:${{ secrets.SSH_PVT_KEY }}@github.com >> ~/.git-credentials
+          echo "https://thiagomarcondes@nasajon.com.br:${{ secrets.SSH_PVT_KEY }}@github.com" >> ~/.git-credentials
     
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1

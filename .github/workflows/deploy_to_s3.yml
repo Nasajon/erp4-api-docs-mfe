@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Configure SSH Key
+      - name: Configure user credentials
         run: |
-          mkdir -p ~/.ssh/
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global credential.helper store
+          echo https://thiagomarcondes@nasajon.com.br:${{ secrets.SSH_PVT_KEY }}@github.com >> ~/.git-credentials
     
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1

@@ -305,7 +305,7 @@ packages:
     source: hosted
     version: "0.7.8"
   design_system:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "."
       ref: production
@@ -472,7 +472,7 @@ packages:
     source: git
     version: "0.0.1"
   flutter_global_dependencies:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "."
       ref: production
@@ -518,7 +518,7 @@ packages:
     source: hosted
     version: "2.0.9"
   flutter_svg:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_svg
       sha256: "6ff9fa12892ae074092de2fa6a9938fb21dbabfdaa2ff57dc697ff912fc8d4b2"

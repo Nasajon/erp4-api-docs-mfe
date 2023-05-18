@@ -29,20 +29,11 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter_svg: ^1.1.6
   webview_flutter: ^3.0.4
   webview_flutter_web: ^0.1.0+4
   google_fonts: ^3.0.1
   flutter:
     sdk: flutter
-  design_system:
-    git:
-      url: git@github.com:Nasajon/flutter_design_system.git
-      ref: production
-  flutter_global_dependencies:
-    git:
-      url: git@github.com:Nasajon/flutter_global_dependencies.git
-      ref: production
   core_module:
     path: core_module
   process_module:

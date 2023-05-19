@@ -1509,7 +1509,11 @@
                         {
                            "activity_code": "1",
                            "activity_title": "Gerenciar cadastro de peças e materiais garantindo que estes cadastros estão corretamente identificados e não existem duplicações nem faltas para as necessidades dos P&S comercializados ou suportados pela empresa",
-                           "activity_resources": [],
+                           "activity_resources": [{
+                              "file_name": "produtos",
+                              "resource_title": "Produto",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         },
                         {

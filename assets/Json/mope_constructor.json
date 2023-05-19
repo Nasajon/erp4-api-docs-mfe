@@ -1513,6 +1513,11 @@
                               "file_name": "produtos",
                               "resource_title": "Produto",
                               "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "unidades",
+                              "resource_title": "Unidade",
+                              "resource_documentation_url": ""
                            }],
                            "activity_description": null
                         },

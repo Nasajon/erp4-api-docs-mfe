@@ -23,6 +23,8 @@ jobs:
           channel: "stable"
       - run: |
           echo "Iniciando build flutter"
+          flutter clean
+          flutter pub get
           # flutter build web
           flutter build web --web-renderer html
 

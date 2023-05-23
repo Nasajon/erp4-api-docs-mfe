@@ -40,9 +40,7 @@ dependencies:
     path: modules/process_module
   activity_module:
     path: modules/activity_module
-  flutter_web_plugins:
-    sdk: flutter
-
+  
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

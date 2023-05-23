@@ -11,7 +11,7 @@ import 'package:webview_flutter_web/webview_flutter_web.dart';
 void main() async {
   WebView.platform = WebWebViewPlatform();
   WidgetsFlutterBinding.ensureInitialized();
-  usePathUrlStrategy();
+  // usePathUrlStrategy();
   await MopeService.saveMope();
   runApp(ModularApp(module: AppModule(), child: const AppWidget()));
 }

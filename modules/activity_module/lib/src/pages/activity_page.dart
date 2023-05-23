@@ -29,12 +29,18 @@ class ActivityPage extends StatelessWidget {
           top: 32.0,
           right: 32.0,
           left: 32.0,
+          bottom: 32.0,
         ),
-        child: Expanded(
-          child: WebView(
-            initialUrl:
-                '$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',
-          ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              child: WebView(
+                initialUrl:
+                    '$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',
+              ),
+            ),
+          ],
         ),
       ),
     );

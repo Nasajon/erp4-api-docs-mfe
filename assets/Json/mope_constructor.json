@@ -1022,6 +1022,11 @@
                                  "file_name": "pessoas_fisicas",
                                  "resource_title": "Pessoas Físicas",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "transportadoras",
+                                 "resource_title": "Transportadora",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": "Gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: ",
@@ -1599,6 +1604,11 @@
                            {
                               "file_name": "unidades",
                               "resource_title": "Unidade",
+                              "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "saldos",
+                              "resource_title": "Saldo",
                               "resource_documentation_url": ""
                            }],
                            "activity_description": null

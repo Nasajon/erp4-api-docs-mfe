@@ -1022,11 +1022,6 @@
                                  "file_name": "pessoas_fisicas",
                                  "resource_title": "Pessoas Físicas",
                                  "resource_documentation_url": ""
-                              },
-                              {
-                                 "file_name": "transportadoras",
-                                 "resource_title": "Transportadora",
-                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": "Gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: ",
@@ -1680,7 +1675,12 @@
                         {
                            "activity_code": "5",
                            "activity_title": "Garantir que existe um processo rápido e eficaz para a expedição dos materiais requisitados",
-                           "activity_resources": [],
+                           "activity_resources": [
+                           {
+                              "file_name": "transportadoras",
+                              "resource_title": "Transportadora",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         }
                      ],

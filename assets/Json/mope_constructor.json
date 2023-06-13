@@ -1611,7 +1611,11 @@
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar previsões de necessidades futuras de peças e materiais",
-                           "activity_resources": [],
+                           "activity_resources": [{
+                              "file_name": "pedidos",
+                              "resource_title": "Pedido",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         },
                         {

@@ -600,7 +600,13 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Emitir e Processar Pedido",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pedidos",
+                                 "resource_title": "Pedido",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

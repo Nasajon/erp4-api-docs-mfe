@@ -602,7 +602,7 @@
                            "activity_title": "Emitir e Processar Pedido",
                            "activity_resources": [
                               {
-                                 "file_name": "pedidos",
+                                 "file_name": "pedidos-erp",
                                  "resource_title": "Pedido ERP Desktop",
                                  "resource_documentation_url": ""
                               }

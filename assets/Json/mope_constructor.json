@@ -602,6 +602,21 @@
                            "activity_title": "Emitir e Processar Pedido",
                            "activity_resources": [
                               {
+                                 "file_name": "pedidos",
+                                 "resource_title": "Pedido",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "tipos-pedidos",
+                                 "resource_title": "Tipo de Pedido",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "entregas",
+                                 "resource_title": "Entrega",
+                                 "resource_documentation_url": ""
+                              },
+                              {
                                  "file_name": "pedidos-erp",
                                  "resource_title": "Pedido ERP Desktop",
                                  "resource_documentation_url": ""
@@ -780,7 +795,13 @@
                         {
                            "activity_code": "2",
                            "activity_title": "1.1 Emitir e enviar as faturas/notas fiscais ao cliente",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "operacoes",
+                                 "resource_title": "Operação",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

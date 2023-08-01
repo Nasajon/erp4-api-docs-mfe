@@ -834,7 +834,7 @@
                            "activity_description": null
                         }
                      ],
-                     "flex": 2,
+                     "flex": 1,
                      "is_blank_space": false
                   },
                   {
@@ -875,7 +875,7 @@
                            "activity_description": null
                         }
                      ],
-                     "flex": 2,
+                     "flex": 1,
                      "is_blank_space": false
                   },
                   {

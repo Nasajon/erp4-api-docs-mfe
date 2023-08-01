@@ -9,6 +9,8 @@
                "processes": [
                   {
                      "process_code": "111",
+                     "process_mope_column": "1",
+                     "process_segment_type": "EIP",
                      "process_title": "Estratégia e política de marketing",
                      "process_description": "Este processo tem como objetivo o desenvolvimento de uma visão estratégica para atuação no mercado e conjunto de atividades de marketing e políticas a serem levadas pela empresa. Pelo menos as seguintes atividades estão relacionadas:",
                      "process_activities": [
@@ -48,6 +50,8 @@
                   },
                   {
                      "process_code": "121",
+                     "process_mope_column": "2",
+                     "process_segment_type": "EIP",
                      "process_title": "Desenvolvimento de meios e recursos",
                      "process_description": "Com base na estratégia de mercado para a empresa, os processos de desenvolvimento de meios e recursos de Marketing , gerencia a criação ou alteração dos vários meios usados pelo  mercado (p.ex novos canais online, novos canais de vendas online) ou recursos relacionados com os clientes (ex. por exemplos portais onine de “selfervice”). As seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -75,6 +79,8 @@
                   },
                   {
                      "process_code": "131",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "Desenvolvimento de vendas",
                      "process_description": "O processo de Desenvolvimento de vendas envolve as seguintes atividades:",
                      "process_activities": [
@@ -108,6 +114,8 @@
                   },
                   {
                      "process_code": "141",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Suporte de vendas",
                      "process_description": "Este processo garante que existe capacidade para permitir que os processos de vendas, entregas e faturamento possam operar com eficácia:",
                      "process_activities": [
@@ -153,6 +161,8 @@
                   },
                   {
                      "process_code": "151",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Vendas",
                      "process_description": "Este processo é responsável por procurar potenciais clientes (“prospects”), qualificar esse clientes, e atender às suas expectativas. As atividades principais deste processo são:",
                      "process_activities": [
@@ -214,6 +224,8 @@
                   },
                   {
                      "process_code": "161",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Análise e monitoramento de mercado",
                      "process_description": "Processo responsável por:",
                      "process_activities": [
@@ -229,6 +241,8 @@
                   },
                   {
                      "process_code": "171",
+                     "process_mope_column": "7",
+                     "process_segment_type": "OP",
                      "process_title": "Devolução de P&S",
                      "process_description": "Processo responsável pelas seguintes atividades:",
                      "process_activities": [
@@ -259,6 +273,8 @@
                "processes": [
                   {
                      "process_code": "112",
+                     "process_mope_column": "1",
+                     "process_segment_type": "EIP",
                      "process_title": "Planejamento e estratégia de vendas",
                      "process_description": "Estratégia de Vendas e Planejamento envolve as seguintes atividades:",
                      "process_activities": [
@@ -302,6 +318,8 @@
                   },
                   {
                      "process_code": "132",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "Comunicação e promoção de produtos",
                      "process_description": "Este processo gerencia a comunicação da empresa com o mercado e com os seus clientes, envolvendo não só as mensagens e o seu conteúdo mas também os meios (“media”) usados. As seguintes atividades fazem parte do processo:",
                      "process_activities": [
@@ -329,6 +347,8 @@
                   },
                   {
                      "process_code": "142",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão dos canais de vendas",
                      "process_description": "Os canais de venda gerenciados por este processo incluem: lojas de varejo próprias, lojas de varejo de terceiros com produtos da empresa, lojas na internet, mercados B2B ou relacionamentos diretos com outros parceiros, distribuidores, gestores de conta, equipes de relacionamento  e os times próprios de venda direta. As atividades deste processo incluem:",
                      "process_activities": [
@@ -356,6 +376,8 @@
                   },
                   {
                      "process_code": "152",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Atendimento marketing15",
                      "process_description": "Este processo é responsável pela seguintes atividades:",
                      "process_activities": [
@@ -377,6 +399,8 @@
                   },
                   {
                      "process_code": "162",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Análise e monitoramento de vendas",
                      "process_description": "Processo responsável por:",
                      "process_activities": [
@@ -416,6 +440,8 @@
                "processes": [
                   {
                      "process_code": "113",
+                     "process_mope_column": "1",
+                     "process_segment_type": "EIP",
                      "process_title": "Previsão de vendas",
                      "process_description": "A previsão de vendas envolve a coleta de informações históricas, análise das tendências de vendas e padrões de forma a gerar a previsão de vendas e planejamento de promoções e eventos. As seguintes atividades fazem parte:",
                      "process_activities": [
@@ -461,6 +487,8 @@
                   },
                   {
                      "process_code": "153",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Contatos, leads e gestão prospects",
                      "process_description": "Processo responsável pela seguinte atividade:",
                      "process_activities": [
@@ -511,6 +539,8 @@
                   },
                   {
                      "process_code": "241",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Suporte, infra, atendimento ao cliente",
                      "process_description": "Este processo assegura que a infraestrutura  para atendimento, suporte, faturamento e gerenciamento dos processos relacionados com os clientes existe e está operando com eficácia. As atividades deste processo são:",
                      "process_activities": [
@@ -550,6 +580,8 @@
                   },
                   {
                      "process_code": "251",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Encomendas e pedidos",
                      "process_description": "Este processo é responsável por emitir e processar as encomendas e os pedidos dos clientes. As seguintes atividades estão relacionadas:",
                      "process_activities": [
@@ -568,7 +600,28 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Emitir e Processar Pedido",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pedidos",
+                                 "resource_title": "Pedido",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "tipos-pedidos",
+                                 "resource_title": "Tipo de Pedido",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "entregas",
+                                 "resource_title": "Entrega",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "pedidos-erp",
+                                 "resource_title": "Pedido ERP Desktop",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
@@ -644,6 +697,8 @@
                   },
                   {
                      "process_code": "261",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão de problemas",
                      "process_description": "Este processo é responsável por receber e resolver tão satisfatoriamente quanto possível as reclamações de problemas reportados pelos clientes em relação a produtos e serviços vendidos pela empresa. As seguintes atividades podem ser realizadas:",
                      "process_activities": [
@@ -691,6 +746,8 @@
                   },
                   {
                      "process_code": "262",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão de Qos/Sla",
                      "process_description": "Este processo é responsável por gerenciar e avaliar a qualidade do serviço dos produtos e serviços que a empresa vende aos seus cliente. O principal objetivo é garantir que os P&S estão operando de acordo com a qualidade e os requisitos definidos contratualmente com cada cliente. Que eventuais reparações devem ser feitas dentro do tempo contratado assim como a reposição de determinado serviço que está parado ou operando com deficiência será reposto também no tempo contratado (SLA). Pelo menos as seguintes atividades podem ser feitas neste processo:",
                      "process_activities": [
@@ -729,12 +786,66 @@
                      "is_blank_space": false
                   },
                   {
-                     "process_code": "271/281",
+                     "process_code": "271",
+                     "process_mope_column": "7",
+                     "process_segment_type": "OP",
                      "process_title": "Faturamento e devoluções de P&S",
                      "process_description": "Este processo é responsável por gerenciar todo o processo de emissão de faturas e cobranças. Garante que as faturas e notas fiscais são corretamente emitidas e os impostos e descontos calculados corretamente. Este processo é responsável por:",
                      "process_activities": [
                         {
+                           "activity_code": "1",
+                           "activity_title": "1.1 Emitir e enviar as faturas/notas fiscais ao cliente",
+                           "activity_resources": [
+                              {
+                                 "file_name": "operacoes",
+                                 "resource_title": "Operação",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "servicos",
+                                 "resource_title": "Serviço",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
+                           "activity_description": null
+                        },
+                        {
                            "activity_code": "2",
+                           "activity_title": "1.2 Emitir estornos em caso de devoluções e cancelamentos",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "3",
+                           "activity_title": "1.3 Guardar em forma eletrônica as faturas/notas fiscais",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "4",
+                           "activity_title": "1.4 Manter os diferentes perfis tributários relacionados aos clientes",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "5",
+                           "activity_title": "1.5 Manter notas fiscais de produtos ou serviços cancelados",
+                           "activity_resources": [],
+                           "activity_description": null
+                        }
+                     ],
+                     "flex": 1,
+                     "is_blank_space": false
+                  },
+                  {
+                     "process_code": "281",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
+                     "process_title": "Faturamento e devoluções de P&S",
+                     "process_description": "Este processo é responsável por gerenciar todo o processo de emissão de faturas e cobranças. Garante que as faturas e notas fiscais são corretamente emitidas e os impostos e descontos calculados corretamente. Este processo é responsável por:",
+                     "process_activities": [
+                        {
+                           "activity_code": "1",
                            "activity_title": "1.1 Emitir e enviar as faturas/notas fiscais ao cliente",
                            "activity_resources": [],
                            "activity_description": null
@@ -746,29 +857,31 @@
                            "activity_description": null
                         },
                         {
-                           "activity_code": "2",
+                           "activity_code": "3",
                            "activity_title": "1.3 Guardar em forma eletrônica as faturas/notas fiscais",
                            "activity_resources": [],
                            "activity_description": null
                         },
                         {
-                           "activity_code": "2",
+                           "activity_code": "4",
                            "activity_title": "1.4 Manter os diferentes perfis tributários relacionados aos clientes",
                            "activity_resources": [],
                            "activity_description": null
                         },
                         {
-                           "activity_code": "2",
+                           "activity_code": "5",
                            "activity_title": "1.5 Manter notas fiscais de produtos ou serviços cancelados",
                            "activity_resources": [],
                            "activity_description": null
                         }
                      ],
-                     "flex": 2,
+                     "flex": 1,
                      "is_blank_space": false
                   },
                   {
                      "process_code": "284",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
                      "process_title": "Recebimentos e cobranças",
                      "process_description": "Este processo é responsável por gerenciar os vários tipos de recebimentos de pagamentos dos clientes. Fazem parte deste processo as seguintes atividades:",
                      "process_activities": [
@@ -817,6 +930,8 @@
                   },
                   {
                      "process_code": "252",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão de relacionamento com cliente",
                      "process_description": "Este processo é responsável por gerenciar todas as interações entre o cliente e a empresa. Estas interações podem ser iniciadas pelo cliente (ex. em resultado de um questionamento ou de uma queixa) ou pela empresa (ex. para envio de boletos ou outras notificações). Todas estas interações devem ser guardadas em “log”  para consulta a qualquer momento. Estas interações pode ser curtas (caso de um questionamento respondido na hora) ou longas (caso de um pedido complexo que envolve uma atuação longa das equipes da retaguarda). Quando estas são longas, o cliente deve ser informado de tempos em tempos do andamento do seu pedido e/ou necessidade.  O registo histórico destas interações devem ser passíveis de ser usadas pelos sistema de BI para analisar os indicadores de satisfação e os perfis dos clientes. Estas interações podem também ser executadas através de vários canais (telefonemas, portal web e outros dispositivos). As seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -896,6 +1011,8 @@
                   },
                   {
                      "process_code": "282",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
                      "process_title": "Questionamento de faturas",
                      "process_description": "Este processo é responsável por:",
                      "process_activities": [
@@ -917,6 +1034,8 @@
                   },
                   {
                      "process_code": "285",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
                      "process_title": "Eventos de faturamento",
                      "process_description": "Este processo é responsável por:",
                      "process_activities": [
@@ -953,6 +1072,8 @@
                   },
                   {
                      "process_code": "253",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão dos clientes",
                      "process_description": "O objetivo deste processo é gerir a relação entre o cliente e a empresa. Este processo pode ser desencadeado nos primeiros estágios do ciclo de vida do cliente (p.ex, para ligações em que se percebeu que pode ser um cliente potencial) até o término do relacionamento entre a empresa e o cliente. Este processo garante que cada cliente recebe uma identidade única e que as identidades dos clientes não são duplicadas na empresa; Avaliar o valor do cliente, o risco do cliente (risco de crédito, risco de fraude, risco de influência e risco de Rotatividade ) e valida a satisfação do cliente. Os dados do cliente também são gerenciados neste processo.  As seguintes atividades e subprocessos estão relacionadas:",
                      "process_activities": [
@@ -961,8 +1082,18 @@
                            "activity_title": "Garantir a retenção e fidelidade de clientes",
                            "activity_resources": [
                               {
-                                 "file_name": "clientes",
+                                 "file_name": "cliente",
                                  "resource_title": "Cliente",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "pessoas_juridicas",
+                                 "resource_title": "Pessoas Jurídicas",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "pessoas_fisicas",
+                                 "resource_title": "Pessoas Físicas",
                                  "resource_documentation_url": ""
                               }
                            ],
@@ -1047,6 +1178,8 @@
                   },
                   {
                      "process_code": "283",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
                      "process_title": "Cálculo de tarifas e preços",
                      "process_description": "Este processo é responsável por designar um valor (preço) a um Produto ou Serviço (ou a um conjunto dos dois um Pacote). As atividades deste processo são:",
                      "process_activities": [
@@ -1068,6 +1201,8 @@
                   },
                   {
                      "process_code": "286",
+                     "process_mope_column": "8",
+                     "process_segment_type": "OP",
                      "process_title": "Crédito de clientes",
                      "process_description": "Este é o processo que gerencia e aplica as políticas de crédito associadas aos clientes. As seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1116,6 +1251,8 @@
                   },
                   {
                      "process_code": "254",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão das informações dos clientes",
                      "process_description": "O objetivo deste processo é registrar e manter informações de clientes atualizadas em todos os sistemas usados pela empresa:",
                      "process_activities": [
@@ -1170,6 +1307,8 @@
                "processes": [
                   {
                      "process_code": "311",
+                     "process_mope_column": "1",
+                     "process_segment_type": "EIP",
                      "process_title": "Planejamento do portifólio de P&S",
                      "process_description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação de novos produtos e serviços a serem oferecidos e pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1203,6 +1342,8 @@
                   },
                   {
                      "process_code": "321",
+                     "process_mope_column": "2",
+                     "process_segment_type": "EIP",
                      "process_title": "Gestão da capacidade de entrega",
                      "process_description": "Processo responsável por:",
                      "process_activities": [
@@ -1218,6 +1359,8 @@
                   },
                   {
                      "process_code": "331",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "Desenvolvimento de P&D",
                      "process_description": "Processo responsável dentro da empresa por garantir a criação e o desenvolvimento dos Produtos e/ou Serviços que a empresa comercializa. Pelo menos as seguintes atividades devem fazer parte deste processo:",
                      "process_activities": [
@@ -1251,6 +1394,8 @@
                   },
                   {
                      "process_code": "341",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão, suporte, infra de P&S",
                      "process_description": "Processo que garante a existência e o suporte da infraestrutura necessária às operações da empresa. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1278,6 +1423,8 @@
                   },
                   {
                      "process_code": "351",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Configuração, ativação de P&S",
                      "process_description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam entregar os Produtos e Serviços que foram comprados, em funcionamento conforme expectativas do cliente. Pelo menos as seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1323,6 +1470,8 @@
                   },
                   {
                      "process_code": "361",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Manutenção de P&S ativados (ativos de serviço)",
                      "process_description": "O objetivo deste processo é efetuar todas as tarefas e atividades que permitam fazer a manutenção dos Produtos e Serviços já implantados e rodando (pelo proc. 3.5.1), assim como o gerenciamento de todo o parque de instâncias de P&S onde a empresa presta serviços. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1371,6 +1520,8 @@
                   },
                   {
                      "process_code": "332",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "PCP",
                      "process_description": "Este é o processo que gerencia toda a produção da empresa. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1441,6 +1592,8 @@
                   },
                   {
                      "process_code": "352",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão dos técnicos em campo",
                      "process_description": "O objetivo deste processo é gerenciar e controlar as atividades dos técnicos em campos nos processos de Vendas de Produtos e Serviços e também nos processos associados ao Suporte e Garantia. Pelos menos as seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1503,6 +1656,8 @@
                   },
                   {
                      "process_code": "431",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "Gestão de necessidades, materiais e peças",
                      "process_description": "O objetivo deste processo é garantir que existem as peças e os materiais necessários para as várias operações da empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1517,6 +1672,11 @@
                            {
                               "file_name": "unidades",
                               "resource_title": "Unidade",
+                              "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "saldos",
+                              "resource_title": "Saldo",
                               "resource_documentation_url": ""
                            }],
                            "activity_description": null
@@ -1545,6 +1705,8 @@
                   },
                   {
                      "process_code": "441",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão, suporte e infra de materiais e peças",
                      "process_description": "O objetivo deste processo é:",
                      "process_activities": [
@@ -1560,6 +1722,8 @@
                   },
                   {
                      "process_code": "451",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Armazenagem, separação, embalagem e expedição",
                      "process_description": "O objetivo deste processo é criar e sistematizar o conjunto de atividades que permitam a otimização dos processos de separação, embalagem e expedição de materiais e peças. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1590,7 +1754,12 @@
                         {
                            "activity_code": "5",
                            "activity_title": "Garantir que existe um processo rápido e eficaz para a expedição dos materiais requisitados",
-                           "activity_resources": [],
+                           "activity_resources": [
+                           {
+                              "file_name": "transportadoras",
+                              "resource_title": "Transportadora",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         }
                      ],
@@ -1614,6 +1783,8 @@
                "processes": [
                   {
                      "process_code": "511",
+                     "process_mope_column": "1",
+                     "process_segment_type": "EIP",
                      "process_title": "Planejamento cadeia de fornecedores",
                      "process_description": "Este processo é responsável pelo desenvolvimento de estratégias para a criação da cadeia de fornecedores para suportar os novos produtos e serviços a serem oferecidos pela empresa. Pelo menos as seguintes atividades fazem parte deste processo:",
                      "process_activities": [
@@ -1641,6 +1812,8 @@
                   },
                   {
                      "process_code": "521",
+                     "process_mope_column": "2",
+                     "process_segment_type": "EIP",
                      "process_title": "Gestão de capacidade de fornecimento",
                      "process_description": "Este processo tem como objetivo a avaliação e o gerenciamento de toda a cadeia de fornecimento da empresa. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1680,6 +1853,8 @@
                   },
                   {
                      "process_code": "531",
+                     "process_mope_column": "3",
+                     "process_segment_type": "EIP",
                      "process_title": "Desenvolvimento de cadeia de fornecimento",
                      "process_description": "O objetivo deste processo é suportar o desenvolvimento da cadeia de fornecimento e suportar as alterações que se revelarem necessárias. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1719,6 +1894,8 @@
                   },
                   {
                      "process_code": "541",
+                     "process_mope_column": "4",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão, suporte, infra de fornecedores",
                      "process_description": "O objetivo deste processo é garantir que existem todas as condições para:",
                      "process_activities": [
@@ -1740,6 +1917,8 @@
                   },
                   {
                      "process_code": "551",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Requisição de compras",
                      "process_description": "O objetivo deste processo é o gerenciamento das requisições a fornecedores. Pelo menos as seguintes atividades são realizadas:",
                      "process_activities": [
@@ -1785,6 +1964,8 @@
                   },
                   {
                      "process_code": "561",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Reporte de problemas de fornecedores",
                      "process_description": "O objetivo deste processo é reportar problemas aos fornecedores e acompanhar a sua resolução. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1818,6 +1999,8 @@
                   },
                   {
                      "process_code": "562",
+                     "process_mope_column": "6",
+                     "process_segment_type": "OP",
                      "process_title": "Avaliação de fornecedores",
                      "process_description": "O objetivo deste processo é criar e gerenciar um processo de avaliação da performance dos fornecedores. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1845,6 +2028,8 @@
                   },
                   {
                      "process_code": "571",
+                     "process_mope_column": "7",
+                     "process_segment_type": "OP",
                      "process_title": "Devolução e cancelamento de compras",
                      "process_description": "O objetivo deste processo é o gerenciamento das devoluções a fornecedores. Pelo menos as seguintes atividades são realizadas:",
                      "process_activities": [
@@ -1887,6 +2072,8 @@
                   },
                   {
                      "process_code": "572/581",
+                     "process_mope_column": "7",
+                     "process_segment_type": "OP",
                      "process_title": "Contratos e pagamentos a fornecedores",
                      "process_description": "O objetivo deste processo é gerenciamento dos contratos que existem com fornecedores. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1935,6 +2122,8 @@
                   },
                   {
                      "process_code": "552",
+                     "process_mope_column": "5",
+                     "process_segment_type": "OP",
                      "process_title": "Gestão de relacionamento com fornecedores",
                      "process_description": "O objetivo deste processo é gerenciar toda a relação que existe com os fornecedores e parceiros da empresa. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -1985,6 +2174,8 @@
                "processes": [
                   {
                      "process_code": "61",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Planejamento estratégico e empresarial",
                      "process_description": "Este processo tem o objetivo de definir os objetivos estratégicos e operacionais da empresa. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
@@ -2018,6 +2209,8 @@
                   },
                   {
                      "process_code": "62",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Qualidade",
                      "process_description": "Este processo tem o objetivo de controlar e medir todos os processos definidos dentro da empresa.  As seguintes atividades compõem este processo:",
                      "process_activities": [
@@ -2030,7 +2223,13 @@
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar e controlar a qualidade processos de negócio",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pendencias",
+                                 "resource_title": "Decisões Pendentes",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
@@ -2051,6 +2250,8 @@
                   },
                   {
                      "process_code": "63",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Contabilidade Financeira",
                      "process_description": "O objetivo deste processo é gerenciar a contabilidade da empresa e todas necessidades gerenciais e legais associadas:",
                      "process_activities": [
@@ -2114,19 +2315,33 @@
                   },
                   {
                      "process_code": "64",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Contabilidade Gerencial",
                      "process_description": "O objetivo deste processo é gerenciar as atividades financeiras da empresa. Pelos menos as seguintes atividades são gerenciadas no processo financeiro:",
                      "process_activities": [
                         {
                            "activity_code": "1",
                            "activity_title": "Gerenciar contas a pagar",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "documento-entrada",
+                                 "resource_title": "Documento de Entrada",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar contas a receber",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "documento-saida",
+                                 "resource_title": "Documento de Saída",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
@@ -2153,6 +2368,8 @@
                   },
                   {
                      "process_code": "65",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Recursos Humanos",
                      "process_description": "Este processo tem o objetivo de gerenciar os recursos humanos dentro de uma empresa. Pelo menos as seguintes atividades fazem parte do processo:",
                      "process_activities": [
@@ -2192,6 +2409,8 @@
                   },
                   {
                      "process_code": "66",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Departamento de Pessoal",
                      "process_description": "Este processo tem o objetivo de gerenciar o departamento de pessoal. As seguintes atividades fazem parte do processo:",
                      "process_activities": [
@@ -2255,6 +2474,8 @@
                   },
                   {
                      "process_code": "67",
+                     "process_mope_column": "none",
+                     "process_segment_type": "GFA",
                      "process_title": "Gerência e Planejamento Fiscal",
                      "process_description": "O objetivo deste processo é gerenciar e administrar os impostos, tributos e contribuições. Sua apuração, e pagamento ao estado. Pelo menos as seguintes atividades estão contempladas:",
                      "process_activities": [

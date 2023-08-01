@@ -2,29 +2,36 @@ name: Flutter Build + s3
 
 on:
   push:
-    branches: [ "production" ]
+    branches: ["production"]
 
 jobs:
   deploy:
-    name: Flutter build 
+    name: Flutter build
     runs-on: ubuntu-latest
-    
-    steps:
-    - name: Flutter build
-    - uses: actions/checkout@v3  
-    - uses: subosito/flutter-action@v1
-      with:
-        channel: 'stable'
-    - run: | 
-        echo "Iniciando build flutter"
-        flutter build web
-      
-    - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: sa-east-1
 
-    - name: Deploy static site to S3 bucket
-      run: aws s3 sync build/web/ s3://arquitetura-api-docs
+    steps:
+      - name: Configure SSH Key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+    
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: "3.7.9"
+          channel: "stable"
+      - run: |
+          echo "Iniciando build flutter"
+          flutter build web --web-renderer html
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: sa-east-1
+
+      - name: Deploy static site to S3 bucket
+        run: aws s3 sync build/web/ s3://arquitetura-api-docs

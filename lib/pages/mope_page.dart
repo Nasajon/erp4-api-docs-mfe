@@ -1,125 +1,122 @@
+import 'package:core_module/core_module.dart';
+import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
-import 'package:site_documentacao_api/components/builders/column_builder.dart';
-import 'package:site_documentacao_api/components/web_sections/nasajon_header.dart';
-import 'package:site_documentacao_api/components/mope/mope.dart';
-import 'package:site_documentacao_api/components/web_sections/nasajon_footer.dart';
-import 'package:site_documentacao_api/constants/texts.dart';
+
+import 'package:flutter_global_dependencies/flutter_global_dependencies.dart';
+import 'package:site_documentacao_api/pages/texts.dart';
+import 'package:site_documentacao_api/widgets/mope/mobile/tree_list_mope_controller.dart';
+
+import 'package:site_documentacao_api/widgets/mope/mobile/tree_list_mope.dart';
+import 'package:site_documentacao_api/widgets/mope/web/text_section.dart';
+import '../widgets/mope/web/matrix_mope.dart';
+
+import '../widgets/web_sections/footer_widget.dart';
+import '../widgets/web_sections/header_widget.dart';
 
 class MopePage extends StatelessWidget {
   const MopePage({
     super.key,
+    required this.controller,
   });
+
+  final TreeListMopeController controller;
 
   @override
   Widget build(BuildContext context) {
-    final List erpTextStyles = [
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText2,
-      Theme.of(context).textTheme.subtitle1
+    final List<TextStyle?> erpTextStyles = [
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context)!.copyWith(fontWeight: FontWeight.bold),
     ];
-    final List mopeTextStyles = [
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.bodyText2,
-      Theme.of(context).textTheme.bodyText1,
-      Theme.of(context).textTheme.subtitle1
+
+    final List<TextStyle?> mopeTextStyles = [
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context)!.copyWith(fontWeight: FontWeight.bold),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context)!
+          .copyWith(color: AnaColors.darkBlue, fontWeight: FontWeight.bold),
     ];
+
+    final List<TextStyle?> generalDisposalsStyles = [
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context)!.copyWith(fontWeight: FontWeight.bold),
+    ];
+
+    final List<TextStyle?> autenticationStyles = [
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context),
+      NsjText.bodyLarge(context)!.copyWith(fontWeight: FontWeight.bold),
+    ];
+
     return Scaffold(
       appBar: const Header(),
-      body: ListView(
-        padding: const EdgeInsets.only(top: 32),
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(
-              right: 256,
-              left: 256,
-            ),
-            child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 64.0),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(
+              padding: NsjPadding.horizontalSmall(context),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: 1800.0),
+                child: Center(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 56.0, bottom: 96.0),
-                        child: Text(
-                          'Documentação de Apis',
-                          style: Theme.of(context).textTheme.headline1,
-                        ),
+                        padding: NsjPadding.verticalLarge(context),
+                        child: Text('Documentação de Apis',
+                            style: NsjText.titleExtraLarge(context)),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 20.0),
-                            child: Text(
+                      TextSection(
+                          title:
                               '1. O sistema integrado de gestão empresarial ERP Nasajon',
-                              style: Theme.of(context).textTheme.headline3,
-                            ),
-                          ),
-                          ColumnBuilder(
-                              itemBuilder: (BuildContext context, int index) {
-                                final String text =
-                                    erpDescription.elementAt(index);
-                                final textStyle = index < erpTextStyles.length
-                                    ? erpTextStyles[index]
-                                    : erpTextStyles.last;
-                                return Padding(
-                                  padding: const EdgeInsets.only(bottom: 16),
-                                  child: Text(
-                                    text,
-                                    style: textStyle,
-                                  ),
-                                );
-                              },
-                              itemCount: erpDescription.length)
-                        ],
+                          texts: erpDescription,
+                          textStyles: erpTextStyles),
+                      TextSection(
+                        title: '2. Disposições Gerais',
+                        texts: generalDisposalsDescription,
+                        textStyles: generalDisposalsStyles,
+                        hasLink: true,
+                        wordsLink: 'desta sessão',
+                        onLinkPressed: () =>
+                            Modular.to.pushNamed('/general-disposals'),
+                      ),
+                      TextSection(
+                        title: '3. Autenticação',
+                        texts: autenticationDescription,
+                        textStyles: autenticationStyles,
+                        hasLink: true,
+                        wordsLink: 'Nesta sessão',
+                        onLinkPressed: () =>
+                            Modular.to.pushNamed('/authentication'),
+                      ),
+                      TextSection(
+                          title:
+                              '4. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
+                          texts: mopeDescription,
+                          textStyles: mopeTextStyles),
+                      Padding(
+                        padding: NsjPadding.verticalMedium(context),
+                        child: LayoutBuilder(
+                          builder: (context, constraints) {
+                            if (constraints.maxWidth <= 1370) {
+                              return TreeListMope(controller: controller);
+                            }
+                            return const MatrixMope();
+                          },
+                        ),
                       ),
                     ],
                   ),
                 ),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(bottom: 20.0),
-                      child: Text(
-                        '2. A Matriz de Operações e Processos Empresariais MOPE Nasajon',
-                        style: Theme.of(context).textTheme.headline3,
-                      ),
-                    ),
-                    ColumnBuilder(
-                        itemBuilder: (BuildContext context, int index) {
-                          final String text = mopeDescription.elementAt(index);
-                          final textStyle = index < mopeDescription.length
-                              ? mopeTextStyles[index]
-                              : mopeTextStyles.last;
-                          return Padding(
-                            padding: const EdgeInsets.only(bottom: 16),
-                            child: Text(
-                              text,
-                              style: textStyle,
-                            ),
-                          );
-                        },
-                        itemCount: mopeDescription.length)
-                  ],
-                ),
-              ],
+              ),
             ),
-          ),
-          const Padding(
-            padding: EdgeInsets.fromLTRB(128, 64, 128, 64),
-            child: Mope(),
-          ),
-          const Footer(),
-        ],
+            const Footer()
+          ],
+        ),
       ),
     );
   }

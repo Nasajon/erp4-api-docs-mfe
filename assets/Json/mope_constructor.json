@@ -2128,13 +2128,25 @@
                         {
                            "activity_code": "1",
                            "activity_title": "Gerenciar pedidos aos fornecedores",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pedidos",
+                                 "resource_title": "Pedido de Compra",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
                            "activity_code": "2",
                            "activity_title": "Analisar e relatar todas as interações",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "servicos",
+                                 "resource_title": "Pedido de Serviço",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

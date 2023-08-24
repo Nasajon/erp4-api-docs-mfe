@@ -617,6 +617,11 @@
                                  "resource_documentation_url": ""
                               },
                               {
+                                 "file_name": "acoes",
+                                 "resource_title": "Ações",
+                                 "resource_documentation_url": ""
+                              },
+                              {
                                  "file_name": "pedidos-erp",
                                  "resource_title": "Pedido ERP Desktop",
                                  "resource_documentation_url": ""

@@ -1100,6 +1100,16 @@
                                  "file_name": "pessoas_fisicas",
                                  "resource_title": "Pessoas Físicas",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "pessoas_juridicas_erp3",
+                                 "resource_title": "Pessoas Jurídicas ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "pessoas_fisicas_erp3",
+                                 "resource_title": "Pessoas Físicas ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": "Gerencia todas as atividades relacionadas com a manutenção da carteira de clientes atuais: ",

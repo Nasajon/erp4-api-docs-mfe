@@ -202,6 +202,36 @@
                            ]
                         },
                         {
+                           "activity_code": "5",
+                           "activity_title": "Negociar Venda/Contrato(Atendimento Comercial) ",
+                           "activity_resources": [
+                              {
+                                 "file_name": "contratos",
+                                 "resource_title": "contratos",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "analise-financeira-cliente",
+                                 "resource_title": "analise-financeira-cliente",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "configuracoes-retencao-clientes",
+                                 "resource_title": "configuracoes-retencao-clientes",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "ordens-registros-contratos",
+                                 "resource_title": "ordens-registros-contratos",
+                                 "resource_documentation_url": ""
+                              }
+                        ],
+                           "activity_description": "O propósito desta atividade é fechar a venda em termos que são claramente entendidos pelo comprador e o vendedor dos Produtos & Serviços. Normalmente nesta atividade são discutidos os termos genéricos do contrato e negociados alguns termos específico adicionais. Dependendo das condições ou das regras da empresa vendedora, o contrato e os termos da negociação podem passar por um workflow de aprovação interno. O acordo final e o fecho do negócio envolve normalmente o processamento de pedidos de venda e, em alguns casos, a elaboração de um título de adiantamento de sinal ou de primeira prestação. Neste caso a liquidação do título conclui o fechamento da venda.",
+                           "activity_description_subitens": [
+                              
+                           ]
+                        },
+                        {
                            "activity_code": "6",
                            "activity_title": "Gerenciar contas de vendas",
                            "activity_resources": [],

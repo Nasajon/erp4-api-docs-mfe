@@ -835,6 +835,41 @@
                                  "file_name": "servicos",
                                  "resource_title": "Serviço",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "config-custo-entrada-estabelecimento",
+                                 "resource_title": "config-custo-entrada-estabelecimento",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "nfe",
+                                 "resource_title": "nfe",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "ordens-producao",
+                                 "resource_title": "ordens-producao",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "ordens-registro-venda-autoatendimento",
+                                 "resource_title": "ordens-registro-venda-autoatendimento",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "produtos",
+                                 "resource_title": "produtos",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "unidade-estoque",
+                                 "resource_title": "unidade-estoque",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "unidade-estoque-conversao",
+                                 "resource_title": "unidade-estoque-conversao",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

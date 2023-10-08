@@ -2335,7 +2335,13 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Apurar o custo da mercadoria ou dos serviços vendidos",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "custo-medio-entrada",
+                                 "resource_title": "Custo médio de entrada",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

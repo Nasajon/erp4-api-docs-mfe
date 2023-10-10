@@ -2365,6 +2365,11 @@
                                  "file_name": "custo-medio-entrada",
                                  "resource_title": "Custo médio de entrada",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "cmv",
+                                 "resource_title": "Custo de Mercadoria Vendida",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

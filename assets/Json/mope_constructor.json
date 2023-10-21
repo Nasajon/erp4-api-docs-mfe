@@ -2169,7 +2169,13 @@
                         {
                            "activity_code": "5",
                            "activity_title": "1.5 Gerenciar as notas fiscais de produtos ou serviços cancelados",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "nfe",
+                                 "resource_title": "nfe",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         }
                      ],

@@ -397,7 +397,13 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Gerenciar times de vendas",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "vendedores_erp3",
+                                 "resource_title": "Vendedores ERP3",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         }
                      ],

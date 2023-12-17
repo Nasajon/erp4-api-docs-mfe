@@ -1743,6 +1743,11 @@
                               "file_name": "saldos",
                               "resource_title": "Saldo",
                               "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "saldos (ERP4)",
+                              "resource_title": "saldo-estoque-simplificado",
+                              "resource_documentation_url": ""
                            }],
                            "activity_description": null
                         },

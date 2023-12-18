@@ -1800,7 +1800,13 @@
                         {
                            "activity_code": "1",
                            "activity_title": "Referenciar e catalogar os locais ondes as peças e materiais estão armazenados",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "inventario",
+                                 "resource_title": "Inventario (ERP4)",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

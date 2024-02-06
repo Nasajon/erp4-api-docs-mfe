@@ -93,7 +93,11 @@
                         {
                            "activity_code": "2",
                            "activity_title": "Definir comissões de vendas, metas de faturamento e margens",
-                           "activity_resources": [],
+                           "activity_resources": [{
+                              "file_name": "faixas-precos",
+                              "resource_title": "Vigências para Faixas de Preços",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         },
                         {

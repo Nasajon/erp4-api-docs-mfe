@@ -406,6 +406,11 @@
                                  "file_name": "vendedores_erp3",
                                  "resource_title": "Vendedores ERP3",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "equipes",
+                                 "resource_title": "Equipes de Vendedores",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

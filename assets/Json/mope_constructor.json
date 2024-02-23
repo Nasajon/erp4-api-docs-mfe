@@ -890,6 +890,11 @@
                                  "file_name": "unidade-estoque-conversao",
                                  "resource_title": "unidade-estoque-conversao",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "emissoes",
+                                 "resource_title": "Emissão de Notas Fiscais",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

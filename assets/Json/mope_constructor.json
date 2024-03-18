@@ -1793,6 +1793,10 @@
                               "file_name": "saldo-estoque-simplificado",
                               "resource_title": "saldos (ERP4)",
                               "resource_documentation_url": ""
+                           },{
+                              "file_name": "requisicoes-almoxarifados",
+                              "resource_title": "Requisições de Almoxarifados",
+                              "resource_documentation_url": ""
                            }],
                            "activity_description": null
                         },

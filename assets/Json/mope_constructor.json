@@ -1015,7 +1015,16 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Gerenciar alternativas para o recebimento das cobranças",
-                           "activity_resources": [],
+                           "activity_resources": [{
+                              "file_name": "regras-pagamentos",
+                              "resource_title": "Regras de Pagamentos do ERP3",
+                              "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "parcelamentos",
+                              "resource_title": "Parcelamentos do ERP3",
+                              "resource_documentation_url": ""
+                           }],
                            "activity_description": null
                         }
                      ],

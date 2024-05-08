@@ -1024,6 +1024,11 @@
                               "file_name": "parcelamentos",
                               "resource_title": "Parcelamentos do ERP3",
                               "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "formas-pagamentos",
+                              "resource_title": "Formas de Pagamentos do ERP3",
+                              "resource_documentation_url": ""
                            }],
                            "activity_description": null
                         }

@@ -1820,12 +1820,22 @@
                            "activity_title": "Gerenciar cadastro de peças e materiais garantindo que estes cadastros estão corretamente identificados e não existem duplicações nem faltas para as necessidades dos P&S comercializados ou suportados pela empresa",
                            "activity_resources": [{
                               "file_name": "produtos",
-                              "resource_title": "Produto",
+                              "resource_title": "Produto ERP3",
                               "resource_documentation_url": ""
                            },
                            {
                               "file_name": "unidades",
-                              "resource_title": "Unidade",
+                              "resource_title": "Unidade ERP3",
+                              "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "categorias",
+                              "resource_title": "Categorias ERP3",
+                              "resource_documentation_url": ""
+                           },
+                           {
+                              "file_name": "familias",
+                              "resource_title": "Familias ERP3",
                               "resource_documentation_url": ""
                            },
                            {

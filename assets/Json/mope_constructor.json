@@ -920,6 +920,11 @@
                                  "file_name": "emissoes",
                                  "resource_title": "Emissão de Notas Fiscais",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "series",
+                                 "resource_title": "Séries do ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

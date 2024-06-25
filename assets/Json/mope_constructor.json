@@ -93,11 +93,13 @@
                         {
                            "activity_code": "2",
                            "activity_title": "Definir comissões de vendas, metas de faturamento e margens",
-                           "activity_resources": [{
-                              "file_name": "faixas-precos",
-                              "resource_title": "Vigências para Faixas de Preços",
-                              "resource_documentation_url": ""
-                           }],
+                           "activity_resources": [
+                              {
+                                 "file_name": "faixas-precos",
+                                 "resource_title": "Vigências para Faixas de Preços",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
@@ -249,11 +251,9 @@
                                  "resource_title": "Vendas",
                                  "resource_documentation_url": ""
                               }
-                        ],
+                           ],
                            "activity_description": "O propósito desta atividade é fechar a venda em termos que são claramente entendidos pelo comprador e o vendedor dos Produtos & Serviços. Normalmente nesta atividade são discutidos os termos genéricos do contrato e negociados alguns termos específico adicionais. Dependendo das condições ou das regras da empresa vendedora, o contrato e os termos da negociação podem passar por um workflow de aprovação interno. O acordo final e o fecho do negócio envolve normalmente o processamento de pedidos de venda e, em alguns casos, a elaboração de um título de adiantamento de sinal ou de primeira prestação. Neste caso a liquidação do título conclui o fechamento da venda.",
-                           "activity_description_subitens": [
-                              
-                           ]
+                           "activity_description_subitens": []
                         },
                         {
                            "activity_code": "6",
@@ -925,6 +925,11 @@
                                  "file_name": "series",
                                  "resource_title": "Séries do ERP3",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "service-document",
+                                 "resource_title": "Pedidos para o Service Document do ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null
@@ -1020,21 +1025,23 @@
                         {
                            "activity_code": "3",
                            "activity_title": "Gerenciar alternativas para o recebimento das cobranças",
-                           "activity_resources": [{
-                              "file_name": "regras-pagamentos",
-                              "resource_title": "Regras de Pagamentos do ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "parcelamentos",
-                              "resource_title": "Parcelamentos do ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "formas-pagamentos",
-                              "resource_title": "Formas de Pagamentos do ERP3",
-                              "resource_documentation_url": ""
-                           }],
+                           "activity_resources": [
+                              {
+                                 "file_name": "regras-pagamentos",
+                                 "resource_title": "Regras de Pagamentos do ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "parcelamentos",
+                                 "resource_title": "Parcelamentos do ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "formas-pagamentos",
+                                 "resource_title": "Formas de Pagamentos do ERP3",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         }
                      ],
@@ -1828,56 +1835,67 @@
                         {
                            "activity_code": "1",
                            "activity_title": "Gerenciar cadastro de peças e materiais garantindo que estes cadastros estão corretamente identificados e não existem duplicações nem faltas para as necessidades dos P&S comercializados ou suportados pela empresa",
-                           "activity_resources": [{
-                              "file_name": "produtos",
-                              "resource_title": "Produto ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "unidades",
-                              "resource_title": "Unidade ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "categorias",
-                              "resource_title": "Categorias ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "familias",
-                              "resource_title": "Familias ERP3",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "saldos",
-                              "resource_title": "Saldo",
-                              "resource_documentation_url": ""
-                           },
-                           {
-                              "file_name": "saldo-estoque-simplificado",
-                              "resource_title": "saldos (ERP4)",
-                              "resource_documentation_url": ""
-                           },{
-                              "file_name": "requisicoes-almoxarifados",
-                              "resource_title": "Requisições de Almoxarifados",
-                              "resource_documentation_url": ""
-                           }],
+                           "activity_resources": [
+                              {
+                                 "file_name": "produtos",
+                                 "resource_title": "Produto ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "unidades",
+                                 "resource_title": "Unidade ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "categorias",
+                                 "resource_title": "Categorias ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "familias",
+                                 "resource_title": "Familias ERP3",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "saldos",
+                                 "resource_title": "Saldo",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "saldo-estoque-simplificado",
+                                 "resource_title": "saldos (ERP4)",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "requisicoes-almoxarifados",
+                                 "resource_title": "Requisições de Almoxarifados",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
                            "activity_code": "2",
                            "activity_title": "Gerenciar previsões de necessidades futuras de peças e materiais",
-                           "activity_resources": [{
-                              "file_name": "pedidos",
-                              "resource_title": "Pedido",
-                              "resource_documentation_url": ""
-                           }],
+                           "activity_resources": [
+                              {
+                                 "file_name": "pedidos",
+                                 "resource_title": "Pedido",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {
                            "activity_code": "3",
                            "activity_title": "Gerenciar quantidades necessárias e suficientes de cada peça/material alinhando com a procura prevista",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "itens-movimentacoes",
+                                 "resource_title": "Movimentações dos itens no ERP3",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         }
                      ],
@@ -1942,11 +1960,12 @@
                            "activity_code": "5",
                            "activity_title": "Garantir que existe um processo rápido e eficaz para a expedição dos materiais requisitados",
                            "activity_resources": [
-                           {
-                              "file_name": "transportadoras",
-                              "resource_title": "Transportadora",
-                              "resource_documentation_url": ""
-                           }],
+                              {
+                                 "file_name": "transportadoras",
+                                 "resource_title": "Transportadora",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         }
                      ],

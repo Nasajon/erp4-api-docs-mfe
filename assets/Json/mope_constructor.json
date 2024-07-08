@@ -1875,6 +1875,11 @@
                                  "file_name": "requisicoes-almoxarifados",
                                  "resource_title": "Requisições de Almoxarifados",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "locais-estoques",
+                                 "resource_title": "Locais de Estoques do ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

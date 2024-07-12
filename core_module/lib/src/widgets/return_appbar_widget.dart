@@ -15,6 +15,7 @@ class ReturnAppBar extends StatelessWidget implements PreferredSizeWidget {
     final screenWith = MediaQuery.of(context).size.width;
     return AppBar(
       automaticallyImplyLeading: false,
+      centerTitle: false,
 
       title: Container(
         color: const Color.fromARGB(50, 0, 0, 0),

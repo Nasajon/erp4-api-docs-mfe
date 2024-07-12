@@ -16,31 +16,29 @@ class ActivityPage extends StatelessWidget {
 
   final String baseUrl =
       'https://storage.googleapis.com/api-docs-dev/build_docs/';
+
+  
   @override
   Widget build(BuildContext context) {
     final Resource resource = setResource(MopeService.getMope(), resourceName);
+    final controller = WebViewController()
+  
+  ..loadRequest(Uri.parse('$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',));
+
+
+
+
     return Scaffold(
       appBar: ReturnAppBar(
         backTo: () =>
             Modular.to.pushNamed('/processes/${getProcessCodeFromUrl()}'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.only(
-          top: 32.0,
-          right: 32.0,
-          left: 32.0,
-          bottom: 32.0,
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Expanded(
-              child: WebView(
-                initialUrl:
-                    '$baseUrl${getProcessCodeFromUrl()}/${activityCode.replaceAll('.', '')}/${resource.fileName}.html',
-              ),
-            ),
-          ],
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 1280),
+          child: WebViewWidget(
+            controller: controller,
+          ),
         ),
       ),
     );
@@ -70,4 +68,6 @@ class ActivityPage extends StatelessWidget {
     final String? processCode = regex.firstMatch(url)!.group(1);
     return processCode;
   }
+
+  
 }

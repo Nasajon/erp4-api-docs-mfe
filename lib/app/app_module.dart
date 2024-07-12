@@ -9,46 +9,46 @@ import 'package:site_documentacao_api/pages/mope_page.dart';
 import 'package:site_documentacao_api/widgets/mope/mobile/tree_list_mope_controller.dart';
 
 class AppModule extends Module {
-  @override
-  List<Bind<Object>> get binds => [
-        Bind.factory(
-          (i) => TreeListMopeController(),
-        )
-      ];
-
-  @override
-  List<ModularRoute> get routes => [
-        ChildRoute(
+    @override
+  void binds(i) {
+    i
+    .addLazySingleton(() => TreeListMopeController());
+   
+  }
+ 
+ @override
+  void routes(r) {
+    r
+        ..child(
           '/',
-          transition: TransitionType.noTransition,
-          child: (_, __) => MopePage(
+          child: (context) => MopePage(
             controller: Modular.get<TreeListMopeController>(),
           ),
-        ),
-        ChildRoute(
+        )
+        ..child(
           '/authentication',
-          transition: TransitionType.noTransition,
-          child: (_, __) => AuthenticationPage(),
-        ),
-        ChildRoute(
+         
+          child: (context) => AuthenticationPage(),
+        )
+        ..child(
           '/general-disposals',
-          transition: TransitionType.noTransition,
-          child: (_, __) => GerneralDisposalsPage(),
-        ),
-        ChildRoute(
+         
+          child: (context) => GerneralDisposalsPage(),
+        )
+        ..child(
           '/processes/:process',
-          child: (_, args) => ProcessPage(
-            processCode: args.params['process'],
+          child: (context) => ProcessPage(
+            processCode: r.args.params['process'],
           ),
-          transition: TransitionType.noTransition,
-        ),
-        ChildRoute(
+         
+        )
+        ..child(
           '/processes/:process/activities/:activity/resources/:resource',
-          child: (_, args) => ActivityPage(
-            activityCode: args.params['activity'],
-            resourceName: args.params['resource'],
-          ),
-          transition: TransitionType.noTransition,
-        ),
-      ];
+          child: (context) => ActivityPage(
+            activityCode: r.args.params['activity'],
+            resourceName: r.args.params['resource'],
+          )
+         
+        );
+  }
 }

@@ -30,7 +30,7 @@ class ActivitySection extends StatelessWidget {
                 children: [
                   Flexible(
                     child: Text(
-                        '${process.code}.${item.activityCode} ${item.activityTitle}',
+                        '${process.code}.${item.activityCode} - ${item.activityTitle}',
                         softWrap: true,
                         maxLines: 3,
                         style: NsjText.titleSmall(context)),

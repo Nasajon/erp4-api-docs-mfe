@@ -17,11 +17,21 @@ class ProcessPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final Process process = setProcess(MopeService.getMope(), processCode);
 
-    return Scaffold(
-      appBar: ReturnAppBar(
-        backTo: () => Modular.to.navigate('/'),
+    return ConstrainedBox(
+      constraints: const BoxConstraints(maxWidth: 1080.0),
+      child: Scaffold(
+        appBar: ReturnAppBar(
+          backTo: () => Modular.to.navigate('/'),
+        ),
+        body: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 1080.0),
+            child: ProcessPageBody(process: process),
+          ),
+        ),
+     
+        
       ),
-      body: ProcessPageBody(process: process),
     );
   }
 }

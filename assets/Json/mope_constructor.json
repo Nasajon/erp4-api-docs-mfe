@@ -2294,32 +2294,32 @@
                      "process_description": "O objetivo deste processo é gerenciamento dos contratos que existem com fornecedores. Pelo menos as seguintes atividades fazem parte:",
                      "process_activities": [
                         {
-                           "activity_code": "5",
-                           "activity_title": "1.1 Gerenciar contas e contratos dos fornecedores",
+                           "activity_code": "1",
+                           "activity_title": "Gerenciar contas e contratos dos fornecedores",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "2",
+                           "activity_title": "Receber e avaliar as faturas dos fornecedores",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "3",
+                           "activity_title": "Negociar e aprovar as faturas dos fornecedores",
+                           "activity_resources": [],
+                           "activity_description": null
+                        },
+                        {
+                           "activity_code": "4",
+                           "activity_title": "Emitir ordem de pagamento",
                            "activity_resources": [],
                            "activity_description": null
                         },
                         {
                            "activity_code": "5",
-                           "activity_title": "1.2 Receber e avaliar as faturas dos fornecedores",
-                           "activity_resources": [],
-                           "activity_description": null
-                        },
-                        {
-                           "activity_code": "5",
-                           "activity_title": "1.3 Negociar e aprovar as faturas dos fornecedores",
-                           "activity_resources": [],
-                           "activity_description": null
-                        },
-                        {
-                           "activity_code": "5",
-                           "activity_title": "1.4 Emitir ordem de pagamento",
-                           "activity_resources": [],
-                           "activity_description": null
-                        },
-                        {
-                           "activity_code": "5",
-                           "activity_title": "1.5 Gerenciar as notas fiscais de produtos ou serviços cancelados",
+                           "activity_title": "Gerenciar as notas fiscais de produtos ou serviços cancelados",
                            "activity_resources": [
                               {
                                  "file_name": "nfe",

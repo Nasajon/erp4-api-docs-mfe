@@ -67,9 +67,12 @@ class MopeItem extends StatelessWidget {
   }
 
   bool activityHasResource() {
+    bool teste = false; 
     for (final Activity activity in process.activities) {
-      return activity.activityResources.isEmpty ? false : true;
+      if(activity.activityResources.isNotEmpty){
+        return teste = true;
+      }
     }
-    return false;
+    return teste;
   }
 }

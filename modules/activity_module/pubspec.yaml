@@ -5,30 +5,50 @@ homepage:
 publish_to: none
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  webview_flutter: ^3.0.4
+  webview_flutter_web: ^0.1.0+4
+
+  core_module: 
+    path: ../../core_module
+
   flutter_global_dependencies:
     git:
       url: git@github.com:Nasajon/flutter_global_dependencies.git
-      ref: production
-  core_module: 
-    path: ../../core_module
+      ref: refactor/triple
+      
   design_system:
     git:
       url: git@github.com:Nasajon/flutter_design_system.git
-      ref: production
-  webview_flutter: ^3.0.4
-  webview_flutter_web: ^0.1.0+4
+      ref: feat/nhids-components
+
+  flutter_core:
+    git:
+      url: git@github.com:Nasajon/flutter_core.git
+      ref: refactor/triple
+
+
+
+# dependency_overrides:
+
+#   design_system:
+#     path: ../../../flutter_design_system
+
+#   flutter_core:
+#     path: ../../../flutter_core
+
+#   flutter_global_dependencies:
+#     path: ../../../flutter_global_dependencies
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

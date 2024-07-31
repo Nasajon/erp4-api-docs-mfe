@@ -2769,7 +2769,23 @@
                         {
                            "activity_code": "8",
                            "activity_title": "Gerenciar obrigações fiscais",
-                           "activity_resources": [],
+                           "activity_resources": [
+                              {
+                                 "file_name": "base_calculo",
+                                 "resource_title": "Bases de Cálculo",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "perfil_tributário",
+                                 "resource_title": "Perfis Tributários",
+                                 "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "calculo_imposto",
+                                 "resource_title": "Cálculo de Imposto pelo ERP3",
+                                 "resource_documentation_url": ""
+                              }
+                           ],
                            "activity_description": null
                         },
                         {

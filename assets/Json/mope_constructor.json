@@ -700,6 +700,11 @@
                                  "file_name": "politicas-comerciais",
                                  "resource_title": "Política Comercial",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "configuracao-integracao-erp",
+                                 "resource_title": "Configuração para Integração com ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

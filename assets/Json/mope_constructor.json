@@ -1900,6 +1900,11 @@
                                  "file_name": "produtos-series",
                                  "resource_title": "Séries de Produtos do ERP3",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "produtos-lotes",
+                                 "resource_title": "Lotes de Produtos do ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null

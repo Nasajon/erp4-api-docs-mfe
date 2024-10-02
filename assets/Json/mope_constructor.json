@@ -2594,11 +2594,16 @@
                            "activity_code": "1",
                            "activity_title": "Gerenciar contas a pagar",
                            "activity_resources": [
-                              {
-                                 "file_name": "documento-entrada",
-                                 "resource_title": "Documento de Entrada",
-                                 "resource_documentation_url": ""
-                              }
+                            {
+                              "file_name": "documento-entrada",
+                              "resource_title": "Documento de Entrada",
+                              "resource_documentation_url": ""
+                            },
+                            {
+                              "file_name": "titulo_pagar_erp3",
+                              "resource_title": "Títulos e Faturas de Pagamento",
+                              "resource_documentation_url": ""
+                            }
                            ],
                            "activity_description": null
                         },

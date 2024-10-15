@@ -945,6 +945,11 @@
                                  "file_name": "service-document",
                                  "resource_title": "Pedidos para o Service Document do ERP3",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "rps_erp3",
+                                 "resource_title": "Recibo Provisório de Serviço(RPS) do ERP3",
+                                 "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null
@@ -2603,6 +2608,11 @@
                               "file_name": "titulo_pagar_erp3",
                               "resource_title": "Títulos e Faturas de Pagamento",
                               "resource_documentation_url": ""
+                            },
+                            {
+                              "file_name": "baixa_pagar_erp3",
+                              "resource_title": "Baixa de Pagamento",
+                              "resource_documentation_url": ""
                             }
                            ],
                            "activity_description": null
@@ -2615,6 +2625,16 @@
                                  "file_name": "documento-saida",
                                  "resource_title": "Documento de Saída",
                                  "resource_documentation_url": ""
+                              },
+                              {
+                                 "file_name": "titulo_receber_erp3",
+                                 "resource_title": "Títulos e Faturas de Recebimento",
+                                 "resource_documentation_url": ""
+                               },
+                              {
+                                "file_name": "baixa_receber_erp3",
+                                "resource_title": "Baixa de Recebimento",
+                                "resource_documentation_url": ""
                               }
                            ],
                            "activity_description": null
